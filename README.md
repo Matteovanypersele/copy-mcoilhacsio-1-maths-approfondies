@@ -23,5 +23,7 @@ L'adresse originale du rendu de ce site modèle avant clonage est :
 
 [Modèle de projet avec Python](https://modeles-projets.forge.aeif.fr/mkdocs-pyodide-review/)
 
+[Rendu de mon site](https://mcoilhac.forge.aeif.fr/site-formation/)
+
 
 
