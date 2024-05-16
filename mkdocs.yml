@@ -24,26 +24,26 @@ theme:
     icon:
       logo: material/stairs-up
     custom_dir: my_theme_customizations/
-    name: material
-    font: false                     # RGPD ; pas de fonte Google
-    language: fr                    # français
-    palette:                        # Palettes de couleurs jour/nuit
-      - media: "(prefers-color-scheme: light)"
-        scheme: default
-        primary: indigo
-        accent: indigo
-        toggle:
-            icon: material/weather-sunny
-            name: Passer au mode nuit
-      - media: "(prefers-color-scheme: dark)"
-        scheme: slate
-        primary: black
-        accent: green
-        toggle:
-            icon: material/weather-night
-            name: Passer au mode jour
+    name: pyodide-mkdocs-theme
+    #font: false                     # RGPD ; pas de fonte Google
+    #language: fr                    # français
+    #palette:                        # Palettes de couleurs jour/nuit
+      #- media: "(prefers-color-scheme: light)"
+        #scheme: default
+        #primary: indigo
+        #accent: indigo
+        #toggle:
+            #icon: material/weather-sunny
+            #name: Passer au mode nuit
+      #- media: "(prefers-color-scheme: dark)"
+        #scheme: slate
+        #primary: black
+        #accent: green
+        #toggle:
+            #icon: material/weather-night
+            #name: Passer au mode jour
     features:
-        - navigation.instant
+        # - navigation.instant
         # - navigation.tabs   Pour avoir le menu vertical il fallait supprimer ça
         - navigation.top
         - toc.integrate
@@ -64,6 +64,7 @@ nav:
   - ... | regex=^(?:(?!_REM.md).)*$
 
 markdown_extensions:
+    - md_in_html
     - meta
     - abbr
     - def_list                      # Les listes de définition.
@@ -105,14 +106,30 @@ markdown_extensions:
         permalink: ⚓︎
         toc_depth: 2
 
+
 plugins:
-  - search
-  - awesome-pages:
+
+    - awesome-pages:
         collapse_single_pages: true
-  - macros
-  - tags:
+    - material/search
+    - pyodide_macros:
+        # Vous pouvez ajouter ici tout réglage que vous auriez ajouté concernant les macros:
+        on_error_fail: true     # Il est conseillé d'ajouter celui-ci si vous ne l'utilisez pas.
+    - materials/tags:
       tags_file: tags.md
-  
+
+# En remplacement de mkdocs-exclude. Tous les fichiers correspondant aux patterns indiqués seront
+# exclu du site final et donc également de l'indexation de la recherche.
+# Nota: ne pas mettre de commentaires dans ces lignes !
+exclude_docs: |
+    **/*_REM.md
+    **/*.py
+
+
+
+
+
+
 
 extra_javascript:
   # - xtra/javascripts/mathjax-config.js       Supprimé pour MAJ pyodide             
