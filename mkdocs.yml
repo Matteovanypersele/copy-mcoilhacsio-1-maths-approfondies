@@ -106,11 +106,19 @@ plugins:
         collapse_single_pages: true
     - material/search
     - pyodide_macros:
-        bypass_indent_errors: true    # Temporaire, le temps de faire la mise à jour
+        build:          # Supprimer cette ligne si aucune option n'est utilisée
+            skip_py_md_paths_names_validation: false    # ou supprimer la ligne
         # Vous pouvez ajouter ici tout réglage que vous auriez ajouté concernant les macros:
         on_error_fail: true     # Il est conseillé d'ajouter celui-ci si vous ne l'utilisez pas.
     - materials/tags:
       tags_file: tags.md
+
+
+
+plugins:
+    - pyodide_macros:
+        build:          # Supprimer cette ligne si aucune option n'est utilisée
+            skip_py_md_paths_names_validation: false    # ou supprimer la ligne
 
 # En remplacement de mkdocs-exclude. Tous les fichiers correspondant aux patterns indiqués seront
 # exclu du site final et donc également de l'indexation de la recherche.
