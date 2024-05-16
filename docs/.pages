@@ -3,6 +3,7 @@ arrange:
     - 01_chapitre_1
     - 02_chapitre_2
     - 03_mini_projet_1
+    - qcm_1
     - tags.md
     - credits
 
