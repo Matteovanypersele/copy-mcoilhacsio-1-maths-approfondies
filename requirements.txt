@@ -1,3 +1,4 @@
 pyodide-mkdocs-theme
 mkdocs-awesome-pages-plugin
 mkdocs-enumerate-headings-plugin
+mkdocs-exclude-search

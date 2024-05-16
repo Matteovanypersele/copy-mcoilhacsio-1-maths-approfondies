@@ -113,6 +113,7 @@ plugins:
         collapse_single_pages: true
     - material/search
     - pyodide_macros:
+        bypass_indent_errors: true    # Temporaire, le temps de faire la mise à jour
         # Vous pouvez ajouter ici tout réglage que vous auriez ajouté concernant les macros:
         on_error_fail: true     # Il est conseillé d'ajouter celui-ci si vous ne l'utilisez pas.
     - materials/tags:
