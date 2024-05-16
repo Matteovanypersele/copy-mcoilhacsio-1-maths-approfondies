@@ -1,4 +1,3 @@
-mkdocs-material>=8,<9
+pyodide-mkdocs-theme
 mkdocs-awesome-pages-plugin
-mkdocs-macros-plugin
 mkdocs-enumerate-headings-plugin
