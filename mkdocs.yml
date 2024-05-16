@@ -23,7 +23,7 @@ theme:
     favicon: assets/favicon.ico
     icon:
       logo: material/stairs-up
-    custom_dir: my_theme_customizations/
+    #custom_dir: my_theme_customizations/
     name: pyodide-mkdocs-theme
     #font: false                     # RGPD ; pas de fonte Google
     #language: fr                    # français
