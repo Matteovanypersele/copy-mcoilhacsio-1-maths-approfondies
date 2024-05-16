@@ -2,7 +2,7 @@
 author: Votre nom
 title: Le morse
 tags:
-  - 3-dictionnaires
+  - dictionnaires
   - Difficulté **
 ---
 
