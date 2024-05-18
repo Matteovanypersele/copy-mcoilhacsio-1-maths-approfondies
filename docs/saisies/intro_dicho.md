@@ -1,3 +1,8 @@
+---
+author: Votre nom
+title: Exercice avec du code caché
+---
+
 ???+ question "Je joue contre l'ordinateur"
 
     Question 1.   

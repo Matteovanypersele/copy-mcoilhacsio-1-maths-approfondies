@@ -25,7 +25,7 @@ def devine(reponse = None):
 """Vous jouez contre l'ordinateur. Le code de la fonction devine est caché.
 Vous devez penser à un nombre compris entre NB_MIN et NB_MAX.
 L'ordinateur va tenter de le deviner en vous posant des questions.
-Il faut juste cliquer pour exécuter."""
+Il faut juste cliquer sur l'icône Exécuter le code, pour exécuter ce script."""
 
 NB_MIN = 1
 NB_MAX = 100
