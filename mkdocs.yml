@@ -43,8 +43,8 @@ theme:
             #icon: material/weather-night
             #name: Passer au mode jour
     features:
-        # - navigation.instant
-        # - navigation.tabs   Pour avoir le menu vertical il fallait supprimer ça
+        #- navigation.instant
+        #- navigation.tabs   Pour avoir le menu vertical il fallait supprimer ça
         - navigation.top
         - toc.integrate
         - header.autohide
@@ -128,9 +128,9 @@ exclude_docs: |
 
 
 #extra_javascript:
-  # - xtra/javascripts/mathjax-config.js       Supprimé pour MAJ pyodide             
-  # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  #- xtra/javascripts/mathjax-config.js       Supprimé pour MAJ pyodide             
+  #- https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
-  # - xtra/stylesheets/qcm.css ##       Supprimé pour MAJ pyodide  
+  #- xtra/stylesheets/qcm.css ##       Supprimé pour MAJ pyodide  
   - xtra/stylesheets/ajustements.css  # ajustements
