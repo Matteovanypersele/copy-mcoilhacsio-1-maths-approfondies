@@ -1,6 +1,31 @@
+# --------- PYODIDE:env --------- #
+
+
+# --------- PYODIDE:code --------- #
+
 def addition(a, b):
     ...
 
-# tests
+
+# --------- PYODIDE:corr --------- #
+
+def addition(a, b):
+    return a + b
+
+
+# --------- PYODIDE:tests --------- #
+
 assert addition(2, 3) == 5
+
+
+# --------- PYODIDE:secrets --------- #
+
+assert somme(10, 20) == 30
+
+
+
+
+
+
+
 
