@@ -1,6 +1,3 @@
-# --------- PYODIDE:env --------- #
-
-
 # --------- PYODIDE:code --------- #
 
 def premier(ma_liste):

@@ -1,6 +1,3 @@
-# --------- PYODIDE:env --------- #
-
-
 # --------- PYODIDE:code --------- #
 
 def addition(a, b):
