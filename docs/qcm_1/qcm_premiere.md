@@ -4,7 +4,6 @@ title: QCM 1
 tags:
   - qcm
   - Difficulté **
-difficulty: 150
 ---
 
 {{ multi_qcm(
