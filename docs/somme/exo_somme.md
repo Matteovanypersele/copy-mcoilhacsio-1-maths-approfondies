@@ -7,7 +7,7 @@ tags:
 
 
 
-Lea liste `nombres` se trouve dans du code caché.
+La liste `nombres` se trouve dans du code caché.
 
 Compléter la fonction `somme` qui prend en paramètre une liste de nombres `ma_liste`, et renvoie la somme des nombres de cette liste.
 
