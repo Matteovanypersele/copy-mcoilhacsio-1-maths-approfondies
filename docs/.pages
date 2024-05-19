@@ -4,7 +4,7 @@ arrange:
     - 02_chapitre_2
     - somme
     - saisies
-    - questions_imbriquees
+    - python_imbrique
     - qcm_1
     - tags.md
     - credits
