@@ -17,6 +17,7 @@ assert addition(2, 3) == 5
 
 # --------- PYODIDE:secrets --------- #
 
+# Tests secrtets
 assert addition(10, 20) == 30
 
 

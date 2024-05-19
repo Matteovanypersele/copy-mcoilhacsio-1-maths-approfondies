@@ -1,6 +1,6 @@
 ---
 author: Votre nom
-title: Exo avec code caché et deux versions
+title: Exercice avec code caché et deux versions
 tags:
   - liste/tableau
 ---
