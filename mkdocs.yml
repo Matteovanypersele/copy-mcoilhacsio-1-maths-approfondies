@@ -1,12 +1,12 @@
 # À modifier avec le nom et la description du site
-site_name: "Site jn APMEP"
+site_name: "Site modèle avec Python"
 site_description: Un modèle avec mkdocs
 
 # À modifier, avec votre nom et la licence choisie
 copyright: |
     M. Coilhac
     <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br/>
-    Hébergé sur la forge gérée par l'<a href="https://aeif.fr">AEIF</a>
+    
 
 # À modifier, avec votre mail
 #extra:
