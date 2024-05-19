@@ -71,13 +71,13 @@ Que vaut `n` après l'exécution du code ?
     qcm_title = "Un QCM avec mélange automatique des questions (bouton en bas pour recommencer)",
     DEBUG = False,
     shuffle = True,
-)
+) 
 
 
 
 ## De Fred autre essai
 
-multi_qcm(
+{{ multi_qcm(
     [
 """
 On a saisi le code suivant :
@@ -127,4 +127,4 @@ repertoire = [{'nom': 'Dupont', 'tel': 5234}, {'nom': 'Tournesol', 'tel': 5248},
     qcm_title = "Un QCM avec mélange automatique des questions (bouton en bas pour recommencer)",
     DEBUG = False,
     shuffle = True,
-)
+) }}
