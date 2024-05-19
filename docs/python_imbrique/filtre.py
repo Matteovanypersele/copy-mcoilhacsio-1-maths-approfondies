@@ -13,7 +13,7 @@ def filtre_pair(entiers):
 # --------- PYODIDE:corr --------- #
 
 def filtre_pair(entiers):
-    return [nbre for nbre in entiers is est_pair(nbre)]
+    return [nbre for nbre in entiers if est_pair(nbre)]
 
 
 # --------- PYODIDE:tests --------- #
