@@ -1,6 +1,6 @@
 # --------- PYODIDE:env --------- #
 
-def est_pair(n)
+def est_pair(n):
     return n % 2 == 0
 
 

@@ -1,11 +1,11 @@
 # --------- PYODIDE:code --------- #
 
-def est_pair(n)
+def est_pair(n):
     ...
 
 # --------- PYODIDE:corr --------- #
 
-def est_pair(n)
+def est_pair(n):
     return n % 2 == 0
 
 
