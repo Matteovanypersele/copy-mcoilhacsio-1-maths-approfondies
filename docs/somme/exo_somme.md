@@ -1,13 +1,13 @@
 ---
 author: Votre nom
-title: Somme des nombres d'une liste
+title: Exo avec code caché et deux versions
 tags:
   - liste/tableau
 ---
 
 
 
-Lea liste `nombres` sz trouve dans du code caché.
+Lea liste `nombres` se trouve dans du code caché.
 
 Compléter la fonction `somme` qui prend en paramètre une liste de nombres `ma_liste`, et renvoie la somme des nombres de cette liste.
 

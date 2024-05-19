@@ -1,6 +1,6 @@
 ---
 author: Votre nom
-title: Exercice avec du code caché
+title: Exercice avec du code caché et des saisies
 ---
 
 ???+ question "Je joue contre l'ordinateur"
