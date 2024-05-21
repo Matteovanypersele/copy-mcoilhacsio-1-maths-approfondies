@@ -1,6 +1,6 @@
 # À modifier avec le nom et la description du site
 site_name: "Site modèle avec Python"
-site_description: Un modèle avec mkdocs
+site_description: Un modèle avec pyodide-mkdocs-theme
 
 # À modifier, avec votre nom et la licence choisie
 copyright: |
