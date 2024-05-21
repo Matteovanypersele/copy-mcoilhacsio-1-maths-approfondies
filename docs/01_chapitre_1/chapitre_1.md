@@ -17,7 +17,7 @@ Texte 1.2
 
 ## II. Paragraphe 2 :
 
-texte 1
+texte 2
 
 ### 1. Sous paragraphe 1
 

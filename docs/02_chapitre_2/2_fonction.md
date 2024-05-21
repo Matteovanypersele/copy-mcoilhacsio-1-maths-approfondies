@@ -1,6 +1,6 @@
 ---
 author: Votre nom
-title: Une fonction
+title: Une fonction simple
 tags:
   - fonction
 ---

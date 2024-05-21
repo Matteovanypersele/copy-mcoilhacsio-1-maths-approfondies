@@ -1,6 +1,6 @@
 ---
 author: Mireille
-title: Essais de qcm
+title: Ecrire des QCM
 tags:
   - qcm
   - Difficulté **

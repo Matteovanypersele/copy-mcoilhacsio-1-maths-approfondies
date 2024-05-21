@@ -2,7 +2,7 @@ arrange:
     - index.md
     - 01_chapitre_1
     - 02_chapitre_2
-    - somme
+    - exercice_deux_versions
     - saisies
     - python_imbrique
     - qcm_1
