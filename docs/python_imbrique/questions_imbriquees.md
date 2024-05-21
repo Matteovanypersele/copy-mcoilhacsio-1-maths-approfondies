@@ -1,6 +1,6 @@
 ---
 author: Votre nom
-title: Exercice plusieurs questions Python imbriquées
+title: Exercice avec plusieurs questions Python imbriquées
 tags:
   - modulo
   - liste/tableau

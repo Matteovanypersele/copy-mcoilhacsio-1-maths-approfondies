@@ -1,6 +1,6 @@
 ---
 author: Votre nom
-title: Exercice avec code caché et deux versions
+title: Exercice avec du code caché et deux versions
 tags:
   - liste/tableau
 ---
