@@ -112,6 +112,9 @@ plugins:
   - pyodide_macros:
       # Vous pouvez ajouter ici tout réglage que vous auriez ajouté concernant les macros:
       on_error_fail: true     # Il est conseillé d'ajouter celui-ci si vous ne l'utilisez pas.
+      build:
+        python_libs:
+          - turtle
 
 
 

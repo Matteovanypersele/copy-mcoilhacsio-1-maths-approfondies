@@ -6,6 +6,7 @@ arrange:
     - saisies
     - python_imbrique
     - qcm_1
+    - exercices_avec_dessins
     - tags.md
     - credits
 
