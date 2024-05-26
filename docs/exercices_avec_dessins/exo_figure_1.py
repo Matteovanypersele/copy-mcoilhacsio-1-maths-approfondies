@@ -15,9 +15,12 @@ document.getElementById("cible_1").textContent = ""
 
 import matplotlib.pyplot as plt
 
-fig, ax = plt.subplots()
+fig, ax = plt.subplots() # Syntaxe obligatoire pour ne pas mélanger plusieurs graphiques
 xs = [-3 + k * 0.1 for k in range(61)]
 ys = [x**2 for x in xs]
-ax.plot(xs, ys, "r-")
+ax.plot(xs, ys, "r-")  # Syntaxe obligatoire pour ne pas mélanger plusieurs graphiques
+plt.grid()  # Optionnel : pour voir le quadrillage
+plt.axhline()  # Optionnel : pour voir l'axe des abscisses
+plt.axvline()  # Optionnel : pour voir l'axe des ordonnées
 plt.title("La fonction carré")
 plt.show()

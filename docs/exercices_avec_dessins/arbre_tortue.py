@@ -1,9 +1,9 @@
-# --------- PYODIDE:env --------- #
+# --- PYODIDE:env --- #
 from js import document
 if "restart" in globals():
     restart()
 
-# --------- PYODIDE:code --------- #
+# --- PYODIDE:code --- #
 from turtle import *
 speed(10)
 
@@ -18,6 +18,6 @@ def arbre(l=100, n=5):
     back(l)
 
 arbre(200, 5)
-# --------- PYODIDE:post --------- #
+# --- PYODIDE:post --- #
 done()
 document.getElementById("cible_3").innerHTML = svg()
