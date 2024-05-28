@@ -71,6 +71,5 @@ meubles = ['Table', 'Commode', 'Armoire', 'Placard', 'Buffet']
     ],
     multi = False,
     qcm_title = "Un QCM avec mélange automatique des questions (bouton en bas pour recommencer)",
-    DEBUG = False,
     shuffle = True,
 ) }}
