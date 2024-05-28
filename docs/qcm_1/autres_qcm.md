@@ -8,7 +8,7 @@ tags:
 
 
 
-## Multi QCM original ancien Pyodide
+## Multi QCM ancien Pyodide
 
 
 {{multi_qcm(
@@ -21,7 +21,7 @@ tags:
 
 
 
-## QCM de la documentation de Frédéric Zinelli
+## QCM avec des questions sur plusieurs lignes
 
 {{ multi_qcm(
     [
@@ -55,18 +55,18 @@ Que vaut `n` après l'exécution du code ?
     ],
     [
 """
-Quelle expression permet d'accéder au numéro de Tournesol :
+Cocher toutes les bonnes réponses
 ```python title=''
-repertoire = [{'nom': 'Dupont', 'tel': 5234}, {'nom': 'Tournesol', 'tel': 5248}, {'nom': 'Dupond', 'tel': 5237}]
+meubles = ['Table', 'Commode', 'Armoire', 'Placard', 'Buffet']
 ```
 """,
         [
-            "`#!py repertoire[1]['tel']`",
-            "`#!py repertoire['tel'][1]`",
-            "`#!py repertoire['Tournesol']`",
-            "`#!py repertoire['Tournesol']['tel']`",
+            "`#!py meubles[1]` vaut `#!py Table`",
+            "`#!py meubles[1]` vaut `#!py Commode`",
+            "`#!py meubles[4]` vaut `#!py Buffet`",
+            "`#!py meubles[5]` vaut `#!py Buffet`",
         ],
-        [1],
+        [2, 3],
         {'multi':True}
     ],
     multi = False,
