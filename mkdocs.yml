@@ -60,9 +60,9 @@ edit_uri: !ENV [EDIT_VARIABLE]
 
 docs_dir: docs
 
-nav:
-  - "🏡 Accueil": index.md
-  - ... | regex=^(?:(?!_REM.md).)*$
+#nav:   inutile on utilise les fichiers .pages plus pratiques
+  #- "🏡 Accueil": index.md
+  #- ... | regex=^(?:(?!_REM.md).)*$
 
 markdown_extensions:
     - md_in_html
@@ -103,7 +103,7 @@ markdown_extensions:
 
 plugins:
 
-  - awesome-pages:
+  - awesome-pages:   # Pour les fichiers .pages
       collapse_single_pages: true
 
   - material/search
