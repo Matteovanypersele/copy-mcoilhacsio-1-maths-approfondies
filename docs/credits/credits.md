@@ -1,6 +1,6 @@
 ---
-author: Mireille Coilhac
-title: Crédits
+author: Votre nom
+title: 👏 Crédits
 ---
 
 

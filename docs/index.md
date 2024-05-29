@@ -1,3 +1,8 @@
+---
+author: Votre nom
+title: 🏡 Accueil
+---
+
 # Mon site
 
 Vous trouverez ...
