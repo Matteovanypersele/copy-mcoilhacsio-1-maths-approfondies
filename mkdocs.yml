@@ -115,6 +115,7 @@ plugins:
       build:
         python_libs:
           - turtle
+        tab_to_spaces: 4
 
 
 
