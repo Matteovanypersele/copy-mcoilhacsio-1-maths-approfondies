@@ -6,7 +6,7 @@ site_description: Un modèle avec pyodide-mkdocs-theme
 copyright: |
     Nom d'auteur
     <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>.
-    </br><a href="https://aeif.fr">Design by AEIF</a>
+    <br><a href="https://aeif.fr">Design by AEIF</a>
 
 # À modifier, avec votre mail
 #extra:
@@ -23,8 +23,12 @@ theme:
     favicon: assets/images/favicon.png
     icon:
       logo: material/stairs-up
-    #custom_dir: my_theme_customizations/
     name: pyodide-mkdocs-theme
+
+    # La palette de couleur est maintenant intégrée par défaut au thème. 
+    # Si vous souhaitez en changer, vous pouvez redéclarer la section entière 
+    # et vos réglages prendront le pas sur les valeurs par défaut.
+    # Mêmes choses pour la langue et la suppression des google-fonts (non RGPD).  
     #font: false                     # RGPD ; pas de fonte Google
     #language: fr                    # français
     #palette:                        # Palettes de couleurs jour/nuit
@@ -61,8 +65,6 @@ edit_uri: !ENV [EDIT_VARIABLE]
 docs_dir: docs
 
 #nav:   inutile on utilise les fichiers .pages plus pratiques
-  #- "🏡 Accueil": index.md
-  #- ... | regex=^(?:(?!_REM.md).)*$
 
 markdown_extensions:
     - md_in_html
@@ -118,7 +120,6 @@ plugins:
         tab_to_spaces: 4
 
 
-
 # En remplacement de mkdocs-exclude. Tous les fichiers correspondant aux patterns indiqués seront
 # exclu du site final et donc également de l'indexation de la recherche.
 # Nota: ne pas mettre de commentaires dans ces lignes !
@@ -126,11 +127,6 @@ exclude_docs: |
     **/*_REM.md
     **/*.py
 
-
-
-#extra_javascript:
-  #- xtra/javascripts/mathjax-config.js       Supprimé pour MAJ pyodide             
-  #- https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
   - xtra/stylesheets/ajustements.css  # ajustements
