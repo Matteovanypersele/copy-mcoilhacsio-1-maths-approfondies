@@ -133,5 +133,4 @@ exclude_docs: |
   #- https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
-  #- xtra/stylesheets/qcm.css ##       Supprimé pour MAJ pyodide  
   - xtra/stylesheets/ajustements.css  # ajustements
