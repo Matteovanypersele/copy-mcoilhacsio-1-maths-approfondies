@@ -79,10 +79,10 @@ markdown_extensions:
     - pymdownx.mark                 # Passage ==surligné==.
     - pymdownx.tilde                # Passage ~~barré~~ ou en ~indice~.
     - pymdownx.highlight:           # Coloration syntaxique du code
-      auto_title: true
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
+        auto_title: true
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
     - pymdownx.inlinehilite         # pour  `#!python  <python en ligne>`
     - pymdownx.snippets             # Inclusion de fichiers externe.
     - pymdownx.tasklist:            # Cases à cocher  - [ ]  et - [x]
