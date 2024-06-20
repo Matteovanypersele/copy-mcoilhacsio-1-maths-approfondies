@@ -36,7 +36,6 @@ pages:review:
   stage: review
   script:
     - echo "CI_PROJECT_REAL_PATH=$(echo $CI_PROJECT_PATH | sed -e "s/$CI_PROJECT_ROOT_NAMESPACE\///")" >> $GITLAB_ENV
-    - echo $GITLAB_ENV
     - mv site public
   needs:
     - job: build
