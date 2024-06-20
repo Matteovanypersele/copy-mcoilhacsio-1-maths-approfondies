@@ -1,4 +1,4 @@
 - source: /docs\/(.*).md/
-  public: 'site/\1.html'
+  public: '\1.html'
 - source: /.*/
-  public: 'site/index.html'
+  public: 'index.html'
