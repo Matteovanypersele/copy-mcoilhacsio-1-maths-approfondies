@@ -35,6 +35,7 @@ build:
 pages:review:
   stage: review
   script:
+    - export
     - mv site public
   needs:
     - job: build
