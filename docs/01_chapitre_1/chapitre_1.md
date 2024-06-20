@@ -17,7 +17,7 @@ Texte 1.2
 
 ## II. Paragraphe 2 : Quelques formules
 
-texte 2
+Utiliser LaTeX
 
 ### 1. En maths
 
