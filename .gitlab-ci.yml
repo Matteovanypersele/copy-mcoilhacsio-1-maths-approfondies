@@ -36,6 +36,7 @@ build:
 pages:review:
   stage: review
   script:
+    - echo ${CI_PROJECT_PATH/$CI_PROJET_ROOT_PATH/}
     - mv site public
   needs:
     - job: build
