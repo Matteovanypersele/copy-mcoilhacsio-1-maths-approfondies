@@ -36,7 +36,7 @@ build:
 pages:review:
   stage: review
   script:
-    - echo $CI_PROJECT_PATH | sed -e 's/$CI_PROJET_ROOT_NAMESPACE\///'
+    - echo $CI_PROJECT_PATH | sed -e "s/$CI_PROJET_ROOT_NAMESPACE\///"
     - mv site public
   needs:
     - job: build
