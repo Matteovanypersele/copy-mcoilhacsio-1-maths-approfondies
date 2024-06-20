@@ -25,17 +25,19 @@ build:
       else
         mkdocs build --no-directory-urls
       fi
+    - echo -e "CI_PROJECT_REAL_PATH=$(echo $CI_PROJECT_PATH | sed -e "s/$CI_PROJECT_ROOT_NAMESPACE\///")" >> build.env
   rules:
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     - if: $CI_COMMIT_REF_NAME == 'main'
   artifacts:
+    reports:
+      dotenv: build.env
     paths:
       - site
 
 pages:review:
   stage: review
   script:
-    - echo "CI_PROJECT_REAL_PATH=$(echo $CI_PROJECT_PATH | sed -e "s/$CI_PROJECT_ROOT_NAMESPACE\///")" >> $GITLAB_ENV
     - mv site public
   needs:
     - job: build
