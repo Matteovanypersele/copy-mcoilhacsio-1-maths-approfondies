@@ -1,9 +1,6 @@
 ---
 author: Mireille
 title: Ecrire des QCM
-tags:
-  - qcm
-  - Difficulté **
 ---
 
 

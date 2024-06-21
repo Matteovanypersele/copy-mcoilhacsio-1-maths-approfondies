@@ -21,8 +21,7 @@ copyright: |
 # Éventuellement à modifier avec votre thème de couleurs
 theme:
     favicon: favicon.png
-    icon:
-      logo: material/stairs-up
+    logo: math.png
     name: pyodide-mkdocs-theme
 
     features:

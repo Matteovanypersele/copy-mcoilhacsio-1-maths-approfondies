@@ -1,7 +1,7 @@
 ---
 author: Mireille Coilhac
 title: Statistiques à une variable
-- tags:
+tags:
     - statistiques
 ---
 
