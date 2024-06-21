@@ -22,7 +22,7 @@ copyright: |
 theme:
     favicon: favicon.png
     icon:
-      logo: assets/images/math.png
+      logo: math.png
     name: pyodide-mkdocs-theme
 
     features:
