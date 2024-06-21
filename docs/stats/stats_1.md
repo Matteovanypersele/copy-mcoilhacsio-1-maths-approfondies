@@ -93,6 +93,17 @@ tags:
 
     * Écart interquartile : c’est la valeur de $Q_3-Q_1$. 
 
+!!! info "Illustrtations"
+
+    ![quartiles]!(images/quartiles.jpg){ width=20% }
+
+     Diagramme : bôite à moustaches . La boîte contient la moitié de la population.
+
+    ![moustaches]!(images/moustaches.jpg){ width=20% }
+
+
+Par défaut l'image est placée à gauche.
+
 !!! info "Moyenne"
 
     * Pour une série **discrète**, la moyenne des valeurs $x_1$, $x_2$, ..., $x_p$ 
@@ -142,6 +153,47 @@ tags:
 ## V. Exercices
 
 [Exercices sur les statistiques à une variable](https://coopmaths.fr/alea/?uuid=crpe-2017-g5-ex3&uuid=crpe-2015-g2-ex3&uuid=crpe-2017-g2-ex1&uuid=crpe-2016-pol-ex4&uuid=crpe-2019-g2-ex4&uuid=crpe-2016-cre-ex2&uuid=crpe-2019-g5-ex1&uuid=crpe-2019-g5-ex1&uuid=crpe-2016-g2-ex1&uuid=b7662&id=2S20-5&n=2&d=10&s=1&cd=1&v=eleve&es=0111001&title=){ .md-button target="_blank" rel="noopener" }
+
+
+???+ question "Un club de plongée"
+
+    Un club de plongée compte 80 licenciés. Le tableau donne la fréquence des plongées effectuées par plongeur et par an.
+
+    | Nombre de plongées   |[0; 10[| [10; 20[|[20; 30[|[30; 40[|[40; 50[|[50; 60[|
+    | :---    | :----:    | :---:   |   
+    | Fréquence | 0,1| 0,2|0,3|0,175|0,125|0,1|
+
+    **1.** Quel est le nombre moyen de plong´ees effectuées par plongeur ?
+
+    ??? success "Solution"
+
+        $5 \times 0,1 + 15 \times 0,2 + 25 \times 0,3 + 35 \times 0,175 + 45 \times 0,125 + 55 \times 0,1 = 28,25$
+
+    **2.** Donner une estimation de la médiane de cette série.
+
+    ??? success "Solution"
+
+        La médiane me est dans $[20; 30[$. Elle est obtenue pour une fréquence cumulée de 0,5.
+        * Pour 20 plongées : fréquence cumulée : 0,3
+        * Pour $M_e$ plongées : fréquence cumulée : 0,5
+        * Pour 30 plongées : fréquence cumulée : 0,6
+
+        $$\dfrac{30-20}{0,6-0,3}=\dfrac{M_e-20}{0,5-0,3}$$
+
+        $$\dfrac{10}{0,3}=\dfrac{M_e-20}{0,2}$$
+
+        $$M_e = 20 + 10 \times {0,2}{0,3} \approx 26,7
+
+    **3.** L’année suivante, l’effectif du club est de 70 adhérents et le nombre moyen de plongées 
+    effectuées est 32. Quel est le nombre moyen de plongées par plongeur sur cette période de deux ans ?
+
+    ??? success "Solution"
+
+        La deuxième année, il y a eu $70 \times 32 = 2240$ plongées.  
+        La première : $80 \times 28,25 = 2260$.  
+        Pour les deux ans : $2240 + 2260 = 4500$.  
+        Le nombre moyen de plongées par plongeur sur les deux ans est : $\dfrac{4500}{80+70}=30
+
 
 **Crédits**
 
