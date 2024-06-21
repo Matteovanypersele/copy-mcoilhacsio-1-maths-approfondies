@@ -22,7 +22,7 @@ copyright: |
 theme:
     favicon: favicon.png
     icon:
-      logo: math.png
+      logo: material/stairs-up
     name: pyodide-mkdocs-theme
 
     features:
