@@ -193,7 +193,7 @@ Par défaut l'image est placée à gauche.
         La deuxième année, il y a eu $70 \times 32 = 2240$ plongées.  
         La première année : $80 \times 28,25 = 2260$.  
         Pour les deux ans : $2240 + 2260 = 4500$.  
-        Le nombre moyen de plongées par plongeur sur les deux ans est : $\dfrac{4500}{80+70}=30
+        Le nombre moyen de plongées par plongeur sur les deux ans est : $\dfrac{4500}{80+70}=30$
 
 
 **Crédits**
