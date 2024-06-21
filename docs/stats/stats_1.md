@@ -58,12 +58,12 @@ tags:
     La valeur médiane d’une série statistique est la valeur M séparant la population en deux moitiés : les 50 % 
     ayant une valeur inférieure ou égale à M et les 50 % ayant une valeur supérieure ou égale à M.
 
-!!! info "Déterminer la médiane d'une série discrète"
+??? info "Déterminer la médiane d'une série discrète"
 
-    * Si l’effectif est impair, la médiane est la valeur de rang $\ndfrac{(N+1)}{2}$ 
+    * Si l’effectif est impair, la médiane est la valeur de rang $\dfrac{(N+1)}{2}$ 
     * si l’effectif est pair, la médiane est la moyenne des valeurs de rang $\dfrac{N}{2}$ et $\dfrac{N}{2}+1$.
 
-!!! info "Déterminer la médiane d'une série continue"
+??? info "Déterminer la médiane d'une série continue"
 
     La médiane est la valeur correspondant à la fréquence cumulée égale à 0,5.
 
@@ -74,7 +74,7 @@ tags:
 
     * Le troisième quartile est la valeur $Q_3$ telle que 75% de la population a une valeur du caractère inférieure ou égale à $Q_3$, les 25% restants ayant une valeur supérieur ou égale à $Q_3$.
 
-!!! info "Déterminer les quartiles d'une série discrète"
+??? info "Déterminer les quartiles d'une série discrète"
 
     * Si $\dfrac{N}{4}$ est un entier, $Q_1$ est la valeur de rang $\dfrac{N}{4}$ et $Q_3$ est la valeur de 
     rang $\dfrac{3N}{4}$.
@@ -82,7 +82,7 @@ tags:
     * Si $\dfrac{N}{4}$ n’est pas un entier, $Q_1$ est est la valeur de rang immédiatement supérieur
      à $\dfrac{N}{4}$ et $Q_3$ est la valeur de rang immédiatement supérieur à $\dfrac{3N}{4}$.
 
-!!! info "Déterminer les quartiles d'une série continue"
+??? info "Déterminer les quartiles d'une série continue"
 
     * $Q_1$ est la valeur correspondant à la fréquence cumulée égal à $0,25$
     * $Q_3$ est la valeur correspondant  à la fréquence cumulée égale à $0,75$.
@@ -97,7 +97,8 @@ tags:
 
     * Pour une série **discrète**, la moyenne des valeurs $x_1$, $x_2$, ..., $x_p$ 
     d'effectifs $n_1$, $n_2$, ..., $n_p$  (effectif total N) est le réel : 
-    $$\bar{x}=\dfrac{n_1 x_1+n_2 x_2+...+n_p x_p}{n_1+n_2+...+n_p}=\dfrac{1}{N} \sum_{i=1}^p n_i x_i.$$
+
+    $$\bar{x}=\dfrac{n_1 x_1+n_2 x_2+...+n_p x_p}{n_1+n_2+...+n_p}=\dfrac{1}{N} \sum_{i=1}^p n_i x_i$$
 
     * Pour une série **continue**, on applique la même formule en prenant pour les valeurs $x_i$ les centres des classes.
 
@@ -110,29 +111,19 @@ tags:
 
     Par exemple, les étudiants d'un premier groupe peuvent avoir obtenu des résultats très homogènes (c'est-à-dire 
     des notes comprises dans un petit intervalle autour de 10) alors que ceux d'un deuxième groupe peuvent avoir 
-    des résultats beaucoup plus dispersés autour de 10. L'**écart-type** est un nombre qui mesure de cette **dispersion**, 
+    des résultats beaucoup plus dispersés autour de 10. L'**écart-type** est un nombre qui mesure cette **dispersion**, 
     au sens où plus l'écart-type est élevé plus les valeurs sont dispersées autour de la moyenne.
 
 !!! info "Variance et écart-type"
 
-    La **variance d’une série statistique de caractère X prenant les valeurs (ou centres des classes) 
+    La **variance** d’une série statistique de caractère X prenant les valeurs (ou centres des classes) 
     $x_1$, $x_2$, ..., $x_p$ d’effectifs respectifs $n_1$, $n_2$, ..., $n_p$ et de moyenne $\overline{x}$ 
-    est le nombre $$V(x)=\dfrac{1}{N} \sum_{i=1}^p \left(x_i-\bar{x}\right)^2=\dfrac{1}{N} \sum_{i=1}^p n_i x_i^2 - \overline{x}^2.$$%
+    est le nombre 
+    
+    $$V(x)=\dfrac{1}{N} \sum_{i=1}^p \left(x_i-\bar{x}\right)^2=\dfrac{1}{N} \sum_{i=1}^p n_i x_i^2 - \overline{x}^2.$$
 
     On en déduit l'**écart-type** de la série $\sigma(X)=\sqrt{V(X)}$ qui est toujours un nombre positif.
 
-
-
-
-
-
-   
-
-
-   
-
-
-   
 
 ## IV. Usage de la calculatrice
 
@@ -152,6 +143,6 @@ tags:
 
 [Exercices sur les statistiques à une variable](https://coopmaths.fr/alea/?uuid=crpe-2017-g5-ex3&uuid=crpe-2015-g2-ex3&uuid=crpe-2017-g2-ex1&uuid=crpe-2016-pol-ex4&uuid=crpe-2019-g2-ex4&uuid=crpe-2016-cre-ex2&uuid=crpe-2019-g5-ex1&uuid=crpe-2019-g5-ex1&uuid=crpe-2016-g2-ex1&uuid=b7662&id=2S20-5&n=2&d=10&s=1&cd=1&v=eleve&es=0111001&title=){ .md-button target="_blank" rel="noopener" }
 
-## Crédits
+**Crédits**
 
-Source pour le I II et III : Cédric Pierquet
+Source pour le I. II. et III. : Cédric Pierquet
