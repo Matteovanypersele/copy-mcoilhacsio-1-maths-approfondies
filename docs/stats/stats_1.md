@@ -114,7 +114,7 @@ Par défaut l'image est placée à gauche.
     * Pour une série **continue**, on applique la même formule en prenant pour les valeurs $x_i$ les centres des classes.
 
 
-## III. Paramètres de dispersion :
+## III. Paramètres de dispersion
 
 !!! info "Mesurer la dispersion"
 
