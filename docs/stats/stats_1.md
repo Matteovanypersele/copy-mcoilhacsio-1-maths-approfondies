@@ -95,11 +95,11 @@ tags:
 
 !!! info "Illustrtations"
 
-    ![quartiles]!(images/quartiles.jpg){ width=20% }
+    ![quartiles](images/quartiles.jpg){ width=20% }
 
      Diagramme : bôite à moustaches . La boîte contient la moitié de la population.
 
-    ![moustaches]!(images/moustaches.jpg){ width=20% }
+    ![moustaches](images/moustaches.jpg){ width=20% }
 
 
 Par défaut l'image est placée à gauche.
@@ -160,7 +160,7 @@ Par défaut l'image est placée à gauche.
     Un club de plongée compte 80 licenciés. Le tableau donne la fréquence des plongées effectuées par plongeur et par an.
 
     | Nombre de plongées   |[0; 10[| [10; 20[|[20; 30[|[30; 40[|[40; 50[|[50; 60[|
-    | :---    | :----:    | :---:   |   
+    | :---    | :----:    | :---:   |  :---:   | :---:   | :---:   | :---:   | 
     | Fréquence | 0,1| 0,2|0,3|0,175|0,125|0,1|
 
     **1.** Quel est le nombre moyen de plong´ees effectuées par plongeur ?
@@ -174,6 +174,7 @@ Par défaut l'image est placée à gauche.
     ??? success "Solution"
 
         La médiane me est dans $[20; 30[$. Elle est obtenue pour une fréquence cumulée de 0,5.
+
         * Pour 20 plongées : fréquence cumulée : 0,3
         * Pour $M_e$ plongées : fréquence cumulée : 0,5
         * Pour 30 plongées : fréquence cumulée : 0,6
@@ -182,7 +183,7 @@ Par défaut l'image est placée à gauche.
 
         $$\dfrac{10}{0,3}=\dfrac{M_e-20}{0,2}$$
 
-        $$M_e = 20 + 10 \times {0,2}{0,3} \approx 26,7
+        $$M_e = 20 + 10 \times {0,2}{0,3} \approx 26,7$$
 
     **3.** L’année suivante, l’effectif du club est de 70 adhérents et le nombre moyen de plongées 
     effectuées est 32. Quel est le nombre moyen de plongées par plongeur sur cette période de deux ans ?
@@ -190,7 +191,7 @@ Par défaut l'image est placée à gauche.
     ??? success "Solution"
 
         La deuxième année, il y a eu $70 \times 32 = 2240$ plongées.  
-        La première : $80 \times 28,25 = 2260$.  
+        La première année : $80 \times 28,25 = 2260$.  
         Pour les deux ans : $2240 + 2260 = 4500$.  
         Le nombre moyen de plongées par plongeur sur les deux ans est : $\dfrac{4500}{80+70}=30
 
