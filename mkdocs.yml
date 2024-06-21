@@ -131,11 +131,10 @@ exclude_docs: |
     **/*_REM.md
     **/*.py
 
+#extra_javascript:  Supprimé pour MAJ pyodide pris en compte par le thème lui même
+  #- xtra/mathjax.js                    # MathJax
+  #- https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 
 extra_css:
   - xtra/stylesheets/ajustements.css  # ajustements
-
-extra_javascript:
-  - xtra/javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
