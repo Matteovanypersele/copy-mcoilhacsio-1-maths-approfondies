@@ -15,3 +15,4 @@ Le site est construit avec [`mkdocs`](https://www.mkdocs.org/){target="_blank"} 
 😀 Un grand merci à Frédéric Zinelli, et Vincent-Xavier Jumel qui ont réalisé la partie technique de ce site.   
 Merci également à Charles Poulmaire pour ses relectures attentives et ses conseils judicieux.
 
+Icone : <a href="https://www.flaticon.com/fr/icones-gratuites/mathematiques" title="mathematiques icônes">Mathematiques icônes créées par Funkrataii - Flaticon</a>

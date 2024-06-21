@@ -1,13 +1,6 @@
 nav:
     - index.md
-    - 01_chapitre_1
-    - 02_chapitre_2
-    - exercice_deux_versions
-    - saisies
-    - python_imbrique
-    - qcm_1
-    - exercices_avec_dessins
-    - bac_a_sable.md
+    - stats
     - tags.md
     - credits
 

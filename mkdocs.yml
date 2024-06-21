@@ -1,10 +1,10 @@
 # À modifier avec le nom et la description du site
-site_name: "Site modèle avec Python"
+site_name: "SIO 1 maths approfondissement"
 site_description: Un modèle avec pyodide-mkdocs-theme
 
 # À modifier, avec votre nom et la licence choisie
 copyright: |
-    Nom d'auteur
+    Mireille Coilhac
     <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>.
     <br><a href="https://aeif.fr">Design by AEIF</a>
 
@@ -20,32 +20,11 @@ copyright: |
 
 # Éventuellement à modifier avec votre thème de couleurs
 theme:
-    favicon: assets/images/favicon.png
+    favicon: assets/images/math.png
     icon:
-      logo: material/stairs-up
+      logo: assets/images/math.png
     name: pyodide-mkdocs-theme
 
-    # La palette de couleur est maintenant intégrée par défaut au thème. 
-    # Si vous souhaitez en changer, vous pouvez redéclarer la section entière 
-    # et vos réglages prendront le pas sur les valeurs par défaut.
-    # Mêmes choses pour la langue et la suppression des google-fonts (non RGPD).  
-    #font: false                     # RGPD ; pas de fonte Google
-    #language: fr                    # français
-    #palette:                        # Palettes de couleurs jour/nuit
-      #- media: "(prefers-color-scheme: light)"
-        #scheme: default
-        #primary: indigo
-        #accent: indigo
-        #toggle:
-            #icon: material/weather-sunny
-            #name: Passer au mode nuit
-      #- media: "(prefers-color-scheme: dark)"
-        #scheme: slate
-        #primary: black
-        #accent: green
-        #toggle:
-            #icon: material/weather-night
-            #name: Passer au mode jour
     features:
         #- navigation.instant
         #- navigation.tabs   Pour avoir le menu vertical il fallait supprimer ça
