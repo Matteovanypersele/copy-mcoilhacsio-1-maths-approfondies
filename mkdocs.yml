@@ -20,7 +20,7 @@ copyright: |
 
 # Éventuellement à modifier avec votre thème de couleurs
 theme:
-    favicon: assets/images/math.png
+    favicon: favicon.png
     icon:
       logo: assets/images/math.png
     name: pyodide-mkdocs-theme
