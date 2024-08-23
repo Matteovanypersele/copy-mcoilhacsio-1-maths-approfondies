@@ -5,7 +5,7 @@ site_description: Un modèle avec pyodide-mkdocs-theme
 # À modifier, avec votre nom et la licence choisie
 copyright: |
     Mireille Coilhac
-    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>.
+    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>.
     <br><a href="https://aeif.fr">Design by AEIF</a>
 
 # À modifier, avec votre mail
@@ -37,8 +37,8 @@ theme:
 
 site_url: !ENV [CI_PAGES_URL, "http://127.0.0.1:8000/"]
 site_author: !ENV [CI_COMMIT_AUTHOR, "Nom d'auteur"]
-repo_url: !ENV [CI_PROJECT_URL]
-edit_uri: !ENV [EDIT_VARIABLE]
+#repo_url: !ENV [CI_PROJECT_URL]
+#edit_uri: !ENV [EDIT_VARIABLE]
 
 docs_dir: docs
 
