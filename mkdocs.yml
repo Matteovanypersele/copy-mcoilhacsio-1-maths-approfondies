@@ -90,8 +90,8 @@ plugins:
   - awesome-pages:   # Pour les fichiers .pages
       collapse_single_pages: true
 
-  - material/search
-  - material/tags:
+  - search
+  - tags:
       tags_file: tags.md
   - pyodide_macros:
       # Vous pouvez ajouter ici tout réglage que vous auriez ajouté concernant les macros:
