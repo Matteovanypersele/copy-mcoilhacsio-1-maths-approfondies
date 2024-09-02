@@ -110,7 +110,7 @@ tags:
 
     On vérifie que le point moyen est bien sur la droite d’ajustement.
 
-??? warning "S $r$ n'est pas prpche de 1 ni de -1"
+??? warning "S $r$ n'est pas proche de 1 ni de -1"
 
     Déterminer un ajustement affine est inutile : il faut alors se tourner vers des ajustements plus compliqués (à l'aide de polynômes ou autres fonctions)
 
