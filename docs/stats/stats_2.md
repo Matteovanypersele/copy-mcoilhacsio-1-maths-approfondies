@@ -58,7 +58,7 @@ tags:
 
     Reprenons l'exemple 1 : 
 
-    |Prix proposé en milliers d’euros |$x_i$ | 40 | 36 | 32 | 28 | 24 | 20 | 16 | 12 | 10 | 8 |
+    |Prix proposé en milliers d’euros $x_i$ | 40 | 36 | 32 | 28 | 24 | 20 | 16 | 12 | 10 | 8 |
 	|:---|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
     |Nb d’entreprises disposées à acheter à ce prix $y_i$ | 60 | 70 | 130 | 210 | 240 | 340 | 390 | 420 | 440 | 500 |
 
@@ -104,7 +104,7 @@ tags:
     On utilise la calculatrice ou un logiciel qui donne par cette méthode : 
 
     * le coefficient de corrélation $r$.  
-    Si $\abs{r}$ est proche de 1 (c'est à dire $r$ proche de 1 ou de -1) il est légitime de chercher un ajustement affine.
+    Si $|r|$ est proche de 1 (c'est à dire $r$ proche de 1 ou de -1) il est légitime de chercher un ajustement affine.
 
     * l'équation réduite de la droite de régression de $y$ en $x$ sous la forme $y = ax + b$.
 
