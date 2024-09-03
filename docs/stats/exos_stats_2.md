@@ -44,6 +44,16 @@ tags:
         x=52 \Rightarrow y = 81,44 
         \end{matrix}\right.
         $
+
+        Autre syntaxe : 
+        $
+        \left\{
+          \begin{array}{ll}
+        x=28 \Rightarrow y=286,16 \\ 
+        x=52 \Rightarrow y = 81,44 
+          \end{array}
+        \right.
+        $
  
 
     **4.** Question 4   
