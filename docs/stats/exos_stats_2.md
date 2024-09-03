@@ -44,24 +44,6 @@ tags:
         x=52 \Rightarrow y = 81,44 
         \end{matrix}\right.$
 
-        Autre syntaxe : 
-        $\left\{
-          \begin{array}{ll}
-        x=28 \Rightarrow y=286,16 \\ 
-        x=52 \Rightarrow y = 81,44 
-          \end{array}
-        \right.$
-
-        Autre essai 
-        $$
-        \left\{
-        \begin{array}{ll}
-            u_0 = 3 \\
-            u_{n+1} = 5 \times u_n+2\\
-        \end{array}
-        \right.
-        $$
- 
 
     **4.** Question 4   
     En utilisant cet ajustement :
@@ -75,6 +57,65 @@ tags:
     
         * Le prix maximal que l'on doit proposer pour que plus de 60 % des personnes interrogées (soit 300) soient prêtes à l'acheter est d'environ 26 €.
         * Au-delà de 56 €, le taux d'acheteurs potentiels tombe sous 50 %.
+
+## Exercice 2
+
+???+ question "Exercice 2"
+
+    Le tableau ci-dessous donne les quantités de marchandises transportées dans le monde par voie maritime entre 2000 et 2017, exprimées en millions de tonnes.
+
+    $$\begin{tblr}{hlines,vlines,width=\linewidth,colspec={Q[5cm,m]*{10}{X[c,m]}},cells={font=\small}}
+	Année& 2000& 2005& 2010& 2011& 2012& 2013 &2014& 2015& 2016 &2017\\
+	Rang de l'année: $x_i$ &0& 5& 10& 11& 12& 13& 14& 15& 16& 17\\
+	Quantité de marchandises en millions de tonnes $y_i$&\num{5984}& \num{7109}&\num{8409}&\num{8784}&\num{9197}&\num{9548} &\num{9842}&\num{10024}&\num{10289}&\num{10702}\\
+    \end{tblr}$$
+
+    Le nuage de points de coordonnées $(x_i;y_i)$ est donné ci-dessous :
+
+    ![nuage_exo_2_doubles](images/nuage_exo_2_doubles.png){ width=50% }
+
+    **1.** Question 1  
+    Expliquer pourquoi ce nuage de points permet d'envisager un ajustement affine.
+
+    ??? success "Solution"
+
+        Le nuage de points a une forme allongée, donc un ajustement affine est envisageable.
+
+    **2.** Question 2  
+    Déterminer à l'aide de la calculatrice l'équation réduite de la droite d'ajustement de $y$ en $x$ obtenue par la méthode des moindres carrés. On arrondira les coefficients au dixième.
+
+    ??? success "Solution"
+
+        La calculatrice donne $y = 281,0x + 5813,4$ avec les coefficients arrondis au dixième.
+
+    **3.** Question 3  
+    On décide de modéliser la quantité de marchandises $y$ en fonction du rang de l'année $x$ par l'expression $y = 280x + 5800$.
+
+    Tracer la droite $D$ d'équation $y = 280x + 5800$ dans un repère identique à celui donné précédemment.
+
+    ??? success "Solution"
+
+        ![nuage_exo_2_doubles](images/graphe_exo_2_doubles.png){ width=50% }
+
+    **4.** Question 4  
+    Estimer, selon le modèle de la question 3, la quantité de marchandises transportées par voie maritime en 2025, en expliquant la démarche suivie.
+
+    ??? success "Solution"
+
+        Dans cette question, il s'agit de faire une prévision pour $x=25$ :
+	
+	    * pour $x = 25$ on lit pour $y$ environ 12800;
+	    * avec $x = 25$, on obtient $y = 280\times 25 + 5800 = 7000 + 5800 = 12800$.
+	
+	    Ainsi on on obtient une estimation de 12800 millions de tonnes.
+
+
+
+
+
+
+
+
 
 
    
