@@ -64,11 +64,11 @@ tags:
 
     Le tableau ci-dessous donne les quantités de marchandises transportées dans le monde par voie maritime entre 2000 et 2017, exprimées en millions de tonnes.
 
-    $$\begin{tblr}{hlines,vlines,width=\linewidth,colspec={Q[5cm,m]*{10}{X[c,m]}},cells={font=\small}}
+    $$\begin{array}{lll}
 	Année& 2000& 2005& 2010& 2011& 2012& 2013 &2014& 2015& 2016 &2017\\
 	Rang de l'année: $x_i$ &0& 5& 10& 11& 12& 13& 14& 15& 16& 17\\
-	Quantité de marchandises en millions de tonnes $y_i$&\num{5984}& \num{7109}&\num{8409}&\num{8784}&\num{9197}&\num{9548} &\num{9842}&\num{10024}&\num{10289}&\num{10702}\\
-    \end{tblr}$$
+	Quantité de marchandises en millions de tonnes $y_i$ & 5984 & 7109 & 8409 & 8784 & 9197 & 9548 & 9842 & 10024 & 10289 & 10702\\
+    \end{array}$$
 
     Le nuage de points de coordonnées $(x_i;y_i)$ est donné ci-dessous :
 
