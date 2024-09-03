@@ -38,17 +38,19 @@ tags:
 
     ??? success "Solution"
 
-        La droite d'ajustement a été tracée en utilisant 
-        $begin{empheq}[left = \empheqlbrace]{align}
+        La droite d'ajustement a été tracée en utilisant le point moyen et 
+        $ \left\{\begin{matrix}
         x=28 \Rightarrow y=286,16 \\ 
         x=52 \Rightarrow y = 81,44 
-        \end{empheq}$ et le point moyen.  
+        \end{matrix}\right.
+        $
+ 
 
-    ** 4. Question 4   
+    **4.** Question 4   
     En utilisant cet ajustement :
 
-	* Quel prix maximal doit-on proposer pour que plus de 60\,\% des personnes interrogées soient prêtes à l'acheter ?
-    * Au-delà de quel prix le taux d'acheteurs potentiels tombe-t-il sous les 10\,\% ?
+	* Quel prix maximal doit-on proposer pour que plus de 60 % des personnes interrogées soient prêtes à l'acheter ?
+    * Au-delà de quel prix le taux d'acheteurs potentiels tombe-t-il sous les 10 % ?
 
     ??? success "Solution"
 
