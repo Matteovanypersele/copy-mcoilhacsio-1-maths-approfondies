@@ -39,21 +39,28 @@ tags:
     ??? success "Solution"
 
         La droite d'ajustement a été tracée en utilisant le point moyen et 
-        $ \left\{\begin{matrix}
+        $\left\{\begin{matrix}
         x=28 \Rightarrow y=286,16 \\ 
         x=52 \Rightarrow y = 81,44 
-        \end{matrix}\right.
-        $
+        \end{matrix}\right$
 
         Autre syntaxe : 
-        $
-        \left\{
+        $\left\{
           \begin{array}{ll}
         x=28 \Rightarrow y=286,16 \\ 
         x=52 \Rightarrow y = 81,44 
           \end{array}
+        \right$
+
+        Autre essai 
+        $$
+        \left\{
+        \begin{array}{ll}
+            u_0 = 3 \\
+            u_{n+1} = 5 \times u_n+2\\
+        \end{array}
         \right.
-        $
+        $$
  
 
     **4.** Question 4   
