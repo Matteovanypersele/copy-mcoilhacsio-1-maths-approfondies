@@ -42,7 +42,7 @@ tags:
         $\left\{\begin{matrix}
         x=28 \Rightarrow y=286,16 \\ 
         x=52 \Rightarrow y = 81,44 
-        \end{matrix}\right$
+        \end{matrix}\right.$
 
         Autre syntaxe : 
         $\left\{
@@ -50,7 +50,7 @@ tags:
         x=28 \Rightarrow y=286,16 \\ 
         x=52 \Rightarrow y = 81,44 
           \end{array}
-        \right$
+        \right.$
 
         Autre essai 
         $$
