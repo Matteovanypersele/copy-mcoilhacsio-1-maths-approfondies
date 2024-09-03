@@ -38,20 +38,24 @@ tags:
 
     ??? success "Solution"
 
-        La droite d'ajustement a été tracée en utilisant $\begin{dcases} x=28 \Rightarrow y=286,16 \\ x=52 \Rightarrow y = 81,44 \end{dcases}$ et le point moyen.  
+        La droite d'ajustement a été tracée en utilisant 
+        $begin{empheq}[left = \empheqlbrace]{align}
+        x=28 \Rightarrow y=286,16 \\ 
+        x=52 \Rightarrow y = 81,44 
+        \end{empheq}$ et le point moyen.  
 
-    ** 4. Question 4  
+    ** 4. Question 4   
     En utilisant cet ajustement :
 
-	    * Quel prix maximal doit-on proposer pour que plus de 60\,\% des personnes interrogées soit prêtes à l'acheter ?
-        * Au-delà de quel prix le taux d'acheteurs potentiels tombe-t-il sous les 10\,\% ?
+	* Quel prix maximal doit-on proposer pour que plus de 60\,\% des personnes interrogées soient prêtes à l'acheter ?
+    * Au-delà de quel prix le taux d'acheteurs potentiels tombe-t-il sous les 10\,\% ?
 
     ??? success "Solution"
 
         Grâce à cet ajustement on voit que :
     
-        * Le prix maximal que l'on doit proposer pour que plus de 60\,\% des personnes interrogées (soit 300) soient prêtes à l'acheter est d'environ 26\,€.\hfill\cgrph{\noticetikz*{CouleurVertForet}}
-        * Au-delà de 56\,€, le taux d'acheteurs potentiels tombe sous 50 (10\,\%).\hfill\cgrph{\noticetikz*{orange}}
+        * Le prix maximal que l'on doit proposer pour que plus de 60 % des personnes interrogées (soit 300) soient prêtes à l'acheter est d'environ 26 €.
+        * Au-delà de 56 €, le taux d'acheteurs potentiels tombe sous 50 %.
 
 
    
