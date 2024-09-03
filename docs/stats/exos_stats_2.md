@@ -62,12 +62,15 @@ tags:
 
 ???+ question "Exercice 2"
 
-    Le tableau ci-dessous donne les quantités de marchandises transportées dans le monde par voie maritime entre 2000 et 2017, exprimées en millions de tonnes.
+    Le tableau ci-dessous donne les quantités de marchandises transportées dans le monde par voie maritime entre 2000 et 2017, exprimées en millions de tonnes.  
+    
+    * $x_i$ est le rang de l'année
+    * $y_i$ est la quantité de marchandises en millions de tonnes
 
     $$\begin{array}{lll}
-	Année& 2000& 2005& 2010& 2011& 2012& 2013 &2014& 2015& 2016 &2017\\
-	Rang de l'année: $x_i$ &0& 5& 10& 11& 12& 13& 14& 15& 16& 17\\
-	Quantité de marchandises en millions de tonnes $y_i$ & 5984 & 7109 & 8409 & 8784 & 9197 & 9548 & 9842 & 10024 & 10289 & 10702\\
+	\text{Année} & 2000& 2005& 2010& 2011& 2012& 2013 &2014& 2015& 2016 &2017\\
+	x_i &0& 5& 10& 11& 12& 13& 14& 15& 16& 17\\
+	y_i & 5984 & 7109 & 8409 & 8784 & 9197 & 9548 & 9842 & 10024 & 10289 & 10702\\
     \end{array}$$
 
     Le nuage de points de coordonnées $(x_i;y_i)$ est donné ci-dessous :
