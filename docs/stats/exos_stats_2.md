@@ -67,11 +67,17 @@ tags:
     * $x_i$ est le rang de l'année
     * $y_i$ est la quantité de marchandises en millions de tonnes
 
-    $$\begin{array}{lll}
+    $$\begin{array}{|l|c|c|c|c|c|c|c|c|c|c|}
+    \hline
 	\text{Année} & 2000& 2005& 2010& 2011& 2012& 2013 &2014& 2015& 2016 &2017\\
+    \hline
 	x_i &0& 5& 10& 11& 12& 13& 14& 15& 16& 17\\
+    \hline
 	y_i & 5984 & 7109 & 8409 & 8784 & 9197 & 9548 & 9842 & 10024 & 10289 & 10702\\
+    \hline
     \end{array}$$
+
+
 
     Le nuage de points de coordonnées $(x_i;y_i)$ est donné ci-dessous :
 

@@ -58,9 +58,17 @@ tags:
 
     Reprenons l'exemple 1 : 
 
-    |Prix proposé en milliers d’euros $x_i$ | 40 | 36 | 32 | 28 | 24 | 20 | 16 | 12 | 10 | 8 |
-	|:---|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-    |Nb d’entreprises disposées à acheter à ce prix $y_i$ | 60 | 70 | 130 | 210 | 240 | 340 | 390 | 420 | 440 | 500 |
+    * $x_i$ est le prix proposé en milliers d’euros
+    * $y_i$ est le nombre d’entreprises disposées à acheter à ce prix 
+
+    \begin{array}{|l|c|c|c|c|c|c|c|c|c|c|}
+	\hline
+	x_i & 40 & 36 & 32 & 28 & 24 & 20 & 16 & 12 & 10 & 8 \\ 
+    \hline
+	y_i & 60 & 70 & 130 & 210 & 240 & 340 & 390 & 420 & 440 & 500 \\ 
+    \hline
+    \end{array}
+
 
     Si on place dans un repère les points $M_i (x_i;y_i)$, le graphique obtenu est appelé **nuage de points** de la série statistique.
     
