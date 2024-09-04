@@ -120,7 +120,7 @@ tags:
 
 ## Exercice 3
 
-A venir ...
+À venir ...
 
 ???+ question "Exercice 3"
 
@@ -132,9 +132,9 @@ A venir ...
 
     $$\begin{array}{|l|c|c|c|c|c|c|}
     \hline
-	$x_i$  & 200 & 250 & 300 & 350  & 450 & 500 \\
+	x_i  & 200 & 250 & 300 & 350  & 450 & 500 \\
     \hline
-	$y_i$ & 632 & 475 & 305 & 275 & 266 & 234 \\
+	y_i & 632 & 475 & 305 & 275 & 266 & 234 \\
     \hline
 	\end{array}$$
 
@@ -152,19 +152,19 @@ A venir ...
 
     $$\begin{array}{|l|c|c|c|c|c|c|}
     \hline
-			$x_i$ (en €) & 200 & 250 & 300 & 350  & 450 & 500 \\
-            \hline
-			$z_i = \ln(y_i)$ & 6,449 & 6,163 &  &  &  &  \\
-            \hline
+	$x_i$  & 200 & 250 & 300 & 350  & 450 & 500 \\
+    \hline
+	$z_i = \ln(y_i)$ & 6,449 & 6,163 &  &  &  &  \\
+    \hline
 	\end{array}$$
 
     ??? success "Solution"
 
         $$\begin{array}{|l|c|c|c|c|c|c|}
         \hline
-			$x_i$ (en €) & 200 & 250 & 300 & 350  & 450 & 500 \\
+			$x_i$  & 200 & 250 & 300 & 350  & 450 & 500 \\
             \hline
-			$z_i = \ln(y_i)$ & $6,449$ & $6,163$ & \Arrondi[3]{log(305)} & \Arrondi[3]{log(275)} & \Arrondi[3]{log(266)} & \Arrondi[3]{log(234)}  \\
+			$z_i = \ln(y_i)$ & $6,449$ & $6,163$ & 5,720 & 5,617 & 5,583 & 5,455  \\
             \hline
 		\end{array}$$
 
@@ -189,7 +189,7 @@ A venir ...
 
     ??? success "Solution"
 
-        La méthode des moindres carrés nous donne $ a \approx -0,003$ et $b \approx 6,86$.
+        La méthode des moindres carrés nous donne $a \approx -0,003$ et $b \approx 6,86$.
 
         On en déduit: $z=-0,003x+8,86$ 
 
@@ -199,7 +199,11 @@ A venir ...
 
     ??? success "Solution"
 
-        $z=-0,003x+8,86 \Rightarrow \ln(y) = -0,003x+8,86 \Rightarrow y = \e^{-0,003x+8,86} = \e^{-0,003x}\times\underbrace{\e^{8,86}}_{953} \approx 953\,\e^{-0,003x}$.
+        $z=-0,003x+8,86$
+        
+        donc $ln(y) = -0,003x+8,86$
+        
+        donc $y = \text{e}^{-0,003x+8,86} = \text{e}^{-0,003x}\times\underbrace{\text{e}^{8,86}}_{953} \approx 953\,\text{e}^{-0,003x}$.
 
         
 
@@ -209,7 +213,7 @@ A venir ...
 
     ??? success "Solution"
 
-        Pour $x=400$, on a $y=953\times\e^{-0,003\times400} \approx 287$, soit 287 d'acheteurs potentiels si le prix de vente est fixé à 400 €.
+        Pour $x=400$, on a $y=953\times\text{e}^{-0,003\times400} \approx 287$, soit 287 acheteurs potentiels si le prix de vente est fixé à 400 €.
     
 
 
