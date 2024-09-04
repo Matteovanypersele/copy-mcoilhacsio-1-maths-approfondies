@@ -122,6 +122,8 @@ tags:
 
 À venir ...
 
+<!-- 
+
 ???+ question "Exercice 3"
 
     Dans le tableau suivant figure une partie des résultats d'une enquête réalisée par une entreprise pour 
@@ -218,7 +220,7 @@ tags:
     
 
 
-
+-->
 
 
 
