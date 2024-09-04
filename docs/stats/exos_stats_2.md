@@ -152,9 +152,9 @@ tags:
 
     $$\begin{array}{|l|c|c|c|c|c|c|}
     \hline
-	$x_i$  & 200 & 250 & 300 & 350  & 450 & 500 \\
+	x_i  & 200 & 250 & 300 & 350  & 450 & 500 \\
     \hline
-	$z_i = \ln(y_i)$ & 6,449 & 6,163 &  &  &  &  \\
+	z_i = \ln(y_i) & 6,449 & 6,163 &  &  &  &  \\
     \hline
 	\end{array}$$
 
@@ -162,9 +162,9 @@ tags:
 
         $$\begin{array}{|l|c|c|c|c|c|c|}
         \hline
-			$x_i$  & 200 & 250 & 300 & 350  & 450 & 500 \\
+			x_i  & 200 & 250 & 300 & 350  & 450 & 500 \\
             \hline
-			$z_i = \ln(y_i)$ & $6,449$ & $6,163$ & 5,720 & 5,617 & 5,583 & 5,455  \\
+			z_i = \ln(y_i) & 6,449 & 6,163 & 5,720 & 5,617 & 5,583 & 5,455  \\
             \hline
 		\end{array}$$
 
@@ -185,7 +185,8 @@ tags:
     **4.** Question 4
 
     Donner, par la méthode des moindres carrés, une équation de la droite de régression de $z$ en $x$, sous la forme $z = ax+b$ 
-    ($a$ sera donné à $10^{-4}$ près par excès et $b$ à $10^{-2}$ près par excès).
+
+    $a$ sera donné à $10^{-4}$ près par excès et $b$ à $10^{-2}$ près par excès.
 
     ??? success "Solution"
 
@@ -195,13 +196,13 @@ tags:
 
     **5.** Question 5  
 
-    En déduire une estimation du nombre d'acheteurs potentiels $y_i$ en fonction de $x_i$ sous la forme $y = k\,\e^{-\lambda x}$ où $k$ et $\lambda$ sont des constantes ($k$ sera arrondi à l'entier le plus proche).
+    En déduire une estimation du nombre d'acheteurs potentiels $y_i$ en fonction de $x_i$ sous la forme $y = k \text{e}^{-\lambda x}$ où $k$ et $\lambda$ sont des constantes ($k$ sera arrondi à l'entier le plus proche).
 
     ??? success "Solution"
 
         $z=-0,003x+8,86$
         
-        donc $ln(y) = -0,003x+8,86$
+        donc $\text{ln}(y) = -0,003x+8,86$
         
         donc $y = \text{e}^{-0,003x+8,86} = \text{e}^{-0,003x}\times\underbrace{\text{e}^{8,86}}_{953} \approx 953\,\text{e}^{-0,003x}$.
 
