@@ -118,6 +118,110 @@ tags:
 	
 	    Ainsi on on obtient une estimation de 12800 millions de tonnes.
 
+## Exercice 3
+
+A venir ...
+
+???+ question "Exercice 3"
+
+    Dans le tableau suivant figure une partie des résultats d'une enquête réalisée par une entreprise pour 
+    déterminer le nombre d'acheteurs potentiels de ce nouveau produit en fonction de son prix de vente :
+
+    * $x_i$ est le prix de vente en euros
+    * $y_i$ est le nombre d'acheteurs potentiels
+
+    $$\begin{array}{|l|c|c|c|c|c|c|}
+    \hline
+	$x_i$  & 200 & 250 & 300 & 350  & 450 & 500 \\
+    \hline
+	$y_i$ & 632 & 475 & 305 & 275 & 266 & 234 \\
+    \hline
+	\end{array}$$
+
+    **1.** Question 1
+    Est-il judicieux de réaliser un ajustement affine pour ce nuage ?
+
+    ??? success "Solution"
+
+        A venir
+
+    **2.** Question 2   
+    on effectue le changement de variable $z_i = \ln( y_i)$.
+
+    Recopier et compléter le tableau de valeurs suivant (les valeurs demandées seront arrondies au millième) :
+
+    $$\begin{array}{|l|c|c|c|c|c|c|}
+    \hline
+			$x_i$ (en €) & 200 & 250 & 300 & 350  & 450 & 500 \\
+            \hline
+			$z_i = \ln(y_i)$ & 6,449 & 6,163 &  &  &  &  \\
+            \hline
+	\end{array}$$
+
+    ??? success "Solution"
+
+        $$\begin{array}{|l|c|c|c|c|c|c|}
+        \hline
+			$x_i$ (en €) & 200 & 250 & 300 & 350  & 450 & 500 \\
+            \hline
+			$z_i = \ln(y_i)$ & $6,449$ & $6,163$ & \Arrondi[3]{log(305)} & \Arrondi[3]{log(275)} & \Arrondi[3]{log(266)} & \Arrondi[3]{log(234)}  \\
+            \hline
+		\end{array}$$
+
+
+    **3.** Question 3
+
+    Donner une valeur approchée à $10^{-2}$ près du coefficient de corrélation linéaire de la série statistique $(x_i;z_i)$.
+	
+	Le résultat obtenu permet d'envisager un ajustement affine ?
+
+    ??? success "Solution"
+
+        La calculatrice nous donne $r \approx -0,90$ proche de $-1$.
+	
+	    Donc le résultat obtenu permet d'envisager un ajustement affine.
+
+
+    **4.** Question 4
+
+    Donner, par la méthode des moindres carrés, une équation de la droite de régression de $z$ en $x$, sous la forme $z = ax+b$ 
+    ($a$ sera donné à $10^{-4}$ près par excès et $b$ à $10^{-2}$ près par excès).
+
+    ??? success "Solution"
+
+        La méthode des moindres carrés nous donne $ a \approx -0,003$ et $b \approx 6,86$.
+
+        On en déduit: $z=-0,003x+8,86$ 
+
+    **5.** Question 5  
+
+    En déduire une estimation du nombre d'acheteurs potentiels $y_i$ en fonction de $x_i$ sous la forme $y = k\,\e^{-\lambda x}$ où $k$ et $\lambda$ sont des constantes ($k$ sera arrondi à l'entier le plus proche).
+
+    ??? success "Solution"
+
+        $z=-0,003x+8,86 \Rightarrow \ln(y) = -0,003x+8,86 \Rightarrow y = \e^{-0,003x+8,86} = \e^{-0,003x}\times\underbrace{\e^{8,86}}_{953} \approx 953\,\e^{-0,003x}$.
+
+        
+
+    **6.** Question 6
+
+    Utiliser cette estimation pour déterminer le nombre d'acheteurs potentiels si le prix de vente est fixé à 400 €.
+
+    ??? success "Solution"
+
+        Pour $x=400$, on a $y=953\times\e^{-0,003\times400} \approx 287$, soit 287 d'acheteurs potentiels si le prix de vente est fixé à 400 €.
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
 
