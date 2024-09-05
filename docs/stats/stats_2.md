@@ -72,7 +72,7 @@ tags:
 
     Si on place dans un repère les points $M_i (x_i;y_i)$, le graphique obtenu est appelé **nuage de points** de la série statistique.
     
-    ⚠️ On ne doit pas relier ces points !.
+    ⚠️ On ne doit pas relier ces points !
 
     ![exemple 1](images/exemple_1.png){ width=30% }
 

@@ -11,9 +11,21 @@ tags:
 
     Lors d'une enquête réalisée auprès de 500 personnes, on a estimé le nombre de personnes prêtes à acheter un nouveau produit en fonction du prix de ce produit :
 
+    * $x_i$ est le prix proposé en euros
+    * $y_i$ est le ombre d'acheteurs potentiels
+    
     Prix proposé en euros ($x_i$) | 52 | 47 | 44 | $38,5$ | $35,5$ | 32 | 31 | 28 |
     |:---|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 	Nombre d'acheteurs potentiels ($y_i$) | 80 | 125 | 145 | 200 | 225 | 250 | 265 | 280|
+
+    $$\begin{array}{|l|c|c|c|c|c|c|c|c|}
+    \hline
+	x_i & 52 & 47 & 44 & 38,5 & 35,5 & 32 & 31 & 28 \\
+    \hline
+	y_i &80& 125& 145& 200& 225& 250& 265& 280\\
+    \hline
+    \end{array}$$
+
 
     **1.** Question 1  
     Représenter **à la main sur votre feuille** le nuage de points $(x_i;y_i)$ en prenant 1 cm pour 5 euros en abscisse (de 15 à 60) et 1 cm pour 50 personnes en ordonnée (de 0 à 400).
