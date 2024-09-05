@@ -14,10 +14,6 @@ tags:
     * $x_i$ est le prix proposé en euros
     * $y_i$ est le ombre d'acheteurs potentiels
     
-    Prix proposé en euros ($x_i$) | 52 | 47 | 44 | $38,5$ | $35,5$ | 32 | 31 | 28 |
-    |:---|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-	Nombre d'acheteurs potentiels ($y_i$) | 80 | 125 | 145 | 200 | 225 | 250 | 265 | 280|
-
     $$\begin{array}{|l|c|c|c|c|c|c|c|c|}
     \hline
 	x_i & 52 & 47 & 44 & 38,5 & 35,5 & 32 & 31 & 28 \\
