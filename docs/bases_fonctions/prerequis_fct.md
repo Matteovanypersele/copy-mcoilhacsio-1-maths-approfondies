@@ -5,9 +5,19 @@ tags:
     - fonctions
 ---
 
+## Généralités sur les fonctions
+
+[Généralités sur les fonctions - Prérequis](a_telecharger/generalites_fonctions.pdf){ .md-button target="_blank" rel="noopener" }
+
+[Exercices : Généralités sur les fonctions](a_telecharger/generalites_fcts_sujet.pdf){ .md-button target="_blank" rel="noopener" }
+
+[Correction des exercices : Généralités sur les fonctions](a_telecharger/generalites_fcts_sujet.pdf){ .md-button target="_blank" rel="noopener" }
+
+
+
 ## Dérivées usuelles
 
-
+À venir
 
 ## Etude d'une fonction polynôme du troisième degré
 
@@ -23,3 +33,7 @@ tags:
 ## Cours complet sur les études de fonctions
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2Owr18MregQ?si=Oyrtkeb2WUVYZAqW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Crédits
+
+D'après des documents de Cédric Pierquet.
