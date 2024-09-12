@@ -64,7 +64,7 @@ tags:
         Grâce à cet ajustement on voit que :
     
         * Le prix maximal que l'on doit proposer pour que plus de 60 % des personnes interrogées (soit 300) soient prêtes à l'acheter est d'environ 26 €.
-        * Au-delà de 56 €, le taux d'acheteurs potentiels tombe sous 50 %.
+        * Au-delà de 56 €, le taux d'acheteurs potentiels tombe sous 10 %.
 
 ## Exercice 2
 
