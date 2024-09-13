@@ -11,7 +11,7 @@ tags:
 
 [Exercices : Généralités sur les fonctions](a_telecharger/generalites_fcts_sujet.pdf){ .md-button target="_blank" rel="noopener" }
 
-[Correction des exercices : Généralités sur les fonctions](a_telecharger/generalites_fcts_corr.pdf){ .md-button target="_blank" rel="noopener" }
+[Correction des exercices : Généralités sur les fonctions](a_telecharger/generalites_fonctions_correction.pdf){ .md-button target="_blank" rel="noopener" }
 
 
 
