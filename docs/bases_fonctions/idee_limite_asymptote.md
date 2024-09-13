@@ -49,39 +49,51 @@ tags:
 
     Observons la représentation graphique de la fonction $f$.
 
-    ![inf_en_3_moins.PNG](images/inf_en_3_moins.PNG){ width=10% }
+    ![inf_en_3_moins.PNG](images/inf_en_3_moins.PNG){ width=15% }
 
     Lorsque $x$ devient de plus en plus proche de 3, en restant inférieur à 3, on voit que $f(x)$ se "rapproche" de $+ \infty$.   
     On dit que lorsque $x$ **tend** vers 3 en étant inférieur 3, alors $f(x)$  **tend** vers $+ \infty$.  
 
     !!! info "Notation"
 
-    On note : 
-        
-    $$
-    \lim_{\substack{x\to 3 \\ x<3}} f(x) = +\infty
-    $$
+        On note : 
+            
+        $$
+        \lim_{\substack{x\to 3 \\ x<3}} f(x) = +\infty
+        $$
 
-    On lit : "la limite lorsque $x$ tend vers 3 avec $x$ inférieur 3, de $f(x)$ est égale à $+\infty$"
+        On lit : "la limite lorsque $x$ tend vers 3 avec $x$ inférieur 3, de $f(x)$ est égale à $+\infty$"
+
+    !!! info "Asymptote"
+
+        On observe que la courbe représentative de la fontion $f$ notée $C_f$ "s'approche" de plus en plus de la droite d'équation $x=3$ lorsque $x$ tend vers 3.
+
+        **On dit que la droite d'équation $x=3$ est une asymptote verticale à la courbe $C_f$**
 
 
 ???+ question "Un quatrième exemple"
 
     Observons la représentation graphique de la fonction $f$.
 
-    ![inf_en_3_plus.PNG](images/inf_en_3_plus.PNG){ width=10% }
+    ![inf_en_3_plus.PNG](images/inf_en_3_plus.PNG){ width=15% }
 
     Lorsque $x$ devient de plus en plus proche de 3, en restant supérieur à 3, on voit que $f(x)$ se "rapproche" de $+ \infty$.   
     On dit que lorsque $x$ **tend** vers 3 en étant supérieur à 3, alors $f(x)$  **tend** vers $+ \infty$.  
 
     !!! info "Notation"
 
-    On note : 
-        
-    $$
-    \lim_{\substack{x\to 3 \\ x>3}} f(x) = +\infty
-    $$
+        On note : 
+            
+        $$
+        \lim_{\substack{x\to 3 \\ x>3}} f(x) = +\infty
+        $$
 
-    On lit : "la limite lorsque $x$ tend vers 3 avec $x$ supérieur à 3, de $f(x)$ est égale à $+\infty$"
+        On lit : "la limite lorsque $x$ tend vers 3 avec $x$ supérieur à 3, de $f(x)$ est égale à $+\infty$"
+
+    !!! info "Asymptote"
+
+        On observe que la courbe représentative de la fontion $f$ notée $C_f$ "s'approche" de plus en plus de la droite d'équation $x=3$ lorsque $x$ tend vers 3.
+
+        **On dit que la droite d'équation $x=3$ est une asymptote verticale à la courbe $C_f$**
 
 
