@@ -18,6 +18,9 @@ On note :
 
 !!! info "Premier exemple"
 
-    On note : $$\lim_{x\to +\infty} f(x) = -\infty$$
+    On note : 
+    $$
+    \lim_{x\to +\infty} f(x) = -\infty
+    $$
 
     On lit : "la limite lorsque $x$ tend vers $+\infty$ de $f(x)$ est égale à $-\infty$"
