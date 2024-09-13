@@ -19,6 +19,7 @@ On note :
 !!! info "Premier exemple"
 
     On note : 
+    
     $$
     \lim_{x\to +\infty} f(x) = -\infty
     $$
