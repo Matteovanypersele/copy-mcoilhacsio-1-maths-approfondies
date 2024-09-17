@@ -96,4 +96,154 @@ tags:
 
         **On dit que la droite d'équation $x=3$ est une asymptote verticale à la courbe $C_f$**
 
+???+ question "Un cinquième exemple"
+
+    Observons la représentation graphique de la fonction $f$.
+
+    ![moins_inf_en_3_moins.PNG](images/moins_inf_en_3_moins.PNG){ width=15% }
+
+    Quelle limite peut-on observer ?
+
+    ??? success "Solution"
+
+        Lorsque $x$ devient de plus en plus proche de 3, en restant inférieur à 3, on voit que $f(x)$ se "rapproche" de $- \infty$.   
+        On dit que lorsque $x$ **tend** vers 3 en étant inférieur à 3, alors $f(x)$  **tend** vers $- \infty$.  
+
+        !!! info "Notation"
+
+            On note : 
+                
+            $$
+            \lim_{\substack{x\to 3 \\ x<3}} f(x) = -\infty
+            $$
+
+            On lit : "la limite lorsque $x$ tend vers 3 avec $x$ inférieur à 3, de $f(x)$ est égale à $-\infty$"
+
+    Donner une asymptote à la courbe $C_f$.
+
+    ??? success "Solution"
+
+        On observe que la courbe représentative de la fontion $f$ notée $C_f$ "s'approche" de plus en plus de la droite d'équation $x=3$ lorsque $x$ tend vers 3.
+
+        **On dit que la droite d'équation $x=3$ est une asymptote verticale à la courbe $C_f$**
+
+???+ question "Un sixième exemple"
+
+    Observons la représentation graphique de la fonction $f$.
+
+    ![moins_inf_en_moins_inf.PNG](images/moins_inf_en_moins_inf.PNG){ width=15% }
+
+    Quelle limite peut-on observer ? Donner la notation correspondante.
+
+    ??? success "Solution"
+
+        On note : 
+
+        $$
+        \lim_{x\to -\infty} f(x) = -\infty
+        $$
+
+
+???+ question "Un septième exemple"
+
+    Observons la représentation graphique de la fonction $f$.
+
+    ![moins_inf_en_plus_inf.PNG](images/moins_inf_en_plus_inf.PNG){ width=15% }
+
+    Quelle limite peut-on observer ? Donner la notation correspondante.
+
+    ??? success "Solution"
+
+        On note : 
+
+        $$
+        \lim_{x\to +\infty} f(x) = -\infty
+        $$
+
+## II. Pas de limite
+
+
+???+ question "Un huitième exemple"
+
+    Observons la représentation graphique de la fonction $f$.
+
+    ![pas_lim.PNG](images/pas_lim.PNG){ width=15% }
+
+    !!! info "Pas de limite"
+
+        La fonction $f$ n'a pas de limite en $+ \infty$
+
+???+ question "Un neuvième exemple"
+
+    Observons la représentation graphique de la fonction $f$.
+
+    ![pas_lim_moin_inf.PNG](images/pas_lim_moin_inf.PNG){ width=15% }
+
+    !!! info "Pas de limite"
+
+        La fonction $f$ n'a pas de limite en $- \infty$
+
+
+## III. Limites finies
+
+???+ question "Un dixième exemple"
+
+    Observons la représentation graphique de la fonction $f$.
+
+    ![deux_en_moins_inf.PNG](images/deux_en_moins_inf.PNG){ width=15% }
+
+    Lorsque $x$ tend vers $- \infty$, on voit que $f(x)$ se "rapproche" de 2.   
+    On dit que lorsque $x$ **tend** vers $- \infty$, alors $f(x)$  **tend** vers 2.  
+
+    On note : 
+
+    !!! info "Notation"
+
+        On note : 
+        
+        $$
+        \lim_{x\to -\infty} f(x) = 2
+        $$
+
+        On lit : "la limite lorsque $x$ tend vers $-\infty$ de $f(x)$ est égale à 2"
+
+???+ question "Un onzième exemple"
+
+    Observons la représentation graphique de la fonction $f$.
+
+    ![moins_deux_en_plus_inf.PNG](images/moins_deux_en_plus_inf.PNG){ width=15% }
+
+    Donner la limite que l'on peut pbserver. En donner la notation.
+    
+
+    ??? success "Solution"
+
+        On note : 
+        
+        $$
+        \lim_{x\to +\infty} f(x) = -2
+        $$
+
+        On lit : "la limite lorsque $x$ tend vers $+\infty$ de $f(x)$ est égale à -2"
+
+???+ question "Un douzième exemple"
+
+    Observons la représentation graphique de la fonction $f$.
+
+    ![oscille_5.PNG](images/oscille_5.PNG){ width=15% }
+
+    Donner la limite que l'on peut pbserver. En donner la notation.
+
+    ??? success "Solution"
+
+        On note : 
+        
+        $$
+        \lim_{x\to +\infty} f(x) = 5
+        $$
+    
+    
+
+
+
 
