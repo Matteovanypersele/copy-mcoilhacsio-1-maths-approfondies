@@ -275,33 +275,33 @@ tags:
 
     **1.** Observons la représentation graphique de la fonction $f$.
 
-        ![oscille_inf.png](images/oscille_inf.png){ width=30% }
+    ![oscille_inf.png](images/oscille_inf.png){ width=30% }
 
-        Donner la ou les limites que l'on peut observer, et s'il y en a les équations des asymptotes à la courbe.
+    Donner la ou les limites que l'on peut observer, et s'il y en a les équations des asymptotes à la courbe.
 
-        ??? success "Solution"
+    ??? success "Solution"
 
-            ...
-
+        ...
+        
     **2.** Observons la représentation graphique de la fonction $f$.
 
-        ![trois_asympt.png](images/trois_asympt.png){ width=30% }
+    ![trois_asympt.png](images/trois_asympt.png){ width=30% }
 
-        Donner la ou les limites que l'on peut observer, et s'il y en a les équations des asymptotes à la courbe.
+    Donner la ou les limites que l'on peut observer, et s'il y en a les équations des asymptotes à la courbe.
 
-        ??? success "Solution"
+    ??? success "Solution"
 
-            ...
+        ...
 
     **3.** Observons la représentation graphique de la fonction $f$.
 
-        ![oscille_inf.png](images/oscille_inf.png){ width=30% }
+    ![oscille_inf.png](images/oscille_inf.png){ width=30% }
 
-        Donner la ou les limites que l'on peut observer, et s'il y en a les équations des asymptotes à la courbe.
+    Donner la ou les limites que l'on peut observer, et s'il y en a les équations des asymptotes à la courbe.
 
-        ??? success "Solution"
+    ??? success "Solution"
 
-            ...
+        ...
 
 
 
