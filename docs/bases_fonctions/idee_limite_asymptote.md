@@ -190,7 +190,7 @@ tags:
 
     Observons la représentation graphique de la fonction $f$.
 
-    ![deux_en_moins_inf.PNG](images/deux_en_moins_inf.PNG){ width=20% }
+    ![deux_en_moins_inf.PNG](images/deux_en_moins_inf.PNG){ width=25% }
 
     Lorsque $x$ tend vers $- \infty$, on voit que $f(x)$ se "rapproche" de 2.   
     On dit que lorsque $x$ **tend** vers $- \infty$, alors $f(x)$  **tend** vers 2.  
@@ -211,13 +211,13 @@ tags:
 
         On observe que la courbe représentative de la fontion $f$ notée $C_f$ "s'approche" de plus en plus de la droite d'équation $y=2$ lorsque $x$ tend vers $- \infty$.
 
-        **On dit que la droite d'équation $y=2$ est une asymptote horizontale à la courbe $C_f$** en $- \infty$**
+        **On dit que la droite d'équation $y=2$ est une asymptote horizontale à la courbe $C_f$ en $- \infty$**
 
 ???+ question "Un onzième exemple"
 
     Observons la représentation graphique de la fonction $f$.
 
-    ![moins_2_en_plus_inf.PNG](images/moins_2_en_plus_inf.PNG){ width=20% }
+    ![moins_2_en_plus_inf.PNG](images/moins_2_en_plus_inf.PNG){ width=25% }
 
     Donner la limite que l'on peut observer. En donner la notation.
     
@@ -244,9 +244,9 @@ tags:
 
     Observons la représentation graphique de la fonction $f$.
 
-    ![oscille_5.PNG](images/oscille_5.PNG){ width=25% }
+    ![oscille_5.PNG](images/oscille_5.PNG){ width=40% }
 
-    Donner la limite que l'on peut pbserver. En donner la notation.
+    Donner la limite que l'on peut observer. En donner la notation.
 
     ??? success "Solution"
 
@@ -256,6 +256,11 @@ tags:
         \lim_{x\to +\infty} f(x) = 5
         $$
     
+    Quelle asymptote observe-t-on ?
+
+    ??? success "Solution"
+
+        **On dit que la droite d'équation $y=5$ est une asymptote horizontale à la courbe $C_f$ en $+ \infty$**
     
 
 
