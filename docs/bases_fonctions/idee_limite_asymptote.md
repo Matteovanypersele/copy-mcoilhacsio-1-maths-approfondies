@@ -263,6 +263,47 @@ tags:
         **On dit que la droite d'équation $y=5$ est une asymptote horizontale à la courbe $C_f$ en $+ \infty$**
     
 
+## IV. Bilan
+
+[Quelques vidéos](https://jaicompris.com/lycee/math/fonction/limite-fonction-graphique.php){ .md-button target="_blank" rel="noopener" }
+
+
+## V. Exercices
+
+
+???+ question "Exercice"
+
+**1.** Observons la représentation graphique de la fonction $f$.
+
+    ![oscille_inf.png](images/oscille_inf.png){ width=30% }
+
+    Donner la ou les limites que l'on peut observer, et s'il y en a les équations des asymptotes à la courbe.
+
+    ??? success "Solution"
+
+        ...
+
+**2.** Observons la représentation graphique de la fonction $f$.
+
+    ![trois_asympt.png](images/trois_asympt.png){ width=30% }
+
+    Donner la ou les limites que l'on peut observer, et s'il y en a les équations des asymptotes à la courbe.
+
+    ??? success "Solution"
+
+        ...
+
+**3.** Observons la représentation graphique de la fonction $f$.
+
+    ![oscille_inf.png](images/oscille_inf.png){ width=30% }
+
+    Donner la ou les limites que l'on peut observer, et s'il y en a les équations des asymptotes à la courbe.
+
+    ??? success "Solution"
+
+        ...
+
+
 
 
 
