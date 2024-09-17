@@ -177,7 +177,7 @@ tags:
 
     Observons la représentation graphique de la fonction $f$.
 
-    ![pas_lim_moin_inf.PNG](images/pas_lim_moin_inf.PNG){ width=15% }
+    ![pas_lim_moins_inf.PNG](images/pas_lim_moins_inf.PNG){ width=15% }
 
     !!! info "Pas de limite"
 
@@ -190,7 +190,7 @@ tags:
 
     Observons la représentation graphique de la fonction $f$.
 
-    ![deux_en_moins_inf.PNG](images/deux_en_moins_inf.PNG){ width=15% }
+    ![deux_en_moins_inf.PNG](images/deux_en_moins_inf.PNG){ width=20% }
 
     Lorsque $x$ tend vers $- \infty$, on voit que $f(x)$ se "rapproche" de 2.   
     On dit que lorsque $x$ **tend** vers $- \infty$, alors $f(x)$  **tend** vers 2.  
@@ -207,13 +207,19 @@ tags:
 
         On lit : "la limite lorsque $x$ tend vers $-\infty$ de $f(x)$ est égale à 2"
 
+    !!! info "Asymptote"
+
+        On observe que la courbe représentative de la fontion $f$ notée $C_f$ "s'approche" de plus en plus de la droite d'équation $y=2$ lorsque $x$ tend vers $- \infty$.
+
+        **On dit que la droite d'équation $y=2$ est une asymptote horizontale à la courbe $C_f$** en $- \infty$**
+
 ???+ question "Un onzième exemple"
 
     Observons la représentation graphique de la fonction $f$.
 
-    ![moins_deux_en_plus_inf.PNG](images/moins_deux_en_plus_inf.PNG){ width=15% }
+    ![moins_2_en_plus_inf.PNG](images/moins_2_en_plus_inf.PNG){ width=20% }
 
-    Donner la limite que l'on peut pbserver. En donner la notation.
+    Donner la limite que l'on peut observer. En donner la notation.
     
 
     ??? success "Solution"
@@ -226,11 +232,19 @@ tags:
 
         On lit : "la limite lorsque $x$ tend vers $+\infty$ de $f(x)$ est égale à -2"
 
+    Quelle asymptote observe-t-on ?
+
+    ??? success "Solution"
+
+        **On dit que la droite d'équation $y=-2$ est une asymptote horizontale à la courbe $C_f$ en $+ \infty$**
+
+
+
 ???+ question "Un douzième exemple"
 
     Observons la représentation graphique de la fonction $f$.
 
-    ![oscille_5.PNG](images/oscille_5.PNG){ width=15% }
+    ![oscille_5.PNG](images/oscille_5.PNG){ width=25% }
 
     Donner la limite que l'on peut pbserver. En donner la notation.
 
