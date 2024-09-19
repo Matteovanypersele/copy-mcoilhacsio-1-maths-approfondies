@@ -49,7 +49,7 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
 
 !!! info "La fonction exponentielle"
 
-    Il existe une unique fonction $f$ définie et dérivable sur $\R$ telle que
+    Il existe une unique fonction $f$ définie et dérivable sur $\mathbb{R}$ telle que
     $f(0)=1$ et $f'=f$. 
 
     Cette fonction est appelée exponentielle. 
@@ -65,6 +65,25 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
 !!! info "Représentation graphique"
 
     ![expo.png](images/expo.png){ width=40% }
+    
+
+???+ question "Signe de $f(x)=\text{e}^x$
+
+    Observer la figure précédente, et donner le signe de $f(x)=\text{e}^x pour tout réel $x$.
+
+    ??? success "Solution"
+
+        On observe que la courbe représentative de la fonction exponentielle est au dessus de l'axe des abscisses.
+
+        On en déduit que pour tout réel $x$ $text{e}^x >0$
+
+??? note "À savoir : signe de $text{e}^x$"
+
+    Pour tout réel $x$ $text{e}^x >0$
+
+
+
+
 
 ## III. Relations fonctionnelles
 
