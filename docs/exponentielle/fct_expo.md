@@ -15,7 +15,7 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
 ??? note "Les entiers relatifs"
 
     * L'ensemble ds entiers relatifs se note $\mathbb{Z}$
-    * $p \in \mathbb{Z}$ signifie que $p \in { ..., -3, -2, -1, 0, 1, 2, 3, ...}$
+    * $p \in \mathbb{Z}$ signifie que $p \in \{ ..., -3, -2, -1, 0, 1, 2, 3, ... \}$
 
 ???+ question "Visualiser"
 
@@ -43,7 +43,40 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
 
     ??? success "Solution"
 
-        ![nom image](images/3_puiss_p.png){ width=15% }
+        ![3_puiss_p.png](images/3_puiss_p.png){ width=15% }
+
+## II. Définition
+
+!!! info "La fonction exponentielle"
+
+    Il existe une unique fonction $f$ définie et dérivable sur $\R$ telle que
+    $f(0)=1$ et $f'=f$. 
+
+    Cette fonction est appelée exponentielle. 
+
+    On note $f(x)=\text{e}^x$
+
+!!! info "À retenir"
+
+    * La fonction exponentielle est dérivable sur $\mathbb{Z}$ et $(\text{e}^x)' = \text{e}^x$
+
+    * $\text{e}^0 = 1$
+
+!!! info "Représentation graphique"
+
+    ![expo.png](images/expo.png){ width=40% }
+
+## III. Relations fonctionnelles
+
+!!! info "À retenir"
+
+    * $\text{e}^{x+y} = \text{e}^x \times \text{e}^y$
+    * $\text{e}^{-x} = \dfrac{1}{\text{e}^x}$
+    * $\text{e}^{x-y} = \dfrac{\text{e}^x}{\text{e}^y}$
+    * $\text{e}^{nx} = (\text{e}^x)^n$
+
+
+
 
 
 
