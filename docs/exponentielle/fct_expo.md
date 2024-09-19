@@ -69,13 +69,13 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
 
 ???+ question "Signe de $f(x)=\text{e}^x$"
 
-    Observer la figure précédente, et donner le signe de $f(x)=\text{e}^x pour tout réel $x$.
+    Observer la figure précédente, et donner le signe de $f(x)=\text{e}^x$ pour tout réel $x$.
 
     ??? success "Solution"
 
         On observe que la courbe représentative de la fonction exponentielle est au dessus de l'axe des abscisses.
 
-        On en déduit que pour tout réel $x$ $text{e}^x >0$
+        On en déduit que pour tout réel $x$ on a $\text{e}^x >0$
 
 ??? note "À savoir : signe de $\text{e}^x$"
 
