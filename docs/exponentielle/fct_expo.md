@@ -65,9 +65,9 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
 !!! info "Représentation graphique"
 
     ![expo.png](images/expo.png){ width=40% }
-    
 
-???+ question "Signe de $f(x)=\text{e}^x$
+
+???+ question "Signe de $f(x)=\text{e}^x$"
 
     Observer la figure précédente, et donner le signe de $f(x)=\text{e}^x pour tout réel $x$.
 
@@ -77,9 +77,9 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
 
         On en déduit que pour tout réel $x$ $text{e}^x >0$
 
-??? note "À savoir : signe de $text{e}^x$"
+??? note "À savoir : signe de $\text{e}^x$"
 
-    Pour tout réel $x$ $text{e}^x >0$
+    Pour tout réel $x$ on a $\text{e}^x >0$
 
 
 
