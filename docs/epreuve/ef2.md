@@ -17,6 +17,7 @@ _Arrêté du 8 juillet 2024 modifiant l'arrêté du 29 avril 2019 modifié_
 ## 1. Finalités et objectifs
 
 Cette épreuve vise à évaluer les compétences acquises dans le cadre de l'unité UF2 : Mathématiques approfondies.
+
 Elle a pour objectifs :
 
 
