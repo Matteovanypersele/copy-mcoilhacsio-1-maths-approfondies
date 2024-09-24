@@ -20,26 +20,26 @@ Cette épreuve vise à évaluer les compétences acquises dans le cadre de l'uni
 Elle a pour objectifs :
 
 
--d'apprécier l'étendue des connaissances de la personne candidate et ses capacités à les mettre en œuvre ;
--de vérifier son aptitude au raisonnement et ses capacités à analyser correctement un problème, à justifier l'emploi des méthodes utilisées et à interpréter les résultats ;
--d'apprécier les capacités mises en œuvre dans le domaine de l'expression écrite et de l'utilisation des outils de calcul ou de représentation graphique.
+* d'apprécier l'étendue des connaissances de la personne candidate et ses capacités à les mettre en œuvre ;
+* de vérifier son aptitude au raisonnement et ses capacités à analyser correctement un problème, à justifier l'emploi des méthodes utilisées et à interpréter les résultats ;
+* d'apprécier les capacités mises en œuvre dans le domaine de l'expression écrite et de l'utilisation des outils de calcul ou de représentation graphique.
 
 
 ## 2. Contenu
+
 L'épreuve s'appuie sur un sujet comportant deux ou trois exercices couvrant une partie significative des modules d'analyse et des modules de probabilités et statistiques de l'unité de mathématiques approfondies, pour un total de 20 points.
 
 ## 3. Critères d'évaluation
+
 Les compétences attendues sont évaluées sur la base des critères suivants :
 
-
--maîtrise des connaissances figurant au programme ;
--pertinence des sources d'information mobilisées ;
--adaptation de la stratégie choisie au problème à résoudre ;
--efficacité dans la mise en œuvre de cette stratégie ;
--rigueur et pertinence dans l'utilisation des savoir-faire figurant au programme de mathématiques ;
--cohérence de l'argumentation employée ;
--rigueur et pertinence dans l'analyse d'un résultat ;
--qualité de la production écrite.
+* maîtrise des connaissances figurant au programme ;
+* pertinence des sources d'information mobilisées ;
+* efficacité dans la mise en œuvre de cette stratégie ;
+* rigueur et pertinence dans l'utilisation des savoir-faire figurant au programme de mathématiques ;
+* cohérence de l'argumentation employée ;
+* rigueur et pertinence dans l'analyse d'un résultat ;
+* qualité de la production écrite.
 
 
 ## 4. Modalités d'évaluation
