@@ -94,6 +94,13 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
     * $\text{e}^{x-y} = \dfrac{\text{e}^x}{\text{e}^y}$
     * $\text{e}^{nx} = (\text{e}^x)^n$
 
+???+ question "À vous de jouer"
+
+    [Exercices : relations fonctionnelles](https://coopmaths.fr/alea/?uuid=ce463&id=can1F26&n=5&d=10&s=1&s2=8&alea=zZzt&cd=1&uuid=9325e&id=1AN30-2&n=10&d=10&s=2&s2=8&alea=wb2Z&cd=1&uuid=ce463&id=can1F26&n=10&d=10&s=3&s2=8&alea=10Qo&cd=1&v=eleve&es=0111001&title=){ .md-button target="_blank" rel="noopener" }
+
+
+    
+
 
 
 
