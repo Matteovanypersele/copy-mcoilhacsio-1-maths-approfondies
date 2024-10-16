@@ -113,7 +113,7 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
 
         On en déduit le tableau de variations suivant : 
 
-        ![tableau de variation](images/var_expo.png){ width=20% }
+        ![tableau de variation](images/var_expo_def.png){ width=30% }
 
 ### 2. Fonction composée
 
@@ -139,7 +139,7 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
 
 
     $$
-    \lim_{x\to +\infty} \drac{\text{e}^x}{x} = +\infty
+    \lim_{x\to +\infty} \dfrac{\text{e}^x}{x} = +\infty
     $$
 
 
