@@ -99,7 +99,62 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
     [Exercices : relations fonctionnelles](https://coopmaths.fr/alea/?uuid=ce463&id=can1F26&n=5&d=10&s=1&s2=8&alea=zZzt&cd=1&uuid=9325e&id=1AN30-2&n=10&d=10&s=2&s2=8&alea=wb2Z&cd=1&uuid=ce463&id=can1F26&n=10&d=10&s=3&s2=8&alea=10Qo&cd=1&v=eleve&es=0111001&title=){ .md-button target="_blank" rel="noopener" }
 
 
-    
+## IV. Etude de la fonction exponentielle
+
+### 1. Sens de variation
+
+???+ question "Déterminer le sens de variation de la fonction exponentielle"
+
+    Pour tout $x$ réel $f(x)=\text{e}^x$. Déterminer le sens de variation de $f$
+
+    ??? success "Solution"
+
+        Pour tout $x$ réel nous avons $f'(x)==\text{e}^x$. Or nous avons vu que Pour tout $x$ réel $\text{e}^x> 0$
+
+        On en déduit le tableau de variations suivant : 
+
+        ![tableau de variation](images/var_expo.png){ width=20% }
+
+### 2. Fonction composée
+
+
+!!! info "$f(x)=\text{e}^{u(x)}$"
+
+    Soit $u$ une fonction dérivable sur $\mathbb{R}$
+
+    =$(\text{e}^{u(x)})'=u'(x)\text{e}^{u(x)}$
+
+### 3. Limites à connaître
+
+!!! info "À retenir"
+
+    $$
+    \lim_{x\to +\infty} \text{e}^x = +\infty
+    $$
+
+
+    $$
+    \lim_{x\to -\infty} \text{e}^x = 0
+    $$
+
+
+    $$
+    \lim_{x\to +\infty} \drac{\text{e}^x}{x} = +\infty
+    $$
+
+
+    $$
+    \lim_{x\to -\infty} x \text{e}^x = 0
+    $$
+
+    ??? tip "Astuce"
+
+        Retenir que "c'est la fonction exponentielle qui l'emporte"
+
+
+
+
+
 
 
 
