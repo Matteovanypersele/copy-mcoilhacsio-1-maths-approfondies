@@ -58,7 +58,7 @@ Nous allons nous intéresser à $3^p$ avec p un entier relatif.
 
 !!! info "À retenir"
 
-    * La fonction exponentielle est dérivable sur $\mathbb{Z}$ et $(\text{e}^x)' = \text{e}^x$
+    * La fonction exponentielle est dérivable sur $\mathbb{R}$ et $(\text{e}^x)' = \text{e}^x$
 
     * $\text{e}^0 = 1$
 
