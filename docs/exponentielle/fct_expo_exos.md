@@ -20,7 +20,7 @@ La réponse attendue est la c) car en plus de ce qui est expliqué $f(0)=-4$
 Les résultats intermédiaires de calculs de $x_1$ et $x_2$ sont faux. Il faut lire : 
 
 $$
-x_1=\dfrac{2-6}{-2}=2\\
+x_1=\dfrac{2-6}{-2}=2 \\
 x_2=\dfrac{2+6}{-2}=-4
 $$
 
