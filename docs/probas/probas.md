@@ -69,7 +69,7 @@ tags:
 
 ???+ question "Formule des probabilités totale"
 
-    Observer l'arbre ci-dessous, et en déduire $P(x)$ par la loi des probabilités totales.
+    Observer l'arbre ci-dessous, et en déduire $P(X)$ par la loi des probabilités totales.
 
     ??? note pliée "arbre à recopier et compléter"
 
