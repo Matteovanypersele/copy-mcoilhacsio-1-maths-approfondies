@@ -96,9 +96,14 @@ tags:
 
 
 
-
 ## III. Exercices sur les probabilités conditionnelles
 
 [Exercices sur les probabilités conditionnelles - Série 1](https://coopmaths.fr/alea/?uuid=9ccfd&id=1P10&n=4&d=10&s=false&s2=3&cd=1&v=eleve&es=0111001&title=){ .md-button target="_blank" rel="noopener" }
 
+[Exercices sur les probabilités conditionnelles - Série 2](a_telecharger/probas_exos.pdf){ .md-button target="_blank" rel="noopener" }
 
+[Exercices sur les probabilités conditionnelles - Série 2 - correction](a_telecharger/probas_exos_corr.pdf){ .md-button target="_blank" rel="noopener" }
+
+[Exercices sur les probabilités conditionnelles - Série 3](a_telecharger/probas_exos_II.pdf){ .md-button target="_blank" rel="noopener" }
+
+[Exercices sur les probabilités conditionnelles - Série 3 - correction](a_telecharger/probas_exos_II_corr.pdf){ .md-button target="_blank" rel="noopener" }
