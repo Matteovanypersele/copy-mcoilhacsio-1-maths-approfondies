@@ -102,6 +102,10 @@ tags:
 
 [Exercices sur les probabilités conditionnelles - Série 2](a_telecharger/probas_exos.pdf){ .md-button target="_blank" rel="noopener" }
 
+Attention il y a une petite erreur dans la correction. À l'exercice 2 question 4 lire : 
+
+$$P_S(A)=\dfrac{P(S \cap A)}{P(S)}$$
+
 [Exercices sur les probabilités conditionnelles - Série 2 - correction](a_telecharger/probas_exos_corr.pdf){ .md-button target="_blank" rel="noopener" }
 
 [Exercices sur les probabilités conditionnelles - Série 3](a_telecharger/probas_exos_II.pdf){ .md-button target="_blank" rel="noopener" }
