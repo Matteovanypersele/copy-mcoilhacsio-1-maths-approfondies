@@ -98,6 +98,26 @@ tags:
 
 ## III. Exercices sur les probabilités conditionnelles
 
+???+ question "Le vocabulaire"
+
+    **1.** Donner la caractérisation mathématique du fait que les événements $A$ et $B$ sont contraires.
+
+    ??? success "Solution"
+
+        $$P(B)=1-P(A)$$
+
+    **2.** Donner une caractérisation mathématique du fait que les événements $A$ et $B$ sont incompatibles.
+    
+    ??? success "Solution"
+
+        $$P(A \cap B)=0$$
+
+    **3.** Donner une caractérisation mathématique du fait que les événements $A$ et $B$ sont indépendants.
+    
+    ??? success "Solution"
+
+        $$P(A \cap B)=P(A) \times P(B)$$
+
 [Exercices sur les probabilités conditionnelles - Série 1](https://coopmaths.fr/alea/?uuid=9ccfd&id=1P10&n=4&d=10&s=false&s2=3&cd=1&v=eleve&es=0111001&title=){ .md-button target="_blank" rel="noopener" }
 
 [Exercices sur les probabilités conditionnelles - Série 2](a_telecharger/probas_exos.pdf){ .md-button target="_blank" rel="noopener" }
