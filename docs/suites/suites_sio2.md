@@ -59,7 +59,7 @@ tags:
 
 ## Exercices de synthèse
 
-Attention : petite erreur d'énoncé pour l'exercice 4D7 question 4, lire "Déterminer l'évolution de ..."
+Attention : l'exercice 4D7 comporte des erreurs. Ne pas le faire.
 
 [Exercices corrigés sur les suites géométriques](a_telecharger/exos_suites_geom.pdf.pdf){ .md-button target="_blank" rel="noopener" }
 
