@@ -19,7 +19,7 @@ tags:
 
     ??? success "Solution"
 
-        Si chaque année l'extraction est constante, les réserves (en millions de tonnes) forment une suite arithmétique de raison $-\np{250}$. On peut poser $u_0 = 13000$ pour les réserves en 1999. Puis $u_1$ en 2000, etc.
+        Si chaque année l'extraction est constante, les réserves (en millions de tonnes) forment une suite arithmétique de raison $-{250}$. On peut poser $u_0 = 13000$ pour les réserves en 1999. Puis $u_1$ en 2000, etc.
 
         Pour tout $n$, $u_n = u_0 -250n = 13000-250n$.
 
@@ -48,7 +48,7 @@ tags:
         On peut tâtonner avec la calculatrice jusqu'à dépasser 13000. Mais on n'y arrive pas.
 
         En fait l'inégalité s'écrit :
-        
+
         $$12500 \left(1-0,98^{n+1}\right) \geqslant 13000$$
 
         Le côté gauche est inférieur à 12500 pour tout $n$ : on ne dépassera jamais 13000. 
