@@ -121,7 +121,123 @@ tags:
 
 ???+ question "Exercice 2"
 
+    Recommencer cet exercice de très nombreuses fois, pour s'entraîner sur des situations différentes.
+
     <iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=H6/analysis/logexp1.fr&parm=cmd=new;exo=transflogexp;confparm1=1;confparm1=2;confparm1=3;confparm1=4;confparm1=5;confparm1=6;confparm1=7;confparm1=8;confparm1=9;confparm1=10;qnum=1;scoredelay=;seedrepeat=0;qcmlevel=1&option=noabout" width="100%" height="600"></iframe>
+
+
+## III Equations
+
+!!! info $a^x=k$ avec $a>0$ et $k>0$"
+
+    **1.** Écrire l'équation de départ :
+   
+    $a^x = k$
+
+
+    **2.** Prendre le logarithme des deux côtés du signe égale :
+   
+    $\ln(a^x) = \ln(k)$
+
+
+    **3.** Appliquer la propriété des logarithmes :
+
+    $x \cdot \ln(a) = \ln(k)$
+
+
+    **4.**Isoler \(x\) :
+   
+    $x = \frac{\ln(k)}{\ln(a)}$
+
+
+
+### Exemples concrets
+
+**Exemple 1 :** Résoudre \(2^x = 8\)
+
+   
+
+\[
+   2^x = 8
+   \]
+
+
+   Prenons le logarithme naturel des deux côtés :
+   
+
+\[
+   \ln(2^x) = \ln(8)
+   \]
+
+
+   Appliquons la propriété des logarithmes :
+   
+
+\[
+   x \cdot \ln(2) = \ln(8)
+   \]
+
+
+   Isolons \(x\) :
+   
+
+\[
+   x = \frac{\ln(8)}{\ln(2)}
+   \]
+
+
+   Comme \(\ln(8) = \ln(2^3) = 3 \cdot \ln(2)\), nous obtenons :
+   
+
+\[
+   x = \frac{3 \cdot \ln(2)}{\ln(2)} = 3
+   \]
+
+
+   Donc, la solution est \(x = 3\).
+
+**Exemple 2 :** Résoudre \(5^x = 125\)
+
+   
+
+\[
+   5^x = 125
+   \]
+
+
+   Prenons le logarithme naturel des deux côtés :
+   
+
+\[
+   \ln(5^x) = \ln(125)
+   \]
+
+
+   Appliquons la propriété des logarithmes :
+   
+
+\[
+   x \cdot \ln(5) = \ln(125)
+   \]
+
+
+   Isolons \(x\) :
+   
+
+\[
+   x = \frac{\ln(125)}{\ln(5)}
+   \]
+
+
+   Comme \(\ln(125) = \ln(5^3) = 3 \cdot \ln(5)\), nous obtenons :
+   
+
+\[
+   x = \frac{3 \cdot \ln(5)}{\ln(5)} = 3
+   \]
+
+
+   Donc, la solution est \(x = 3\).
 
 
 
