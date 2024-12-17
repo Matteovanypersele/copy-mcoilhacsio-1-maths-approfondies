@@ -153,7 +153,7 @@ tags:
     $x \cdot \ln(a) = \ln(k)$
 
 
-    **4.**Isoler \(x\) :
+    **4.** Isoler \(x\) :
    
     $x = \dfrac{\ln(k)}{\ln(a)}$
 
@@ -193,13 +193,13 @@ tags:
     x = \frac{3 \cdot \ln(2)}{\ln(2)} = 3
     \]
 
-    Donc, l'ensemble de solutions est \(S ={3} \).
+    Donc, l'ensemble de solutions est \(S =\{3\} \).
 
 !!! info "Pour les inéquations"
 
     Soit $a$ et $b$ deux réels avec $a>0$ et $b>0$
 
-    La fonction $\ln$ étant strictement croissante sur $]0; + \infty [$ ! 
+    La fonction $\ln$ étant strictement croissante sur $]0; + \infty [$ : 
 
     Si $a<b$ alors $\ln(a) < \ln(b)$
 
