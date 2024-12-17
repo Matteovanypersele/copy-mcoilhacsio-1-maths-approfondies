@@ -72,7 +72,7 @@ tags:
     Les fonctions exponentielle et logarithme népérien étant récipriques l'une de l'autre, leurs courbes 
     représentatives sont symétriques par rapport à la droite d'équation $y=x$
 
-    ![reciproques](images/expo_ln.png){ width=60% }
+    ![reciproques](images/expo_ln.png){ width=40% }
 
 
 ## II. Propriétés algébriques
@@ -118,6 +118,10 @@ tags:
     ??? success "Solution"
 
         **$\text{ln}(a^n) =n\text{ln}(a)$**
+
+???+ question "Exercice 2"
+
+    <iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=H6/analysis/logexp1.fr&parm=cmd=new;exo=transflogexp;confparm1=1;confparm1=2;confparm1=3;confparm1=4;confparm1=5;confparm1=6;confparm1=7;confparm1=8;confparm1=9;confparm1=10;qnum=1;scoredelay=;seedrepeat=0;qcmlevel=1&option=noabout" width="100%" height="600"></iframe>
 
 
 
