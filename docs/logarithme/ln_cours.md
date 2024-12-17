@@ -122,12 +122,17 @@ tags:
 
 ???+ question "Exercice 2"
 
+    [Exercices de base](https://coopmaths.fr/alea/?uuid=3e6bf&id=TSA5-03&n=10&d=10&s=3&s2=true&s3=true&alea=jmLC&cd=1&v=eleve&es=0211001&title=){ .md-button target="_blank" rel="noopener" }
+
+
+???+ question "Exercice 3"
+
     Recommencer cet exercice de très nombreuses fois, pour s'entraîner sur des situations différentes.
 
     <iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=H6/algebra/algpptylnexp.fr&parm=cmd=new;exo=simplify1;qnum=1;scoredelay=;seedrepeat=0;qcmlevel=1&option=noabout" width="100%" height="600"></iframe>
 
 
-???+ question "Exercice 3"
+???+ question "Exercice 4"
 
     Recommencer cet exercice de très nombreuses fois, pour s'entraîner sur des situations différentes.
 
@@ -204,7 +209,7 @@ tags:
     Si $a<b$ alors $\ln(a) < \ln(b)$
 
 
-???+ question "Exercice 4"
+???+ question "Exercice 5"
 
     Recommencer cet exercice de très nombreuses fois, pour s'entraîner sur des situations différentes.
 
