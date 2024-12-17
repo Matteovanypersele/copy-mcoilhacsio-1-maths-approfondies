@@ -119,7 +119,15 @@ tags:
 
         **$\text{ln}(a^n) =n\text{ln}(a)$**
 
+
 ???+ question "Exercice 2"
+
+    Recommencer cet exercice de très nombreuses fois, pour s'entraîner sur des situations différentes.
+
+    <iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=H6/algebra/algpptylnexp.fr&parm=cmd=new;exo=simplify1;qnum=1;scoredelay=;seedrepeat=0;qcmlevel=1&option=noabout" width="100%" height="600"></iframe>
+
+
+???+ question "Exercice 3"
 
     Recommencer cet exercice de très nombreuses fois, pour s'entraîner sur des situations différentes.
 
@@ -147,7 +155,7 @@ tags:
 
     **4.**Isoler \(x\) :
    
-    $x = \frac{\ln(k)}{\ln(a)}$
+    $x = \dfrac{\ln(k)}{\ln(a)}$
 
 
 
@@ -196,7 +204,7 @@ tags:
     Si $a<b$ alors $\ln(a) < \ln(b)$
 
 
-???+ question "Exercice 3"
+???+ question "Exercice 4"
 
     Recommencer cet exercice de très nombreuses fois, pour s'entraîner sur des situations différentes.
 
