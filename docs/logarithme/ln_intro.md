@@ -5,7 +5,7 @@ tags:
     - fonctions
 ---
 
-![Napier](images/John_Napier.jpg){ width=30% }
+![Napier](images/John_Napier.jpg){ width=20% }
 
 Lorsque l'astronomie s'est développée, les calculs nécessaires devenaient très compliqués et longs à réaliser à la main. Comment simplifier les calculs ?
 John Neper (1550 - 1617) a inventé les logarithmes, qui en transformant de calculs de multiplications en calculs d'additions, a permis de grandes avancées dans ce domaine.
