@@ -15,11 +15,11 @@ John Neper (1550 - 1617) a inventé les logarithmes, qui en transformant de calc
 
 ???+ question "Prérequis sur la fonction exponenetielle"
 
-    Tracer une allure de la courbe représentative de la fonction exponentielle. Sur ce graphique ajouter un point illustrant $b=\text{e}a$  
+    Tracer une allure de la courbe représentative de la fonction exponentielle. Sur ce graphique ajouter un point illustrant $b=\text{e}^a$  
 
     ??? success "Solution"
 
-        ![exp](images/b_axpa.png){ width=30% }
+        ![exp](images/b_expa.png){ width=30% }
 
 ??? note "Fonction réciproque"
 
@@ -33,7 +33,7 @@ John Neper (1550 - 1617) a inventé les logarithmes, qui en transformant de calc
 
     ![exp](images/a_lnb.png){ width=30% }
 
-???+ question "Exercice 1"
+??? question "Exercice 1"
 
     Utiliser la courbe ci-dessous pour déterminer graphiquement $\text{ln}(4)$, $\text{ln}(5)$, $\text{ln}(7,4)$
 
@@ -41,7 +41,7 @@ John Neper (1550 - 1617) a inventé les logarithmes, qui en transformant de calc
 
     ??? tip "Aide"
 
-        ![ex01](images/aide_exo1.png){ width=30% }
+        ![ex01](images/aide_exo_1.png){ width=30% }
 
 
     ??? success "Solution"
@@ -59,13 +59,13 @@ John Neper (1550 - 1617) a inventé les logarithmes, qui en transformant de calc
 
     La fonction logarithme népérien est définie pour tout réel $x$ ... 
 
-    $y=\text{ln}(x) \equiv$ ...
+    $y=\text{ln}(x) \Leftrightarrow$ ...
 
     ??? success "Solution"
 
         La fonction logarithme népérien est définie pour tout réel $x>0$
         
-        $y=\text{ln}(x) \equiv x=\text{y}$ 
+        $y=\text{ln}(x) \Leftrightarrow x=\text{e}^y$ 
 
 
 
