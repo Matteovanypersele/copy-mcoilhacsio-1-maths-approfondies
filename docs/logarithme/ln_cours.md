@@ -122,7 +122,7 @@ tags:
 
 ???+ question "Exercice 2"
 
-    [Exercices de base](https://coopmaths.fr/alea/?uuid=3e6bf&id=TSA5-03&n=10&d=10&s=3&s2=true&s3=true&alea=jmLC&cd=1&v=eleve&es=0211001&title=){ .md-button target="_blank" rel="noopener" }
+    [Exercices de base](https://coopmaths.fr/alea/?uuid=b9c63&id=canTSpeAN02&n=10&d=10&s=4&s2=true&cd=1&uuid=3e6bf&id=TSA5-03&n=12&d=10&s=3&s2=true&s3=true&cd=1&v=eleve&es=0111001&title=){ .md-button target="_blank" rel="noopener" }
 
 
 ???+ question "Exercice 3"
