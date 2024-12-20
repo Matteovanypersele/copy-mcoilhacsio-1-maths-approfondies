@@ -76,26 +76,26 @@ tags:
 
 ??? note "Conséquence 1 : pour tout réel $x$ on a $\ln(\text{e}^x)=$?"
 
-    $\boxed{\ln(\text{e}^x)=x}$"
+    $\boxed{\ln(\text{e}^x)=x}$
 
 
 ??? note "Conséquence 2 : pour tout réel $x$ strictement positif on a $\text{e}^{\ln(x)}=$?"
 
-    $\boxed{text{e}^{\ln(x)}=x}$"
+    $\boxed{\text{e}^{\ln(x)}=x}$"
 
 
 !!! info "Illustrations"
 
     ``` mermaid
         graph LR
-        A[$x$] ----> |fonction exponentielle| B[$\text{e}^x$];
-        B ---->|fonction $\ln$| B[$x$];
+            A[$x$] ----> |fonction exponentielle| B[$\text{e}^x$];
+            B ---->|fonction $\ln$| B[$x$];
     ```
 
     ``` mermaid
         graph LR
-        A[$x>0$] ----> |fonction $\ln$| B[$\ln(x)$];
-        B ---->|fonction exponentielle| B[$x$];
+            A[$x>0$] ----> |fonction $\ln$| B[$\ln(x)$];
+            B ---->|fonction exponentielle| B[$x$];
     ```
 
 ## II. Propriétés algébriques
