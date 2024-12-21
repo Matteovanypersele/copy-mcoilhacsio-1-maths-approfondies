@@ -88,8 +88,8 @@ tags:
 
     ```mermaid
         graph LR
-            A[$x$] ----> |fonction exponentielle| B[$\text{e}^x$];
-            B ---->|fonction $\ln$| B[$x$];
+            A[$x$] --> |fonction exponentielle| B[$\text{e}^x$];
+            B -->|fonction $\ln$| A;
     ```
 
     ```mermaid
