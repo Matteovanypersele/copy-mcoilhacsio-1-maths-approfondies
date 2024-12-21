@@ -84,20 +84,9 @@ tags:
     $\boxed{\text{e}^{\ln(x)}=x}$
 
 
-!!! info "Illustrations"
+??? note "Illustrations : à mémoriser"
 
-    ```mermaid
-        graph LR
-            A[x] ----> |fonction exponentielle| B[y > 0];
-            B ---->|fonction ln| A;
-    ```
-
-
-    ```mermaid
-        graph LR
-            A[x > 0] ----> |fonction ln| B[y];
-            B ---->|fonction exponentielle| A;
-    ```
+    ![reciproques ln expo](images/graphes_ln_expo.png){ width=90% }
 
 
 ## II. Propriétés algébriques
