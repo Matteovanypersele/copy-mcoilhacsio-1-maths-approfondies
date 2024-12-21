@@ -89,14 +89,16 @@ tags:
     ```mermaid
         graph LR
             A[x] ----> |fonction exponentielle| B[y > 0];
-            B ---->|fonction $\ln$| A;
+            B ---->|fonction ln| A;
     ```
+    $y=\text{e}^x$
 
     ```mermaid
         graph LR
             A[x > 0] ----> |fonction $\ln$| B[y];
-            B ---->|fonction exponentielle| B[x];
+            B ---->|fonction exponentielle| A;
     ```
+    $y=\ln(x)$
 
 ## II. Propriétés algébriques
 
