@@ -17,21 +17,19 @@ tags:
 
 !!! info "La loi de Poisson"
 
-    La loi de Poisson est une loi de probabilité discrète qui modélise des phénomènes où les événements se produisent de manière indépendante et uniforme sur un intervalle de temps ou dans un espace donné.
-
-    ![Poisson](images/64px-Simeon_Poisson_(cropped).jpg){ widthh=20% }
+    ![Poisson](images/64px-Simeon_Poisson_(cropped).jpg){ width=20% }
 
     _Siméon Denis Poisson_
+
+    La loi de Poisson est une loi de probabilité discrète qui modélise des phénomènes où les événements se produisent de manière indépendante et uniforme sur un intervalle de temps ou dans un espace donné.
 
     $$P(X=k) = \frac{\lambda^k \text{e}^{-\lambda}}{k!}$$
 
     où :
 
-    $X$ est une variable aléatoire représentant le nombre d'événements (par exemple, le nombre d'appels téléphoniques),
-
-    $k$ est le nombre spécifique d'événements que nous voulons calculer la probabilité,
-
-    $\lambda$ est le taux moyen d'événements par unité de temps (par exemple, le nombre moyen d'appels téléphoniques par heure).
+    * $X$ est une variable aléatoire représentant le nombre d'événements (par exemple, le nombre d'appels téléphoniques),
+    * $k$ est le nombre spécifique d'événements que nous voulons calculer la probabilité,
+    * $\lambda$ est le taux moyen d'événements par unité de temps (par exemple, le nombre moyen d'appels téléphoniques par heure).
 
     Cette formule **n'est pas à mémoriser**. On utilisera la **calculatrice** pour tout calcul de probabilité.
 
@@ -55,15 +53,15 @@ tags:
 
 ## III. Visualiser la loi de Poisson
 
-[La loi de Poisson sur GéoGebra](https://www.geogebra.org/m/fJES3J22){ .md-button target="_blank" rel="noopener" }
+[La loi de Poisson sur GeoGebra](https://www.geogebra.org/m/fJES3J22){ .md-button target="_blank" rel="noopener" }
 
 ## IV. Calculatrices et loi de Poisson
-
-## V. Exercices
 
 [Calculatrice Numworks](https://www.numworks.com/fr/manuel/probabilites/){ .md-button target="_blank" rel="noopener" }
 [Calculatrice CASIO](https://www.casio-education.fr/wp-content/uploads/2024/01/menu_probabilites_graph-light.pdf?x23188){ .md-button target="_blank" rel="noopener" }
 [Calculatrice TI](a_telecharger/ProbabilitsloidePoisson.pdf){ .md-button target="_blank" rel="noopener" }
+
+## V. Exercices
 
 
 
