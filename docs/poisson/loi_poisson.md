@@ -5,7 +5,7 @@ tags:
     - probabilités
 ---
 
-## Présentation de la loi de Poisson
+## I. Présentation de la loi de Poisson
 
 !!! example "Exemple"
 
@@ -19,7 +19,7 @@ tags:
 
     La loi de Poisson est une loi de probabilité discrète qui modélise des phénomènes où les événements se produisent de manière indépendante et uniforme sur un intervalle de temps ou dans un espace donné.
 
-    <a href="https://commons.wikimedia.org/wiki/File:Simeon_Poisson_(cropped).jpg">François-Séraphin Delpech</a>, Public domain, via Wikimedia Commons
+    ![Poisson](images/64px-Simeon_Poisson_(cropped).jpg){ widthh=20% }
 
     _Siméon Denis Poisson_
 
@@ -48,6 +48,23 @@ tags:
     Appliquons la formule de la loi de Poisson : $P(X=3) = \frac{\lambda^3 \text{e}^{-\lambda}}{3!}$
 
     Grâce à la calculatrice on trouve : $P(X=3) \approx 0.1404$
+
+## II. Propriétés de la loi de Poisson
+
+
+
+## III. Visualiser la loi de Poisson
+
+[La loi de Poisson sur GéoGebra](https://www.geogebra.org/m/fJES3J22){ .md-button target="_blank" rel="noopener" }
+
+## IV. Calculatrices et loi de Poisson
+
+## V. Exercices
+
+[Calculatrice Numworks](https://www.numworks.com/fr/manuel/probabilites/){ .md-button target="_blank" rel="noopener" }
+[Calculatrice CASIO](https://www.casio-education.fr/wp-content/uploads/2024/01/menu_probabilites_graph-light.pdf?x23188){ .md-button target="_blank" rel="noopener" }
+[Calculatrice TI](a_telecharger/ProbabilitsloidePoisson.pdf){ .md-button target="_blank" rel="noopener" }
+
 
 
 
