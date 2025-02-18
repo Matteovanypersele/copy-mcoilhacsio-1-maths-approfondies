@@ -17,7 +17,7 @@ tags:
 
 !!! info "La loi de Poisson"
 
-    ![Poisson](images/64px-Simeon_Poisson_(cropped).jpg){ width=20% }
+    ![Poisson](images/256px-Simeon_Poisson_(cropped).jpg){ width=20% }
 
     _Siméon Denis Poisson_
 
@@ -49,6 +49,18 @@ tags:
 
 ## II. Propriétés de la loi de Poisson
 
+!!! info "À retenir"
+
+    Si $X$ est une variable aléatoire qui suit la loi de Poisson de paramètre $\lambda$ alors :
+
+	* $E(X)=\lambda$
+	* $V(X)=\lambda$
+	* $\sigma(X)=\sqrt{\lambda}$
+
+!!! abstract "Le paramètre $\lambda$"
+
+    Le paramètre $\lambda$ est la moyenne des valeurs de la variable aléatoire X : $\lambda$ est le nombre moyen de fois que l'événement considéré (le succès) a été réalisé pendant  l'intervalle de temps étudié ou bien dans l'espace étudié.
+ 
 
 
 ## III. Visualiser la loi de Poisson
@@ -61,7 +73,21 @@ tags:
 [Calculatrice CASIO](https://www.casio-education.fr/wp-content/uploads/2024/01/menu_probabilites_graph-light.pdf?x23188){ .md-button target="_blank" rel="noopener" }
 [Calculatrice TI](a_telecharger/ProbabilitsloidePoisson.pdf){ .md-button target="_blank" rel="noopener" }
 
-## V. Exercices
+## V. Approximation d'une loi binomiale par une loi de Poisson
+
+!!! info "Approximation"
+
+    On peut montrer que la loi de Poisson est une approximation de la loi binomiale dans le cas où la probabilité du succès (ou de l'échec) est très faible et le nombre de tirages important.
+
+    Si $n$ est "très grand" , $p$ "voisin de 0" et $np$ "pas trop grand" \fg", alors la loi binomiale $\mathcal{B}(n, p)$ est très proche de la loi de poisson de paramères $\lambda$ où $\lambda=np$. Il y a conservation de l'espérance mathématique.
+
+    On convient en général d'utiliser cette approximation lorsque $n \pg 30$,   $p \pp 0,1$ et $np<15$  ou lorsque $n \pg 50$, $p \pp 0,1$ et $np \pp 10$ (Ces conditions ne sont pas à mémoriser).
+
+## VI. Exercices
+
+## VII Crédits
+
+Cédic Pierquet
 
 
 
