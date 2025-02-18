@@ -95,11 +95,11 @@ tags:
 
     Les appareils sont conditionnés par lots de 100 pour l’expédition auxd istributeurs de pièces détachées. On prélève au hasard un échantillon de 100 appareils dans laproduction d’unejournée.La production est suffisamment importante pour quel ’onassimile ce pélèvement à un tirage avec remise de 100 appareils. Pour cette partie, onconsidère que, à chaque prélèvement, la probabilité que l’appareil soit défectueux est 0,05. On considère la variable aléaatoire $X$ qui, à tout prélèvement de 100 appareils, associe le nombre d’appareils défectueux. 
     
-    **1 a)** Justifier que la variable aléatoire $X1$ suit une loi binomiale dont on précisera les paramètres. 
+    **1 a)** Justifier que la variable aléatoire $X$ suit une loi binomiale dont on précisera les paramètres. 
 
     ??? success "Solution"
 
-        On répète 100 fois l’expérience de Bernoulli (l’appareil est d´efectueux ou pas), de manière indépendante. Le nombre $X$ d’appareils défectueux suit donc une loi binomiale de paramètres $n = 100$ et $p = 0,05$.
+        On répète 100 fois l’expérience de Bernoulli (l’appareil est défectueux ou pas), de manière indépendante. Le nombre $X$ d’appareils défectueux suit donc une loi binomiale de paramètres $n = 100$ et $p = 0,05$.
 
     **1 b)** Donner l’espérance mathématique de la variable aléatoire $X$
 
@@ -108,7 +108,7 @@ tags:
 
         L'espérance mathématique de la variable aléatoire $X$ est $E(X)=np=100 \times 0,05=5$
 
-    **2.** On suppose que l’on peut approcher la loi de $X$ par une loi de Poisson de paramètre $\lambda$.
+    **2.** On suppose que l’on peut approcher la loi de $X$ par une loi de Poisson de paramètre $\lambda$.  
     **a)** Déterminer le paramètre $\lambda$.
 
     ??? success "Solution"
@@ -139,7 +139,7 @@ tags:
     
     ??? success "Solution"
 
-        $P(X \geq 1) = 1 - P(X = 0) _approx 0,283$
+        $P(X \geq 1) = 1 - P(X = 0) \approx 0,283$
 
 
     
@@ -147,11 +147,11 @@ tags:
 
     ??? success "Solution"
 
-        $P(X \geq 3) = 1 - P(X \leq 2) _approx 0,005$
+        $P(X \geq 3) = 1 - P(X \leq 2) \approx 0,005$
 
 ???+ question "Exerccie 3"
 
-    Dans cet exercice, les valeurs approchées sont à arrondir à $10^{−2}$. Une entreprise fabrique en grande quantité des tiges en plastique de longueur théorique 100 mm. Dans un lot de ce type de tiges, 2% des tiges n’ont pas une longueur conforme. On prélève au hasard $n$ tiges de ce lot pour vérification de longueur. Le lot est assez important pour que l’on puisse assimiler ce prélèvement à un tirage avec remise de $n$ tiges. On considère la variable aléatoire X qui, à tout prélèvement de n tiges, associe le nombre de tiges de longueur non conforme de ce prélèvement.
+    Dans cet exercice, les valeurs approchées sont à arrondir à $10^{−2}$. Une entreprise fabrique en grande quantité de tiges en plastique de longueur théorique 100 mm. Dans un lot de ce type de tiges, 2% des tiges n’ont pas une longueur conforme. On prélève au hasard $n$ tiges de ce lot pour vérification de longueur. Le lot est assez important pour que l’on puisse assimiler ce prélèvement à un tirage avec remise de $n$ tiges. On considère la variable aléatoire X qui, à tout prélèvement de n tiges, associe le nombre de tiges de longueur non conforme de ce prélèvement.
 
     **1.** Pour cette question on prend $n = 50$.   
     **a)** Justifier que la variable aléatoire $X$ suit une loi binomiale dont on donnera les paramètres. 
@@ -164,14 +164,14 @@ tags:
 
     ??? success "Solution"
 
-        $P(X=3)=\binom{50}{3} (0.02)^3 (0.98)^47 \approx 0,06$
+        $P(X=3)=\binom{50}{3} (0.02)^3 (0.98)^{47} \approx 0,06$
 
-    **2.** Pour cette question, on prend $n = 100$. La variable aléatoire $X$ suit une loi binomiale que l’on d´ecide d’approcher par une loi de Poisson.  
+    **2.** Pour cette question, on prend $n = 100$. La variable aléatoire $X$ suit une loi binomiale que l’on décide d’approcher par une loi de Poisson.  
     **a)** Déterminer le paramètre $\lambda$ de cette loi de Poisson.
 
     ??? success "Solution"
 
-        On choisit $\lambda = 100 \times 0,002 = 2$ puisque l’espérance $\lambda$ de la loi de Poisson doit être égale à l’espérance de la loi binomiale.
+        On choisit $\lambda = 100 \times 0,02 = 2$ puisque l’espérance $\lambda$ de la loi de Poisson doit être égale à l’espérance de la loi binomiale.
 
     **b)** On désigne par $Y$ une variable aléatoire suivant la loi de Poisson de paramètre $\lambda$ où $\lambda$ est la paramètre obtenu à la question **2.a)**. À l’aide de l’approximation de $X$ par $Y$, calculer la probabilité d’avoir au plus 4 tiges de longueur non conforme.
 
