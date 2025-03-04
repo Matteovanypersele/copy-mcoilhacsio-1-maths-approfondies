@@ -19,7 +19,7 @@ tags:
 
     Ce domaine est colorié ci-dessous (à gauche).
 
-    ![aire sous](images/aire_carre.png){ width=90% }
+    ![aire sous](images/aire_carre.png){ width=60% }
 
     Il est possible de calculer cette valeur approchée en utilisant la *méthode des rectangles*  suivante :
 
@@ -63,7 +63,7 @@ tags:
 
     La figure ci-dessous (à gauche) illustre le problème avec :
 
-    ![aire sous cube](images/aire_cubique.png){ width=90% }
+    ![aire sous cube](images/aire_cubique.png){ width=60% }
 
     * $f(x) = \frac12x^3 - \frac12 x^2 - \frac12 x + 1$ ;
 
@@ -172,9 +172,9 @@ tags:
 
     $$\begin{array}{|l|l|}
     \hline
-    1&$x \ln (x)$\\ 
+    1& x \ln (x)\\ 
     \hline
-    \text{Dérivée :} \ln (x) + 1\\ 
+    & \text{Dérivée :} \ln (x) + 1\\ 
     \hline
     \end{array}$$
 
