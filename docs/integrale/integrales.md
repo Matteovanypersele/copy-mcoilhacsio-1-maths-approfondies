@@ -170,10 +170,13 @@ tags:
 
     **1.** a. Un logiciel de calcul formel donne l'expression suivante pour la dérivée de la fonction $x \longmapsto  x \ln (x)$ :
 
-    $$\begin{tabular}{|m{1cm}|m{3cm}|}\hline
-    1&$x \ln (x)$\\ \hline
-    ~&Dérivée : $\ln (x) + 1$\\ \hline
-    \end{tabular}$$
+    $$\begin{array}{|l|l|}
+    \hline
+    1&$x \ln (x)$\\ 
+    \hline
+    ~&Dérivée : $\ln (x) + 1$\\ 
+    \hline
+    \end{array}$$
 
     En déduire l'expression de $f'(x)$ pour tout $x$ appartenant à l'intervalle [1~;~15].
 
@@ -185,9 +188,11 @@ tags:
 
     ??? success "Solution"
 
-        $-\ln(x)+1 >0 \iff 1>\ln(x) \iff \e > x$
+        $-\ln(x)+1 >0 \iff 1>\ln(x) \iff \text{e} > x$
 
         On établit le tableau de signes de $f'(x)$:
+
+        ![tableau de signe f'](images/tab_sgn.png){ width=40% }
 
 
 
@@ -196,16 +201,18 @@ tags:
     ??? success "Solution"
 
         $f(1)=-1\times \ln(1) +2\times 1 = 2$,
-        $f(\e)=	-\e \times \ln(\e) +2\times \e = \e \approx 2,72$ et\\
+        $f(\text{e})=	-\text{e} \times \ln(\text{e}) +2\times \text{e} = \text{e} \approx 2,72$ et\\
         $f(15)=-15\times \ln(15) +2\times 15 \approx -10,62$ 
 		
-        On déduit le tableau de variation de la fonction $f$ sur [1~;~15].
+        On déduit le tableau de variation de la fonction $f$ sur [1~;~15] : 
+
+        ![tableau de variations](images/tab_var.png){ width=40% }
 
 	d. Déterminer la valeur du maximum de $f$ sur l'intervalle [1~;~15] et préciser pour quelle valeur ce maximum est atteint.
 
     ??? success "Solution"
 
-        Le maximum de $f$ sur l'intervalle [1~;~15] est $f(\e) =\e \approx 2,72$
+        Le maximum de $f$ sur l'intervalle [1~;~15] est $f(\text{e}) =\text{e} \approx 2,72$
 
 	
     **2.** a. Démontrer que l'équation $f(x) = 0$ admet une unique solution $a$ dans l'intervalle [1~;~15], puis en déterminer, à l'aide de la calculatrice, une valeur approchée au centième.
@@ -214,8 +221,8 @@ tags:
 
         D'après le tableau de variation de $f$:
 
-        * Sur l'intervalle [1~;~$\e$], la fonction $f$ est croissante et $f(1)=2>0$; donc $f(x)>0$ ce qui entraine que l'équation $f(x)=0$ n'a pas de solution.
-        * Sur l'intervalle [$\e$~;~15], la fonction $f$ est décroissante et passe d'une valeur positive à une valeur négative; donc l'équation $f(x)=0$ admet une solution unique.
+        * Sur l'intervalle [1~;~$\text{e}$], la fonction $f$ est croissante et $f(1)=2>0$; donc $f(x)>0$ ce qui entraine que l'équation $f(x)=0$ n'a pas de solution.
+        * Sur l'intervalle [$\text{e}$~;~15], la fonction $f$ est décroissante et passe d'une valeur positive à une valeur négative; donc l'équation $f(x)=0$ admet une solution unique.
 
 
 
@@ -228,6 +235,10 @@ tags:
         D'après la calculatrice, $a \approx 7,39$.
 
         On déduit le signe de $f$ sur l'intervalle [1~;~15]
+
+        ![tableau de signe](images/tab_sgn_f.png){ width=40% }
+
+
 
 
     **3.** a. Vérifier que la fonction $F$ définie sur [1~;~15], par $F(x) = x^2 \left(\dfrac54 - \dfrac12 \ln (x)\right)$ est une primitive de la fonction $f$ sur l'intervalle [1~;~15]
@@ -246,7 +257,7 @@ tags:
     ??? success "Solution"
 
         $\begin{aligned}[t]
-        \int_2^6 f(x) \d x&
+        \int_2^6 f(x) \, dx&
         = F(6)-F(2)
         = \left ( 6^2 \left ( \dfrac{5}{4} - \dfrac{1}{2}\ln(6)\right ) \right ) - \left ( 2^2 \left ( \dfrac{5}{4} - \dfrac{1}{2}\ln(2)\right )\right )\\
         & =\left (45 - 18\ln(6)\strut \right ) - \left ( 5-2\ln(2)\strut\right )
@@ -260,9 +271,9 @@ tags:
 
     ??? success "Solution"
 
-        Le bénéfice maximum est égal à $f(\e)=\e$, soit environ $2,72$ centaines d'euros, autrement dit 272~\euro.
+        Le bénéfice maximum est égal à $f(\text{e})=\text{e}$, soit environ $2,72$ centaines d'euros, autrement dit 272~\euro.
 
-        Ce maximum est réalisé pour $x=\e$ milliers de composants soit $2720$.
+        Ce maximum est réalisé pour $x=\text{e}$ milliers de composants soit $2720$.
 
 
     **2.** a. Justifier alors que l'entreprise réalise un bénéfice positif.
@@ -285,7 +296,7 @@ tags:
 
         D'après la partie A, $\mu \approx \dfrac{1}{4}\times 9,13$ donc $\mu \approx 2,2825$.
 
-        Le bénéficie moyen est donc d'environ 228 $~\euro$.
+        Le bénéfice moyen est donc d'environ 228 euros.
 
 
 
