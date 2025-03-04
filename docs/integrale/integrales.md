@@ -103,7 +103,7 @@ tags:
 
     Si $f$ est un fonction continue et positive sur $[a;b]$, l’intégrale  est l’aire du domaine colorié notée $A=\int_a^b f(x)\text{d}x$, mesurée en unités d’aires.
 
-    ![aire sous](images/aire.png){ width=90% }
+    ![aire sous](images/aire.png){ width=25% }
 
 !!! info "Aire entre deux courbes"
 
@@ -123,7 +123,7 @@ tags:
 
     Faire varier les curseurs $a$ et $b$ et observer le signe de $A=\int_a^b f(x)\text{d}x$ :
 
-    <iframe src="https://www.geogebra.org/m/aS42bhqn" width="600" height="400"></iframe>
+    <iframe src="https://www.geogebra.org/m/aS42bhqn" width="800" height="1000"></iframe>
 
 
 
@@ -138,7 +138,7 @@ tags:
 
 !!! info "Intégrale et primitive"
 
-    $$\int_{a}^{b} f(x) \, dx = F(b) - F(a) $$ où $F$ est une primitive de $f$ sur $[a;b]$
+    $\int_{a}^{b} f(x) \, dx = F(b) - F(a)$ où $F$ est une primitive de $f$ sur $[a;b]$
 
 !!! info "Méthode pour vérifier que $F$ est une primitive de $f$"
 
@@ -158,9 +158,9 @@ tags:
 
 ## V. Exercices
 
-[Exercices - primitives](https://coopmaths.fr/alea/?uuid=d09fe&id=TSA6-QCM01&alea=z9XK&uuid=570b7&id=TSA6-QCM02&alea=kHVt&uuid=4f818&id=TSA5-QCM04&alea=nxuT&uuid=3ca11&id=TSA6-QCM04&alea=k1PJ&v=eleve&es=1211001&title=){ .md-button target="_blank" rel="noopener" }
+[4 exercices - primitives](https://coopmaths.fr/alea/?uuid=d09fe&id=TSA6-QCM01&alea=z9XK&uuid=570b7&id=TSA6-QCM02&alea=kHVt&uuid=4f818&id=TSA5-QCM04&alea=nxuT&uuid=3ca11&id=TSA6-QCM04&alea=k1PJ&v=eleve&es=1211001&title=){ .md-button target="_blank" rel="noopener" }
 
-???+ question "Exercice 1 BTS SIO Polynésie 16 mai 2024"
+???+ question "Exercice 1 : BTS SIO Polynésie 16 mai 2024"
 
     Une entreprise fabrique entre 1000 et 15000 composants pour téléphones portables par jour. On admet que si l’entreprise fabrique $x$ milliers de composants par jour le bénéfice de l’entreprise en centaines d’euros est modélisé parla fonction $f$ définie sur l’intervalle $[1; 15]$ par : $f(x) = - x \ln (x) + 2x$
 
@@ -170,41 +170,124 @@ tags:
 
     **1.** a. Un logiciel de calcul formel donne l'expression suivante pour la dérivée de la fonction $x \longmapsto  x \ln (x)$ :
 
-    $$\begin{center}	
-    \begin{tabular}{|m{1cm}|m{3cm}|}\hline
+    $$\begin{tabular}{|m{1cm}|m{3cm}|}\hline
     1&$x \ln (x)$\\ \hline
     ~&Dérivée : $\ln (x) + 1$\\ \hline
-    \end{tabular}
-    \end{center}$$
+    \end{tabular}$$
 
     En déduire l'expression de $f'(x)$ pour tout $x$ appartenant à l'intervalle [1~;~15].
 
+    ??? success "Solution"
+
+        Pour tout $x$ appartenant à l'intervalle [1~;~15], $f'(x) = -\left ( \ln(x) +1 \strut\right ) +2 = -\ln(x)-1+2 = -\ln(x)+1$.
+
 	b. Étudier le signe de $f'(x)$ sur l'intervalle [1~;~15].
+
+    ??? success "Solution"
+
+        $-\ln(x)+1 >0 \iff 1>\ln(x) \iff \e > x$
+
+        On établit le tableau de signes de $f'(x)$:
+
+
+
 	c. En déduire le tableau de variation de la fonction $f$ (les images seront, si besoin, arrondies au centième).
+
+    ??? success "Solution"
+
+        $f(1)=-1\times \ln(1) +2\times 1 = 2$,
+        $f(\e)=	-\e \times \ln(\e) +2\times \e = \e \approx 2,72$ et\\
+        $f(15)=-15\times \ln(15) +2\times 15 \approx -10,62$ 
+		
+        On déduit le tableau de variation de la fonction $f$ sur [1~;~15].
+
 	d. Déterminer la valeur du maximum de $f$ sur l'intervalle [1~;~15] et préciser pour quelle valeur ce maximum est atteint.
+
+    ??? success "Solution"
+
+        Le maximum de $f$ sur l'intervalle [1~;~15] est $f(\e) =\e \approx 2,72$
+
 	
     **2.** a. Démontrer que l'équation $f(x) = 0$ admet une unique solution $a$ dans l'intervalle [1~;~15], puis en déterminer, à l'aide de la calculatrice, une valeur approchée au centième.
 
+    ??? success "Solution"
+
+        D'après le tableau de variation de $f$:
+
+        * Sur l'intervalle [1~;~$\e$], la fonction $f$ est croissante et $f(1)=2>0$; donc $f(x)>0$ ce qui entraine que l'équation $f(x)=0$ n'a pas de solution.
+        * Sur l'intervalle [$\e$~;~15], la fonction $f$ est décroissante et passe d'une valeur positive à une valeur négative; donc l'équation $f(x)=0$ admet une solution unique.
+
+
+
     b. En déduire le signe de $f$ sur l'intervalle [1~;~15]
 
-    **3.** a. Vérifier que la fonction $F$ définie sur [1~;~15], par 
-		
-		\[F(x) = x^2 \left(\dfrac54 - \dfrac12 \ln (x)\right)\] est une primitive de la fonction $f$ sur l'intervalle [1~;~15]
+    ??? success "Solution"
 
-    b. Donner une valeur approchée de l'intégrale 
-		\[\displaystyle\int_2^6 f(x) \:\text{d}x\] à $10^{-2}$ près.
+        On peut donc dire  que l'équation $f(x) = 0$ admet une unique solution dans l'intervalle [1~;~15]; on l'appelle $a$.
+
+        D'après la calculatrice, $a \approx 7,39$.
+
+        On déduit le signe de $f$ sur l'intervalle [1~;~15]
+
+
+    **3.** a. Vérifier que la fonction $F$ définie sur [1~;~15], par $F(x) = x^2 \left(\dfrac54 - \dfrac12 \ln (x)\right)$ est une primitive de la fonction $f$ sur l'intervalle [1~;~15]
+
+    ??? success "Solution"
+
+        $F'(x)=2x \times \left(\dfrac54 - \dfrac12 \ln (x)\right)+x^2\times \left (0-\dfrac{1}{2x}\right )
+        = \dfrac{5}{2}x - x\ln(x) -\dfrac{1}{2}x= -x \ln(x) +2x=f(x)$
+
+        Donc la fonction $F$ est une primitive de la fonction $f$ sur [1~;~15].
+
+
+
+    b. Donner une valeur approchée de l'intégrale $\int_2^6 f(x) \:\text{d}x$ à $10^{-2}$ près.
+
+    ??? success "Solution"
+
+        $\begin{aligned}[t]
+        \int_2^6 f(x) \d x&
+        = F(6)-F(2)
+        = \left ( 6^2 \left ( \dfrac{5}{4} - \dfrac{1}{2}\ln(6)\right ) \right ) - \left ( 2^2 \left ( \dfrac{5}{4} - \dfrac{1}{2}\ln(2)\right )\right )\\
+        & =\left (45 - 18\ln(6)\strut \right ) - \left ( 5-2\ln(2)\strut\right )
+        = 40 - 18\ln(6) + 2 \ln(2)\approx 9,13
+        \end{aligned}$
+
 
     **Partie B**
 
     **1.** Déterminer le bénéfice maximal à l'euro près réalisé par l'entreprise et le nombre de composants pour le réaliser.
 
+    ??? success "Solution"
+
+        Le bénéfice maximum est égal à $f(\e)=\e$, soit environ $2,72$ centaines d'euros, autrement dit 272~\euro.
+
+        Ce maximum est réalisé pour $x=\e$ milliers de composants soit $2720$.
+
+
     **2.** a. Justifier alors que l'entreprise réalise un bénéfice positif.
+
+    ??? success "Solution"
+
+        La production est entre 2 et 6 milliers de composants. 
+
+        $6<a$ donc l'intervalle [2~;~6] est contenu dans l'intervalle $[1~;~a]$, donc $f$ est positive sur l'intervalle [2~;~6]. L'entreprise réalise donc un bénéfice positif.
+
+
 
     b. Pour une telle production, on admet que le bénéfice moyen de l'entreprise, en centaines d'euros, est donné par:
 
     \[\mu = \dfrac14 \displaystyle\int_2^6 f(x)\:\text {d}x.\]
 
     Déterminer, à l'euro près, la valeur de ce bénéfice moyen.
+
+    ??? success "Solution"
+
+        D'après la partie A, $\mu \approx \dfrac{1}{4}\times 9,13$ donc $\mu \approx 2,2825$.
+
+        Le bénéficie moyen est donc d'environ 228 $~\euro$.
+
+
 
 
     
