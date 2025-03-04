@@ -63,14 +63,12 @@ tags:
 
     La figure ci-dessous (à gauche) illustre le problème avec :
 
-    ![aire sous cube](images/aire_cubique.png){ width=60% }
-
     * $f(x) = \frac12x^3 - \frac12 x^2 - \frac12 x + 1$ ;
 
     * $a=-1$ ;
     * $b = 2$.
 
-    ![aire sous cubique](images/aire_cubique.png){ width=90% }
+    ![aire sous cube](images/aire_cubique.png){ width=60% }
 
     Il est possible de calculer cette valeur approchée en utilisant la *méthode des rectangles* suivante :
 
@@ -286,7 +284,7 @@ tags:
 
 
 
-    b. Pour une telle production, on admet que le bénéfice moyen de l'entreprise, en centaines d'euros, est donné par:
+    b. Pour une telle production, on admet que le bénéfice moyen de l'entreprise, en centaines d'euros, est donné par :
 
     \[\mu = \dfrac14 \displaystyle\int_2^6 f(x)\:\text {d}x.\]
 
@@ -310,6 +308,6 @@ tags:
 
 ## Crédits
 
-Nicolas Revéret, Pierrick Vaire
+Nicolas Revéret, Pierrick Vaire, Denis Vergès, François Hache
 
 
