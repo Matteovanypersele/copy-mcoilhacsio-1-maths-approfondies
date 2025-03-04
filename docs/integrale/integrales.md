@@ -174,7 +174,7 @@ tags:
     \hline
     1&$x \ln (x)$\\ 
     \hline
-    ~&Dérivée : $\ln (x) + 1$\\ 
+    \text{Dérivée :} \ln (x) + 1\\ 
     \hline
     \end{array}$$
 
@@ -201,7 +201,7 @@ tags:
     ??? success "Solution"
 
         $f(1)=-1\times \ln(1) +2\times 1 = 2$,
-        $f(\text{e})=	-\text{e} \times \ln(\text{e}) +2\times \text{e} = \text{e} \approx 2,72$ et\\
+        $f(\text{e})=	-\text{e} \times \ln(\text{e}) +2\times \text{e} = \text{e} \approx 2,72$   
         $f(15)=-15\times \ln(15) +2\times 15 \approx -10,62$ 
 		
         On déduit le tableau de variation de la fonction $f$ sur [1~;~15] : 
@@ -224,15 +224,15 @@ tags:
         * Sur l'intervalle [1~;~$\text{e}$], la fonction $f$ est croissante et $f(1)=2>0$; donc $f(x)>0$ ce qui entraine que l'équation $f(x)=0$ n'a pas de solution.
         * Sur l'intervalle [$\text{e}$~;~15], la fonction $f$ est décroissante et passe d'une valeur positive à une valeur négative; donc l'équation $f(x)=0$ admet une solution unique.
 
+        On peut donc dire  que l'équation $f(x) = 0$ admet une unique solution dans l'intervalle [1~;~15]; on l'appelle $a$.
+
+        D'après la calculatrice, $a \approx 7,39$.
+
 
 
     b. En déduire le signe de $f$ sur l'intervalle [1~;~15]
 
     ??? success "Solution"
-
-        On peut donc dire  que l'équation $f(x) = 0$ admet une unique solution dans l'intervalle [1~;~15]; on l'appelle $a$.
-
-        D'après la calculatrice, $a \approx 7,39$.
 
         On déduit le signe de $f$ sur l'intervalle [1~;~15]
 
@@ -271,9 +271,9 @@ tags:
 
     ??? success "Solution"
 
-        Le bénéfice maximum est égal à $f(\text{e})=\text{e}$, soit environ $2,72$ centaines d'euros, autrement dit 272~\euro.
+        Le bénéfice maximum est égal à $f(\text{e})=\text{e}$, soit environ $2,72$ centaines d'euros, autrement dit 272 euros.
 
-        Ce maximum est réalisé pour $x=\text{e}$ milliers de composants soit $2720$.
+        Ce maximum est réalisé pour $x=\text{e}$ milliers de composants soit $2720$ composants.
 
 
     **2.** a. Justifier alors que l'entreprise réalise un bénéfice positif.
