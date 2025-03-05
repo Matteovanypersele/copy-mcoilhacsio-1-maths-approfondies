@@ -142,7 +142,7 @@ tags:
 
 ???+ question "Exercice 3"
 
-    [Exercices de base](https://coopmaths.fr/alea/?uuid=b9c63&id=canTSpeAN02&n=10&d=10&s=4&s2=true&alea=sSZb&cd=1&uuid=3e6bf&id=TSA5-03&n=10&d=10&s=3&s2=true&s3=true&alea=WWqr&cd=1&v=eleve&es=0211001&title=){ .md-button target="_blank" rel="noopener" }
+    [Exercices de base](https://coopmaths.fr/alea/?uuid=3e6bf&id=TSA5-03&n=5&d=10&s=3&s2=true&s3=true&i=1&cd=1&alea=N7DE&uuid=b9c63&id=canTSpeAN02&n=8&d=10&s=4&s2=true&i=1&cd=1&alea=91L5&uuid=7c230%27+%2F%2F+Quand+on+ex%C3%A9cute+pnpm+start+la+premi%C3%A8re+fois%2C+le+terminal+renvoie+une+r%C3%A9f%C3%A9rence+d&id=canTSpeAN04&n=5&d=10&i=1&cd=1&alea=2Epv&uuid=bc8ae&id=TSA5-QCM02&n=1&d=10&s=false&s2=true&s4=false&i=1&cd=1&alea=T4bq&uuid=01eb1&id=TSA5-QCM05&n=1&d=10&s2=true&i=1&cd=1&alea=Hyf4&uuid=a601c&id=TSA5-QCM08&n=1&d=10&s2=true&i=1&cd=1&alea=YFPF&v=eleve&es=1111001){ .md-button target="_blank" rel="noopener" }
 
 
 ???+ question "Exercice 4"
@@ -227,3 +227,7 @@ tags:
     Recommencer cet exercice de très nombreuses fois, pour s'entraîner sur des situations différentes.
 
     <iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=H6/algebra/algpptylnexp.fr&parm=cmd=new;exo=lnsuitegeo;qnum=1;scoredelay=;seedrepeat=0;qcmlevel=1&option=noabout" width="100%" height="600"></iframe>
+
+???+ question "Exercice 6"
+
+    [Exercices équations et inéquations](https://coopmaths.fr/alea/?EEEE2e0a294917e812d6281d0f22272e26ee2b2d20bd27961e8914bb2b1613f3272e13350f1c272e132b2e0a2949181b136b16890f22272e2104197a11a514572b1613f3272e13350f2c17e80f2c13a62da32dfa0f1c272e132b2e0a2949181726c5262a0f22272e2104197a11c61a5a12d30f2717e60f1d17e612c72d0a281a2a84277b2cff181b26312d320f2c146e281a2a84277b26f117e60f2e2dfe272e278927ec15e729491809208e14c21fc81e2515832e0a29491816152913680f22272e2104197a11c61a5a12d90f2f181a2a762e5e0f1e2d0a1336133612d1132b2d9a2d9d2792){ .md-button target="_blank" rel="noopener" }
