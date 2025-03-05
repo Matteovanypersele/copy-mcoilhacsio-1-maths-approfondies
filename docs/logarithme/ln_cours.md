@@ -236,9 +236,9 @@ tags:
 
 !!! info "Définition"
 
-    * La fonction $x \rightarrow \ln(x)$ est définie sur $]0, +\infty [$
-    * La dérivée de f(x)= \ln(x)$  $f$ est dérivable sur $]0, +\infty [$ et $f'(x)=\dfrac{1}{x}$
-    * $\ln(1) = 0
+    * La fonction $f : x \longmapsto \ln(x)$ est définie sur $]0, +\infty [$
+    * La fonction $f$ définie par  $f(x)= \ln(x)$  est dérivable sur $]0, +\infty [$ et $f'(x)=\dfrac{1}{x}$
+    * $\ln(1) = 0$
 
 !!! info "Remarque"
 
@@ -261,32 +261,28 @@ tags:
 
 !!! info "Fonction composée"
 
-    Soit $u$ une fonction dérivable strictement positive sur uin intervalle $I$.  
+    Soit $u$ une fonction dérivable strictement positive sur un intervalle $I$.  
     La fonction $f : x \longmapsto \ln (u(x))$ est dérivable sur $I$ et $f'(x)= \dfrac{u'(x)}{u(x)}$
 
 !!! info "Limites usuelles"
-
-    $$
-    \lim_{\substack{x\to 3 \\ x<3}} f(x) = +\infty
-    $$
 
     $$
     \lim_{\substack{x\to 0 \\ x>0}} \ln(x) = -\infty
     $$
 
     $$
-    lim_{x \to +\infty} \ln(x) = +\infty
+    \lim_{x \to +\infty} \ln(x) = +\infty
     $$
 
 !!! info "Limites et croissances comparées"
 
-    Pour tout entier $n$ non nul : $lim_{x \to +\infty} \dfrac{\ln(x)}{x^n} = +\infty
+    Pour tout entier $n$ non nul : $\lim_{x \to +\infty} \dfrac{\ln(x)}{x^n} = +\infty$
 
-    Pour tout entier $n$ non nul : $lim_{\substack{x\to 0 \\ x>0}} x^n \ln(x) = 0
+    Pour tout entier $n$ non nul : $\lim_{\substack{x\to 0 \\ x>0}} x^n \ln(x) = 0$
 
     ??? tip "Astuce"
 
-        Retenir que $\text{e}^x l'emporte sur $x^n$ qui l'emporte sur $\ln(x)$
+        Retenir que $\text{e}^x$ l'emporte sur $x^n$ qui l'emporte sur $\ln(x)$
 
 
 ???+ question "Exercice 7"
