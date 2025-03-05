@@ -276,7 +276,7 @@ tags:
 
 !!! info "Limites et croissances comparées"
 
-    Pour tout entier $n$ non nul : $\lim_{x \to +\infty} \dfrac{\ln(x)}{x^n} = +\infty$
+    Pour tout entier $n$ non nul : $\lim_{x \to +\infty} \dfrac{\ln(x)}{x^n} = 0$
 
     Pour tout entier $n$ non nul : $\lim_{\substack{x\to 0 \\ x>0}} x^n \ln(x) = 0$
 
