@@ -231,3 +231,68 @@ tags:
 ???+ question "Exercice 6"
 
     [Exercices équations et inéquations](https://coopmaths.fr/alea/?EEEE2e0a294917e812d6281d0f22272e26ee2b2d20bd27961e8914bb2b1613f3272e13350f1c272e132b2e0a2949181b136b16890f22272e2104197a11a514572b1613f3272e13350f2c17e80f2c13a62da32dfa0f1c272e132b2e0a2949181726c5262a0f22272e2104197a11c61a5a12d30f2717e60f1d17e612c72d0a281a2a84277b2cff181b26312d320f2c146e281a2a84277b26f117e60f2e2dfe272e278927ec15e729491809208e14c21fc81e2515832e0a29491816152913680f22272e2104197a11c61a5a12d90f2f181a2a762e5e0f1e2d0a1336133612d1132b2d9a2d9d2792){ .md-button target="_blank" rel="noopener" }
+
+## IV. Étude de la fonction logarithme népérien
+
+!!! info "Définition"
+
+    * La fonction $x \rightarrow \ln(x)$ est définie sur $]0, +\infty [$
+    * La dérivée de f(x)= \ln(x)$  $f$ est dérivable sur $]0, +\infty [$ et $f'(x)=\dfrac{1}{x}$
+    * $\ln(1) = 0
+
+!!! info "Remarque"
+
+    $\ln(\text{e})=1$
+
+???+ question "Tableau de variation"
+
+    **1.** Pour tout $x$ de $]0, +\infty [$, quel est le signe de $f'(x)$ ?
+
+    ??? success "Solution"
+
+        Pour tout $x \in ]0, +\infty [$ on a $f'(x)=\dfrac{1}{x}$ donc $f'(x)>0$
+
+    **2.** En déduire le tableau de variation de $f$
+
+    ??? success "Solution"
+
+        ![tableau de variation](images/var_ln.png){ width=30% }
+        _Equipe Académique Mathématiques, Rectorat de l'Académie de Bordeaux, France, 2003_
+
+!!! info "Fonction composée"
+
+    Soit $u$ une fonction dérivable strictement positive sur uin intervalle $I$.  
+    La fonction $f : x \longmapsto \ln (u(x))$ est dérivable sur $I$ et $f'(x)= \dfrac{u'(x)}{u(x)}$
+
+!!! info "Limites usuelles"
+
+    $$
+    \lim_{\substack{x\to 3 \\ x<3}} f(x) = +\infty
+    $$
+
+    $$
+    \lim_{\substack{x\to 0 \\ x>0}} \ln(x) = -\infty
+    $$
+
+    $$
+    lim_{x \to +\infty} \ln(x) = +\infty
+    $$
+
+!!! info "Limites et croissances comparées"
+
+    Pour tout entier $n$ non nul : $lim_{x \to +\infty} \dfrac{\ln(x)}{x^n} = +\infty
+
+    Pour tout entier $n$ non nul : $lim_{\substack{x\to 0 \\ x>0}} x^n \ln(x) = 0
+
+    ??? tip "Astuce"
+
+        Retenir que $\text{e}^x l'emporte sur $x^n$ qui l'emporte sur $\ln(x)$
+
+
+???+ question "Exercice 7"
+
+    [Exercices - fonction ln](https://coopmaths.fr/alea/?uuid=sti2d_2021_03_sujet0v2_mq5&alea=gkZT&uuid=sti2d_2021_06_metropole_j1_mq3&alea=gmhJ&uuid=sti2d_2021_06_metropole_j2_mq2&alea=zbNE&uuid=sti2d_2022_05_metropole_mq5&alea=fWND&uuid=bac_2021_09_metropole_10&alea=Am3s&v=eleve&es=1211001&title=){ .md-button target="_blank" rel="noopener" }
+
+
+
+
