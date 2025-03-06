@@ -45,10 +45,9 @@ tags:
     ![quatre classes](images/quatre_classes.PNG){ width=30% }
 
 
+## II. Densité de probabilité
 
-!!! II. Densité de probabilité
-
-info "fonction densité de probabilité"
+!!! info "fonction densité de probabilité"
 
     On a représenté ci-dessous la fonction $f$ suivante : 
 
