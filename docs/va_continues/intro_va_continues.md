@@ -1,13 +1,13 @@
 ---
 author: Mireille Coilhac
-title: Variables aléatoires contines - introduction
+title: Loi uniforme continue
 tags:
     - variables aléatoires
 ---
 
-## Loi uniforme
+## I. Loi uniforme
 
-!!! info "Loi uniforme"
+!!! info "Loi uniforme continue"
 
     La loi uniforme sur un intervalle est la version continue d'équiprobabilité dans le cas d'un nombre fini d'issues.
 
@@ -44,14 +44,18 @@ tags:
     ![deux classes](images/deux_classes.PNG){ width=30% }
     ![quatre classes](images/quatre_classes.PNG){ width=30% }
 
-!!! info "fonction densité de probabilité"
+
+
+!!! II. Densité de probabilité
+
+info "fonction densité de probabilité"
 
     On a représenté ci-dessous la fonction $f$ suivante : 
 
     $$
     \begin{cases}
-    f(x) = 0,25 \text{si} 0<x<4 \\
-    f(x)=0 sinon
+    f(x) = 0,25 \quad \text{si} \quad 0<x<4 \\
+    f(x)=0 \quad \text{sinon}
     \end{cases}  
     $$
 
@@ -60,6 +64,10 @@ tags:
     On remarque que $P(a<X<b)$ s'obtient en calculant l'aire sous la courbe représentative de $f$
 
     On dit que $f$ est la fonction densité de probabilité de la variable aléatoire $X$ qui suit une loi uniforme sur $[0; 4]$
+
+    $P(a \leq X \leq b) = \int_a^b f(x)\text{d}x$
+
+
 
 
 
