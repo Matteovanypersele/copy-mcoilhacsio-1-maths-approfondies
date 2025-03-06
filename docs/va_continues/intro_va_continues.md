@@ -15,7 +15,7 @@ tags:
 
     Voici l'histogramme des fréquenes pour un échantillon de taille $10 000$ d'une varable aléatoire $X$ suivant une loi uniforme sur l'intervalle $[0; 4]$ (Cela signifie que $X$ peut prendre comme valeurs tous les réels de $[0; 4]$)
 
-    ![nom image](images/intro_loi_unif.png){ width=30% }
+    ![intro loi uniforme](images/intro_loi_unif.png){ width=30% }
 
     L'axe des ordonnée est gradué de façon à ce que l'aire de chaque rectangle soit égale à la probabilité de la classe (c'et-à-dire de l'intervalle) correspondante.
 
@@ -38,6 +38,36 @@ tags:
     $P(0<X<2)= P(2<X<4)$ et $P(0<X<2) + P(2<X<4) = 1$
 
     On a donc $P(0<X<2)= P(2<X<4) = \dfrac{1}{2}$
+
+    En procédant de même on peut montrer que $P(0<X<1)= P(1<X<2)=P(2<X<3)=P(3<X<4)=\dfrac{1}{4}$
+
+    ![deux classes](images/deux_classes.PNG){ width=30% }
+    ![quatre classes](images/quatre_classes.PNG){ width=30% }
+
+!!! info "fonction densité de probabilité"
+
+    On a représenté ci-dessous la fonction $f$ suivante : 
+
+    $$
+    \begin{cases}
+    f(x) = 0,25 \text{si} 0<x<4 \\
+    f(x)=0 sinon
+    \end{cases}  
+    $$
+
+    ![densite](images/densite.PNG){ width=30% }
+
+    On remarque que $P(a<X<b)$ s'obtient en calculant l'aire sous la courbe représentative de $f$
+
+    On dit que $f$ est la fonction densité de probabilité de la variable aléatoire $X$ qui suit une loi uniforme sur $[0; 4]$
+
+
+
+
+
+
+
+
 
 
 

@@ -2,7 +2,7 @@
 author: Mireille Coilhac
 title: Loi de Poisson
 tags:
-    - probabilités
+    - variables aléatoires
 ---
 
 ## Prérequis
