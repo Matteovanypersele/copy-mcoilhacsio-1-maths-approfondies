@@ -10,6 +10,7 @@ title: 🎁 Ressources
 
 [Utiliser les calculatrices graphiques pour les fonctions](https://mcoilhac.forge.apps.education.fr/prerequis-maths-premiere/calculatrice/calculatrices/){ .md-button target="_blank" rel="noopener" }
 
+[Annales de BTS mathématiques et mathématiques approfondies](https://www.apmep.fr/Annales-BTS){ .md-button target="_blank" rel="noopener" }
 
 ## Unité de mathématiques approfondies UF2
 
