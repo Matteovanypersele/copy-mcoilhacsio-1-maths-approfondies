@@ -107,7 +107,7 @@ tags:
 
     Soit $f$ et $g$ deux fonctions continues sur $[a;b]$, de signes quelconques, avec $a < b$. 
     
-    Si pour tout $x$ de $[a;b]$ on a $f(x) ⩽ g(x)$, alors l’aire située entre les courbes de $f$ et $g$ sur $[a;b]$ est  $A=\int_a^b (g(x)-f(x))\text{d}x$ en unité d’aires.
+    Si pour tout $x$ de $[a;b]$ on a $g(x) ⩽ f(x)$, alors l’aire située entre les courbes de $f$ et $g$ sur $[a;b]$ est  $A=\int_a^b (f(x)-g(x))\text{d}x$ en unité d’aires.
 
     ![aire sous](images/integrale_entre.png){ width=25% }
     Source : jaicompris.com
