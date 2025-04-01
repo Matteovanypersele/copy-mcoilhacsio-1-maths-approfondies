@@ -87,7 +87,7 @@ tags:
 
 !!! info "Approximation d'une loi discrète par une loi continue"
 
-    Si $n$ est grand et $p$ n’est "ni trop voisin de 0 ni trop voisin de 1" \fg{}" alors la loi binomiale $\mathscr{B}(n;p)$ peut être approchée par la loi normale $\mathscr{N} (m;\sigma)$ de même espérance et de même écart type. $m=np \quad \text{et} \quad \sigma=\sqrt{np(1-p)}$
+    Si $n$ est grand et $p$ n’est "ni trop voisin de 0 ni trop voisin de 1" alors la loi binomiale $\mathscr{B}(n;p)$ peut être approchée par la loi normale $\mathscr{N} (m;\sigma)$ de même espérance et de même écart type. $m=np \quad \text{et} \quad \sigma=\sqrt{np(1-p)}$
 
     En pratique, l’approximation sera considérée comme valable lorsque $n \geq 30$, $np \geq 5$ et $n(1-p) \geq 5$. 
 
@@ -99,6 +99,27 @@ tags:
     * $P(a \leq X \leq b) = P( a-0,5 \leq Y \leq b+0,5)$.
 
 ## III. Utilisation des calculatrices
+
+!!! info "Calculatrices Casio et Texas Instrument"
+
+    [Casio loi normale et inverse de la loi normale](a_telecharger/170_casio_graph35_plus.pdf){ .md-button target="_blank" rel="noopener" }
+
+    [Texas Istrument loi normale et inverse de la loi normale](a_telecharger/170_ti83_Premium_CE.pdf){ .md-button target="_blank" rel="noopener" }
+
+    [Casio et Texas Instrument loi normale et inverse de la loi normale](a_telecharger/loi_normale_CASIO_TI.pdf){ .md-button target="_blank" rel="noopener" }
+
+!!! info "Calculatrices Numworks"
+
+    [Numorks loi normale](a_telecharger/numworks_normale.pdf){ .md-button target="_blank" rel="noopener" }
+
+    Inverse de la loi normale : 
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZqGnNLSqEmU?si=6p3fIalIFpZHaKH9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
 
 ## IV. Exercices
 

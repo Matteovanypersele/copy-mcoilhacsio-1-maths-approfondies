@@ -148,11 +148,15 @@ tags:
 
 <iframe scrolling="no" title="Intégration et valeur moyenne" src="https://www.geogebra.org/material/iframe/id/ybqfadpw/width/1671/height/828/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" width="1671px" height="828px" style="border:0px;"> </iframe>
 
+<!--
 [Comprendre la valeur moyenne](https://www.geogebra.org/m/aw6nbtky){ .md-button target="_blank" rel="noopener" }
+-->
 
 <iframe scrolling="no" title="Notion de valeur moyenne de fonction - intégrale" src="https://www.geogebra.org/material/iframe/id/U5qkpUvg/width/1231/height/714/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="1231px" height="714px" style="border:0px;"> </iframe>
 
+<!--
 [Manipuler la valeur moyenne](https://www.geogebra.org/m/U5qkpUvg){ .md-button target="_blank" rel="noopener" }
+-->
 
 !!! info "Valeur moyenne d'une fonction"
 
@@ -160,7 +164,9 @@ tags:
 
     <iframe scrolling="no" title="" src="https://www.geogebra.org/material/iframe/id/ssu7z9JB/width/1055/height/636/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1055px" height="636px" style="border:0px;"> </iframe>
 
-    [Visualiser moyenne et aire](https://www.geogebra.org/m/ssu7z9JB){ .md-button target="_blank" rel="noopener" }
+<!--
+[Visualiser moyenne et aire](https://www.geogebra.org/m/ssu7z9JB){ .md-button target="_blank" rel="noopener" }
+-->
 
 ## V. Exercices
 
