@@ -138,11 +138,31 @@ tags:
 <iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=U1/proba/oefapproxlaw.fr&parm=cmd=new;exo=binomgauss&option=noabout" width="100%" height="600"></iframe>
 
 
+### D'après BTS SIO Polynésie mai 2022
 
+???+ question "Loi normale"
 
+    Dans cette partie, l'équipe de production du site A souhaite étudier le débit du bus FSB des cartes mères qu'elle produit.  
+    On note $Y$ la variable aléatoire qui modélise ce débit en Mo/s (méga octet par seconde).   
+    On admet que $Y$ suit une loi normale de moyenne $\mu = 1350$ et d'écart-type $\sigma = 33$.  
+    On prélève au hasard une carte mère à la sortie de la chaîne de production.  
 
+    **1.** Déterminer la probabilité que le débit de la carte choisie soit compris entre 1317 et 1383 Mo/s. Arrondir le résultat à $10^{-3}$.
 
+    ??? success "Solution"
+
+        La probabilité que le débit de la carte choisie soit compris entre \np{1317} et \np{1383} Mo/s est: $P(1317 \leqslant Y \leqslant 1383) \approx 0,683$.
+
+    **2.** Déterminer la plus grande valeur de l'entier $k$ tel que $P(Y > k) \geqslant 0,95$.
+
+    ??? success "Solution"
+
+        Pour déterminer la plus grande valeur de l'entier $k$ tel que $P(Y > k) \geqslant 0,95$, on fait par approximations successives à la calculatrice.
+
+        On trouve:  
+        * $P(Y>\np{1296}) \approx 0,949 < 0,95$ 
+        * $P(Y>\np{1295}) \approx 0,952 \geqslant 0,95$
+
+        Donc la plus grande valeur de l'entier $k$ tel que $P(Y > k) \geqslant 0,95$ est $k=1295$.
  
 
-## Crédits
-Wikipédia, 
