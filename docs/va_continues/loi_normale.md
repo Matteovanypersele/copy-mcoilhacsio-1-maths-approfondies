@@ -118,11 +118,24 @@ tags:
 
 
 
-
-
-
 ## IV. Exercices
 
+### Loi Normale 1 avec calculatrice
+
+<iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=U1/proba/oefloinorm.fr&parm=cmd=new;exo=norm1calc;qnum=1;scoredelay=;seedrepeat=0;qcmlevel=1&option=noabout" width="100%" height="600"></iframe>
+
+
+### Loi Normale 2 avec calculatrice
+
+<iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=U1/proba/oefloinorm.fr&parm=cmd=new;exo=norm2calc;qnum=1;scoredelay=;seedrepeat=0;qcmlevel=1&option=noabout" width="100%" height="600"></iframe>
+
+### Problème avec calculatrice
+
+<iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=U1/proba/oefloinorm.fr&parm=cmd=new;exo=problemecalc;qnum=1;scoredelay=;seedrepeat=0;qcmlevel=1&option=noabout" width="100%" height="600"></iframe>
+
+### Approximation d'une loi binomiale par une loi normale
+
+<iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=U1/proba/oefapproxlaw.fr&parm=cmd=new;exo=binomgauss&option=noabout" width="100%" height="600"></iframe>
 
 
 
