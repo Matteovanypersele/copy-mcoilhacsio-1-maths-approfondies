@@ -12,7 +12,7 @@ tags:
     Les lois normales sont parmi les lois de probabilité les plus utilisées pour modéliser des phénomènes naturels issus de plusieurs événements aléatoires, possédant de nombreuses causes indépendantes.  
     Elles sont également appelées lois gaussiennes, lois de Gauss ou lois de Laplace-Gauss des noms de Laplace (1749-1827) et Gauss (1777-1855), deux mathématiciens, astronomes et physiciens qui les ont étudiées.
 
-!!! "Les paramètres"
+!!! info "Les paramètres"
 
     Plus formellement, une loi normale est une loi de probabilité continue qui dépend de deux paramètres : son espérance, un nombre réel noté μ, et son écart type, un nombre réel positif noté σ.
 
