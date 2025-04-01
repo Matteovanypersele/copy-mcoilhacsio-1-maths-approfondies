@@ -129,15 +129,6 @@ tags:
 
 <iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=U1/proba/oefloinorm.fr&parm=cmd=new;exo=norm2calc;qnum=1;scoredelay=;seedrepeat=0;qcmlevel=1&option=noabout" width="100%" height="600"></iframe>
 
-### Problème avec calculatrice
-
-<iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=U1/proba/oefloinorm.fr&parm=cmd=new;exo=problemecalc;qnum=1;scoredelay=;seedrepeat=0;qcmlevel=1&option=noabout" width="100%" height="600"></iframe>
-
-### Approximation d'une loi binomiale par une loi normale
-
-<iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=U1/proba/oefapproxlaw.fr&parm=cmd=new;exo=binomgauss&option=noabout" width="100%" height="600"></iframe>
-
-
 ### D'après BTS SIO Polynésie mai 2022
 
 ???+ question "Loi normale"
@@ -160,9 +151,21 @@ tags:
         Pour déterminer la plus grande valeur de l'entier $k$ tel que $P(Y > k) \geqslant 0,95$, on fait par approximations successives à la calculatrice.
 
         On trouve:  
-        * $P(Y>\np{1296}) \approx 0,949 < 0,95$ 
-        * $P(Y>\np{1295}) \approx 0,952 \geqslant 0,95$
+
+        * $P(Y>1296) \approx 0,949 < 0,95$  
+        * $P(Y>1295) \approx 0,952 \geqslant 0,95$
 
         Donc la plus grande valeur de l'entier $k$ tel que $P(Y > k) \geqslant 0,95$ est $k=1295$.
+
+### Problème avec calculatrice
+
+<iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=U1/proba/oefloinorm.fr&parm=cmd=new;exo=problemecalc;qnum=1;scoredelay=;seedrepeat=0;qcmlevel=1&option=noabout" width="100%" height="600"></iframe>
+
+### Approximation d'une loi binomiale par une loi normale
+
+<iframe src="https://euler-ressources.ac-versailles.fr/wims/wims.cgi?module=adm/raw&job=lightpopup&emod=U1/proba/oefapproxlaw.fr&parm=cmd=new;exo=binomgauss&option=noabout" width="100%" height="600"></iframe>
+
+
+
  
 
