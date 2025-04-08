@@ -32,7 +32,7 @@ tags:
 
     Cette formule n'est pas à retenir, mais il faut retenir l'allure de la courbe, et le fait que **$f(0)=\lambda$**, ce qui permet de trouver graphiquement $\lambda$
 
-    <iframe scrolling="no" title="loi exponentielle" src="https://www.geogebra.org/material/iframe/id/aJ4Qabg5/width/1363/height/559/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1363px" height="559px" style="border:0px;"> </iframe>
+    <iframe scrolling="no" title="" src="https://www.geogebra.org/material/iframe/id/fxRGhg69/width/1311/height/576/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1311px" height="576px" style="border:0px;"> </iframe>
 
 ???+ question "À vous de jouer"
 
