@@ -26,7 +26,15 @@ tags:
 
     On a donc alors $p(T > t) = P(T \geqslant t) = \text{e}^{- \lambda t}$
 
-???+ question "À vous de jouer 1"
+!!! info "Densité de probabilité de la loi exponentielle"
+
+    La fonction densité de probabilité est définie pour tout $t \geq 0$ par $f(t) = \lambda \text{e}^{- \lambda t}$.
+
+    Cette formule n'est pas à retenir, mais il faut retenir l'allure de la courbe, et le fait que **$f(0)=\lambda$**, ce qui permet de trouver graphiquement $\lambda$
+
+    <iframe scrolling="no" title="loi exponentielle" src="https://www.geogebra.org/material/iframe/id/aJ4Qabg5/width/1363/height/559/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1363px" height="559px" style="border:0px;"> </iframe>
+
+???+ question "À vous de jouer"
 
     On prélève au hasard une ampoule dans un lot et on admet que sa durée de vie définit une variable aléatoire $T$ qui suit une loi exponentielle de paramètre $\lambda=0,0005$.
 
