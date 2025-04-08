@@ -95,6 +95,41 @@ tags:
 
 ## III. Exercices
 
+### Exercices basiques
+
+???+ question "Exercice 1"
+
+    Une variable aleatoire $X$ suit une loi exponentielle de parametre $\lambda$. On sait que $P(X \leq 1000) = 0,3$.
+
+    **1.** Déterminer la valeur exacte de $\lambda$ puis en donner une valeur approchee à 10^{-5}  près.
+
+    ??? success "Solution"
+
+        On a donc $P(T \geq 1000)=1-0,3=0,7$.  
+        Il faut donc résoudre $\text{e}^{- 1000 \times \lambda}= 0,7$. Cela équivaut à :   
+        $-1000 \times \lambda = \text{ln} (0,7)$   
+        $\Leftrightarrow \lambda = \dfrac{\text{ln} (0,7)}{-1000}$  
+        $\Leftrightarrow \lambda  \approx 3,6 10^{-4}$  à $10^{-5}$ près.
+
+    **2.** Dans cette question, on admet que $\lambda =0,00036$. Déterminer une valeur approchée de $P(X \geq 500)$ à $10^{-5}$ près.
+
+    ??? success "Solution"
+
+        $P(T \geqslant 500)= \text{e}^{- 500 \times 0,00036} \approx 0,84$ à $10^{-2}$ près
+
+???+ question "Exercice 2"
+
+    La durée de vie T en année, d'un appareil avant la première panne suit une loi exponentielle de paramètre $\lambda$. D'après une étude, la durée de vie moyenne de cet appareil avant la première panne est de deux ans.  
+    D'après cette étude, déterminer la valeur de $\lambda$
+
+    ??? success "Solution"
+
+        $E(T) = \text{MTBF}= \dfrac{1}{\lambda}$ donc $2=\dfrac{1}{\lambda}$
+
+        On en déduit que ${\lambda} = \dfrac{1}{2}$
+
+
+
 ### D'après BTS SIO Polynésie mai 2019
 
 ???+ question "Exercice 1 partie D"
@@ -131,7 +166,7 @@ tags:
 
         3 ans correspond à 36 mois. $P(T \geqslant 36)= \text{e}^{- 36 \times 0,015} \approx 0,58$ à $10^{-2}$ près
 
-    ## IV. Crédits
+## IV. Crédits
 
-    Cédric Pierquet
+Cédric Pierquet
 
