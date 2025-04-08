@@ -10,6 +10,7 @@ tags:
 !!! info "Durée de vie"
 
     La durée de vie d'un matériel donné sera modélisée par une variable aléatoire continue $T$ prenant (théoriquement) ses valeurs dans l'intervalle $[0; +\infty]$. Pour une valeur $t$ dans cet intervalle on utilise les notations suivantes :
+
     * $F(t) = p(T \leq t)$ 
 	* $R(t) = 1 - F(t) = p(T > t)$
 
@@ -101,7 +102,7 @@ tags:
 
     Une variable aleatoire $X$ suit une loi exponentielle de parametre $\lambda$. On sait que $P(X \leq 1000) = 0,3$.
 
-    **1.** Déterminer la valeur exacte de $\lambda$ puis en donner une valeur approchee à 10^{-5}  près.
+    **1.** Déterminer la valeur exacte de $\lambda$ puis en donner une valeur approchee à $10^{-5}$  près.
 
     ??? success "Solution"
 
