@@ -10,20 +10,20 @@ tags:
 !!! info "Durée de vie"
 
     La durée de vie d'un matériel donné sera modélisée par une variable aléatoire continue $T$ prenant (théoriquement) ses valeurs dans l'intervalle $[0; +\infty]$. Pour une valeur $t$ dans cet intervalle on utilise les notations suivantes :
-    * $F(t) = p(T \pp t)$ 
+    * $F(t) = p(T \leq t)$ 
 	* $R(t) = 1 - F(t) = p(T > t)$
 
-    👉 La probabilité $F(t) = p(T \pp t)$ s'interprète comme la probabilité que le matériel connaisse une défaillance avant l'instant $t$ : pour cette raison F est appelée la **fonction de défaillance** du matériel (en anglais, défaillance se dit \textit{failure}, d'où la lettre F).  
+    👉 La probabilité $F(t) = p(T \leq t)$ s'interprète comme la probabilité que le matériel connaisse une défaillance avant l'instant $t$ : pour cette raison F est appelée la **fonction de défaillance** du matériel (en anglais, défaillance se dit _failure_, d'où la lettre F).  
     💡Pour vous souvenir de **$F$** vous pouvez penser à "Faute"
 
-    👉 Inversement, la probabilité $R(t) = p(T > t)$ s'interprète comme la probabilité que le matériel ait fonctionné correctement jusqu'à l'instant $t$ : R est donc appelée **fonction de fiabilité** du matériel (en anglais, fiabilité se dit \textit{reliability}, d'où la lettre R).  
+    👉 Inversement, la probabilité $R(t) = p(T > t)$ s'interprète comme la probabilité que le matériel ait fonctionné correctement jusqu'à l'instant $t$ : R est donc appelée **fonction de fiabilité** du matériel (en anglais, fiabilité se dit _reliability_, d'où la lettre R).  
     💡Pour vous souvenir de **$R$** vous pouvez penser à "Réussite"
 
 !!! info "Loi exponentielle"
 
-    La variable aléatoire $T$ (la durée de vie du matériel) suit une **loi exponentielle** de paramètre $\lambda$ loorsque la fonction de fiabilité R s'écrit $R(t) = \e^{-\lambda t}$ où $\lambda$ est un réel **strictement positif**.  
+    La variable aléatoire $T$ (la durée de vie du matériel) suit une **loi exponentielle** de paramètre $\lambda$ loorsque la fonction de fiabilité R s'écrit $R(t) = \text{e}^{-\lambda t}$ où $\lambda$ est un réel **strictement positif**.  
 
-    On a donc alors $p(T > t) = $P(T \geqslant t) = \text{e}^{- \lambda t}$
+    On a donc alors $p(T > t) = P(T \geqslant t) = \text{e}^{- \lambda t}$
 
 ???+ question "À vous de jouer 1"
 
@@ -33,26 +33,26 @@ tags:
 
     ??? success "Solution"
 
-        $p(A) = P(T>1000) = \e^{-0,0005 \times 1000}=\e^{-0,5} \approx 0,6065$
+        $p(A) = P(T>1000) = \text{e}^{-0,0005 \times 1000}=\text{e}^{-0,5} \approx 0,6065$
 
     **2** Déterminer la probabilité de l'événement B : « l'ampoule fonctionne correctement au bout de 1 500 heures »
 
     ??? success "Solution"
 
-        $p(B) = P(T>1500) = \e^{-0,0005 \times 1500}=\e^{-0,75} \approx 0,4724$
+        $p(B) = P(T>1500) = \text{e}^{-0,0005 \times 1500}=\text{e}^{-0,75} \approx 0,4724$
 
     **3.** Déterminer la probabilité de l'événement C : « l'ampoule fonctionne correctement au bout de 500 heures »
 
     ??? success "Solution"
 
-        $p(B) = P(T>500) = \e^{-0,0005 \times 500}=\e^{-0,25} \approx 7788$
+        $p(B) = P(T>500) = \text{e}^{-0,0005 \times 500}=\text{e}^{-0,25} \approx 7788$
 
     
     **4.** Déterminer la probabilité de l'événement D : « l'ampoule fonctionne correctement au bout de 1500 heures sachant qu'elle a fonctionné correctement 1000 heures"
 
     ??? success "Solution"   
 
-        $p_A (B) =  \dfrac{p(A \cap B)}{p(A)}=\dfrac{p(B)}{p(A)}=\dfrac{\e^{-0,75}}{\e^{-0,5}} = \e^{-0,25}$ **qui est exactement** p(C)$.
+        $p_A (B) =  \dfrac{p(A \cap B)}{p(A)}=\dfrac{p(B)}{p(A)}=\dfrac{\text{e}^{-0,75}}{\text{e}^{-0,5}} = \text{e}^{-0,25}$ **qui est exactement** p(C).
 
 
 
@@ -130,4 +130,8 @@ tags:
     ??? success "Solution"
 
         3 ans correspond à 36 mois. $P(T \geqslant 36)= \text{e}^{- 36 \times 0,015} \approx 0,58$ à $10^{-2}$ près
+
+    ## IV. Crédits
+
+    Cédric Pierquet
 
