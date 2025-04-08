@@ -71,7 +71,7 @@ tags:
 
     $p_{(T > t_1)}(T > t_1+t_2)=p(T >t_2 )$
 
-## II. Espérence et écart type d'une variable aléatoire suivant une loi exponentielle de paramètre $\lambda$
+## II. Espérance et écart type d'une variable aléatoire suivant une loi exponentielle de paramètre $\lambda$
 
 !!! info "Par ❤️"
 
@@ -82,7 +82,7 @@ tags:
 
     👉 $E(T)$ s'appelle le **MTBF** (Moyenne des Temps de Bon Fonctionnement)
 
-    $\text{MTBF}= \dfrac{1}{\lambda}$
+    👉 $\text{MTBF}= \dfrac{1}{\lambda}$
 
 !!! info "Méthode"
 
@@ -119,7 +119,8 @@ tags:
 
 ???+ question "Exercice 2"
 
-    La durée de vie T en année, d'un appareil avant la première panne suit une loi exponentielle de paramètre $\lambda$. D'après une étude, la durée de vie moyenne de cet appareil avant la première panne est de deux ans.  
+    La durée de vie T en année, d'un appareil avant la première panne suit une loi exponentielle de paramètre $\lambda$.  
+    D'après une étude, la durée de vie moyenne de cet appareil avant la première panne est de deux ans.  
     D'après cette étude, déterminer la valeur de $\lambda$
 
     ??? success "Solution"
