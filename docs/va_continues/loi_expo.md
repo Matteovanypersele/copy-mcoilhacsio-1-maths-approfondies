@@ -22,7 +22,7 @@ tags:
 
 !!! info "Loi exponentielle"
 
-    La variable aléatoire $T$ (la durée de vie du matériel) suit une **loi exponentielle** de paramètre $\lambda$ loorsque la fonction de fiabilité R s'écrit $R(t) = \text{e}^{-\lambda t}$ où $\lambda$ est un réel **strictement positif**.  
+    La variable aléatoire $T$ (la durée de vie du matériel) suit une **loi exponentielle** de paramètre $\lambda$ lorsque la fonction de fiabilité R s'écrit $R(t) = \text{e}^{-\lambda t}$ où $\lambda$ est un réel **strictement positif**.  
 
     On a donc alors $p(T > t) = P(T \geqslant t) = \text{e}^{- \lambda t}$
 
@@ -54,7 +54,7 @@ tags:
 
     ??? success "Solution"
 
-        $p(B) = P(T>500) = \text{e}^{-0,0005 \times 500}=\text{e}^{-0,25} \approx 7788$
+        $p(B) = P(T>500) = \text{e}^{-0,0005 \times 500}=\text{e}^{-0,25} \approx 0,7788$
 
     
     **4.** Déterminer la probabilité de l'événement D : « l'ampoule fonctionne correctement au bout de 1500 heures sachant qu'elle a fonctionné correctement 1000 heures"
@@ -118,7 +118,7 @@ tags:
         Il faut donc résoudre $\text{e}^{- 1000 \times \lambda}= 0,7$. Cela équivaut à :   
         $-1000 \times \lambda = \text{ln} (0,7)$   
         $\Leftrightarrow \lambda = \dfrac{\text{ln} (0,7)}{-1000}$  
-        $\Leftrightarrow \lambda  \approx 3,6 10^{-4}$  à $10^{-5}$ près.
+        $\Leftrightarrow \lambda  \approx 3,6 \times 10^{-4}$  à $10^{-5}$ près.
 
     **2.** Dans cette question, on admet que $\lambda =0,00036$. Déterminer une valeur approchée de $P(X \geq 500)$ à $10^{-5}$ près.
 
