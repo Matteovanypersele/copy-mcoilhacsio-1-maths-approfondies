@@ -54,10 +54,10 @@ tags:
 
     ??? success "Solution"
 
-        $p(B) = P(T>500) = \text{e}^{-0,0005 \times 500}=\text{e}^{-0,25} \approx 0,7788$
+        $p(C) = P(T>500) = \text{e}^{-0,0005 \times 500}=\text{e}^{-0,25} \approx 0,7788$
 
     
-    **4.** Déterminer la probabilité de l'événement D : « l'ampoule fonctionne correctement au bout de 1500 heures sachant qu'elle a fonctionné correctement 1000 heures"
+    **4.** Déterminer la probabilité de l'événement D : "l'ampoule fonctionne correctement au bout de 1500 heures sachant qu'elle a fonctionné correctement 1000 heures"
 
     ??? success "Solution"   
 
