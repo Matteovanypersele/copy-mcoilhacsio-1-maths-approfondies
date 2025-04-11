@@ -128,9 +128,6 @@ tags:
 
 ## Exercice 3
 
-À venir ...
-
-<!-- 
 
 ???+ question "Exercice 3"
 
@@ -228,7 +225,7 @@ tags:
     
 
 
--->
+
 
 
 
