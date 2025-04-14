@@ -15,6 +15,6 @@ Le modèle du site a été créé par l'  [Association des enseignantes et ensei
 Le site est construit avec [`mkdocs`](https://www.mkdocs.org/){target="_blank"} et en particulier [`mkdocs-material`](https://squidfunk.github.io/mkdocs-material/){target="_blank"}, et surtout [Pyodide-Mkdocs-Theme](https://frederic-zinelli.gitlab.io/pyodide-mkdocs-theme/){target="_blank"} pour la partie Python nécessaire pour les QCM.
 
 😀 Un grand merci à Frédéric Zinelli, et Vincent-Xavier Jumel qui ont réalisé la partie technique de ce site.   
-Merci également à Charles Poulmaire pour ses relectures attentives et ses conseils judicieux.
+Merci également à [mathALÉA](https://coopmaths.fr/alea/){target="_blank"} grâce à qui j'ai pu incorporer beaucoup d'exercices.
 
 Icone : <a href="https://www.flaticon.com/fr/icones-gratuites/mathematiques" title="mathematiques icônes">Mathematiques icônes créées par Funkrataii - Flaticon</a>
