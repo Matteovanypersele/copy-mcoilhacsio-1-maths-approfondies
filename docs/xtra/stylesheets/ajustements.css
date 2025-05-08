@@ -54,3 +54,13 @@
 .md-grid {
     max-width: 90%;
 }
+
+/*
+La classe .autolight appliquée aux images
+renverse leur couleur en mode "dark
+*/
+
+body[data-md-color-scheme^="slate"] img.autolight {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    }
