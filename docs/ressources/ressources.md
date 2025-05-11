@@ -3,6 +3,7 @@ author: Mireille Coilhac
 title: 🎁 Ressources
 ---
 
+## Liens utiles
 
 [SIO 1 - maths approfondies](https://mcoilhac.forge.apps.education.fr/sio-1-maths-approfondies){ .md-button target="_blank" rel="noopener" }
 
@@ -10,9 +11,13 @@ title: 🎁 Ressources
 
 [Utiliser les calculatrices graphiques pour les fonctions](https://mcoilhac.forge.apps.education.fr/prerequis-maths-premiere/calculatrice/calculatrices/){ .md-button target="_blank" rel="noopener" }
 
+## Lien pour s'entraîner
+
+Le lien suivant permet de trouver des annales de mathématiques de tous les BTS. Les programmes sont très différents d'un BTS à l'autre, vous devez étudier **seulement** les sujets correspondant à **SIO maths approfondies**
+
 [Annales de BTS mathématiques et mathématiques approfondies](https://www.apmep.fr/Annales-BTS){ .md-button target="_blank" rel="noopener" }
 
-## Unité de mathématiques approfondies UF2
+## Unité de mathématiques approfondies UF2 : le programme
 
 L’objectif de l’enseignement de mathématiques approfondies est de préparer la personne étudiante à d’éventuelles poursuites d’études et à la familiariser aux calculs correspondants avec sa calculatrice et d’autres moyens informatiques, et à interpréter les résultats ainsi obtenus. À nouveau, l’utilisation de moyens informatiques (calculatrice, ordinateur) est recommandée pour faciliter la compréhension de concepts par des illustrations graphiques et numériques et pour les calculs non élémentaires. 
 
