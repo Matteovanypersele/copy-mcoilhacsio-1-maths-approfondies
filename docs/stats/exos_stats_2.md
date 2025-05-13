@@ -150,7 +150,7 @@ tags:
 
     ??? success "Solution"
 
-        A venir
+        Avec la calculatrice on trouve $r \approx -0,89$ C'est assez proche de -1, on pourrait imaginer un ajustement linéaire.
 
     **2.** Question 2   
     on effectue le changement de variable $z_i = \ln( y_i)$.
@@ -199,7 +199,7 @@ tags:
 
         La méthode des moindres carrés nous donne $a \approx -0,003$ et $b \approx 6,86$.
 
-        On en déduit: $z=-0,003x+8,86$ 
+        On en déduit: $z=-0,003x+6,86$ 
 
     **5.** Question 5  
 
@@ -207,11 +207,11 @@ tags:
 
     ??? success "Solution"
 
-        $z=-0,003x+8,86$
+        $z=-0,003x+6,86$
         
-        donc $\text{ln}(y) = -0,003x+8,86$
+        donc $\text{ln}(y) = -0,003x+6,86$
         
-        donc $y = \text{e}^{-0,003x+8,86} = \text{e}^{-0,003x}\times\underbrace{\text{e}^{8,86}}_{953} \approx 953\,\text{e}^{-0,003x}$.
+        donc $y = \text{e}^{-0,003x+6,86} = \text{e}^{-0,003x}\times\underbrace{\text{e}^{6,86}}_{953} \approx 953\,\text{e}^{-0,003x}$.
 
         
 
