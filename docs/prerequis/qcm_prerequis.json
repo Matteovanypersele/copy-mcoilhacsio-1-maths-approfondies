@@ -42,7 +42,7 @@
       [1]
     ],
     [
-      "Soit $f$ la fonction définie sur $\\mathbb{R}$ par $f(x) = x^2+x+1$.\n\nCette fonction est dérivable sur $\\R$. Sa fonction dérivée $f'$ est donnée sur $\\R$ par:",
+      "Soit $f$ la fonction définie sur $\\mathbb{R}$ par $f(x) = x^2+x+1$.\n\nCette fonction est dérivable sur $\\mathbb{R}$. Sa fonction dérivée $f'$ est donnée sur $\\mathbb{R}$ par:",
       [
         "$f'(x)=x+1$",
         "$f'(x)=2x$",
@@ -62,7 +62,7 @@
       [3]
     ],
     [
-      "On considère la fonction $f$ définie sur $\\mathbb{R}$ par : $f(x)= (x+1)\\text{e}^{x}$.\n\nLa fonction dérivée $f'$ de $f$ est donnée sur $\\R$ par:",
+      "On considère la fonction $f$ définie sur $\\mathbb{R}$ par : $f(x)= (x+1)\\text{e}^{x}$.\n\nLa fonction dérivée $f'$ de $f$ est donnée sur $\\mathbb{R}$ par:",
       [
         "$f'(x)=\\text{e}^{x}$",
         "$f'(x)=(x+2)\\text{e}^{x}$",
@@ -103,7 +103,7 @@
       [2]
     ],
     [
-      "On se place dans un repère orthonormé du plan.\n\nSur la figure ci-dessous, on a tracé la courbe représentative notée $C$ d'une fonction $f$ définie sur $\\R$.\n\nLa droite $D$ est tangente à la courbe $C$ au point A(5~;~0).\n\n![qn](images/qn.png){ width=40% }\n\nOn note $f'$ la dérivée de la fonction $f$, Alors $f'(5)$ est égal à :",
+      "On se place dans un repère orthonormé du plan.\n\nSur la figure ci-dessous, on a tracé la courbe représentative notée $C$ d'une fonction $f$ définie sur $\\mathbb{R}$.\n\nLa droite $D$ est tangente à la courbe $C$ au point A(5~;~0).\n\n![qn](images/qn.png){ width=40% }\n\nOn note $f'$ la dérivée de la fonction $f$, Alors $f'(5)$ est égal à :",
       [
         "$- 3$",
         "$\\dfrac{1}{3}$",
@@ -113,6 +113,6 @@
       [4]
     ]
   ],
-  "description": "Prérequis sur les fonctions",
+  "description": "Prérequis",
   "shuffle_items": true
 }
