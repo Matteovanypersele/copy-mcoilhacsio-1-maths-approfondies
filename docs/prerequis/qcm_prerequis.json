@@ -16,7 +16,7 @@
         "$2x \\text{e}^{-x}$",
         "$- 2\\text{e}^{-x}$",
         "$(- 2x + 3)\\text{e}^{- x}$",
-        "$2\\text{e}\\text{e}^{-x} + (2x - 1)\\text{e}^{-x}$"
+        "$2\\text{e}^{-x} + (2x - 1)\\text{e}^{-x}$"
       ],
       [3],
       "Comment se dérive un produit de fonctions ?"
@@ -113,6 +113,6 @@
       [4]
     ]
   ],
-  "description": "Prérequis",
+  "description": "Prérequis. Les images proviennt du site [mathALÉA](https://coopmaths.fr/alea/){:target="_blank" }",
   "shuffle_items": true
 }
