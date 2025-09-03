@@ -113,6 +113,6 @@
       [4]
     ]
   ],
-  "description": "Prérequis. Les images proviennt du site [mathALÉA](https://coopmaths.fr/alea/){:target="_blank" }",
+  "description": "Prérequis. Les images proviennt du site [mathALÉA](https://coopmaths.fr/alea/){:target=\"_blank\" }",
   "shuffle_items": true
 }
