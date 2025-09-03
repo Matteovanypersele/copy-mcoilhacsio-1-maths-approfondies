@@ -83,12 +83,12 @@
       [3]
     ],
     [
-      "Soit $\\left(u_n\\right)$  une suite arithmétique telle que $u_3= \\dfrac{9}{2}$ et $u_6=3$.\n\nAlors le premier terme $u_0$ et la raison $R$ de la suite sont :\n",
+      "Soit $\\left(u_n\\right)$  une suite arithmétique telle que $u_3= \\dfrac{9}{2}$ et $u_6=3$.\n\nAlors le premier terme $u_0$ et la raison $r$ de la suite sont :\n",
       [
-        "$u_0=6$ et $R=-\\dfrac{1}{2}$",
-        "$u_0=\\dfrac{1}{2}$ et $R=6$",
-        "$u_0=6$ et $R=\\dfrac{1}{2}$",
-        "$u_0=\\dfrac{3}{2}$ et $R=\\dfrac{1}{2}$"
+        "$u_0=6$ et $r=-\\dfrac{1}{2}$",
+        "$u_0=\\dfrac{1}{2}$ et $r=6$",
+        "$u_0=6$ et $r=\\dfrac{1}{2}$",
+        "$u_0=\\dfrac{3}{2}$ et $r=\\dfrac{1}{2}$"
       ],
       [1]
     ],
@@ -103,7 +103,7 @@
       [2]
     ],
     [
-      "On se place dans un repère orthonormé du plan.\n\nSur la figure ci-dessous, on a tracé la courbe représentative notée $C$ d'une fonction $f$ définie sur $\\mathbb{R}$.\n\nLa droite $D$ est tangente à la courbe $C$ au point A(5~;~0).\n\n![qn](images/qn.png){ width=40% }\n\nOn note $f'$ la dérivée de la fonction $f$, Alors $f'(5)$ est égal à :",
+      "On se place dans un repère orthonormé du plan.\n\nSur la figure ci-dessous, on a tracé la courbe représentative notée $C$ d'une fonction $f$ définie sur $\\mathbb{R}$.\n\nLa droite $D$ est tangente à la courbe $C$ au point A(5~;~0).\n\n![qn](images/qn.png){ width=60% }\n\nOn note $f'$ la dérivée de la fonction $f$, Alors $f'(5)$ est égal à :",
       [
         "$- 3$",
         "$\\dfrac{1}{3}$",
