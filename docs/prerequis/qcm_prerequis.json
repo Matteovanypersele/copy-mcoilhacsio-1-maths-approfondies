@@ -1,28 +1,28 @@
 {
   "questions": [
     [
-      "Pour tout réel $x$,\\, $\\text{e^{2x} + \\text{e^{4x}$ est égal à :",
+      "Pour tout réel $x$, $\\text{e}^{2x} + \\text{e}^{4x}$ est égal à :",
       [
-        "$\\text{e^{6x}$",
-        "$\\text{e^{2x}\\left(1 + \\text{e^{2}\\right)$",
-        "$\\text{e^{3x}\\left(\\text{e^{x} + \\text{e^{-x} \\right)$",
-        "$\\text{e^{8x^2}$"
+        "$\\text{e}^{6x}$",
+        "$\\text{e}^{2x}\\left(1 + \\text{e}^{2}\\right)$",
+        "$\\text{e}^{3x}\\left(\\text{e}^{x} + \\text{e}^{-x} \\right)$",
+        "$\\text{e}^{8x^2}$"
       ],
       [3]
     ],
     [
-      "La dérivée $f'$ de la fonction $f$ définie sur $R$ par $f(x) = (2x - 1)\\text{e^{-x}$ est :",
+      "La dérivée $f'$ de la fonction $f$ définie sur $\\mathbb{R}$ par $f(x) = (2x - 1)\\text{e}^{-x}$ est :",
       [
-        "$2x \\text{e^{-x}$",
-        "$- 2\\text{e^{-x}$",
-        "$(- 2x + 3)\\text{e^{- x}$",
-        "$2\\text{e\\text{e}^{-x} + (2x - 1)\\text{e^{-x}$"
+        "$2x \\text{e}^{-x}$",
+        "$- 2\\text{e}^{-x}$",
+        "$(- 2x + 3)\\text{e}^{- x}$",
+        "$2\\text{e\\text{e}^{-x} + (2x - 1)\\text{e}^{-x}$"
       ],
       [3],
       "Comment se dérive un produit de fonctions ?"
     ],
     [
-      "Soit $f$ une fonction définie et dérivable sur $\\R$ dont la courbe représentative est donnée ci-contre.\nLa tangente à la courbe au point A est la droite $T$.\n\n![q1](images/q1.png){ width=30% }",
+      "Soit $f$ une fonction définie et dérivable sur $\\mathbb{R}$ dont la courbe représentative est donnée ci-contre.\nLa tangente à la courbe au point A est la droite $T$.\n\n![q1](images/q1.png){ width=30% }",
       [
         "$f'(0) = 3$",
         "$f'(0) =\\dfrac{1}{5}$",
@@ -42,7 +42,7 @@
       [1]
     ],
     [
-      "Soit $f$ la fonction définie sur $\\R$ par $f(x) = x^2+x+1$.\n\nCette fonction est dérivable sur $\\R$. Sa fonction dérivée $f'$ est donnée sur $\\R$ par:",
+      "Soit $f$ la fonction définie sur $\\mathbb{R}$ par $f(x) = x^2+x+1$.\n\nCette fonction est dérivable sur $\\R$. Sa fonction dérivée $f'$ est donnée sur $\\R$ par:",
       [
         "$f'(x)=x+1$",
         "$f'(x)=2x$",
@@ -62,23 +62,23 @@
       [3]
     ],
     [
-      "On considère la fonction $f$ définie sur $\\R$ par : $f(x)= (x+1)\\text{e^{x}$.\n\nLa fonction dérivée $f'$ de $f$ est donnée sur $\\R$ par:",
+      "On considère la fonction $f$ définie sur $\\mathbb{R}$ par : $f(x)= (x+1)\\text{e^{x}$.\n\nLa fonction dérivée $f'$ de $f$ est donnée sur $\\R$ par:",
       [
-        "$f'(x)=\\text{e^{x}$",
-        "$f'(x)=(x+2)\\text{e^{x}$",
-        "$f'(x)=-x\\text{e^{x}$",
+        "$f'(x)=\\text{e}^{x}$",
+        "$f'(x)=(x+2)\\text{e}^{x}$",
+        "$f'(x)=-x\\text{e}^{x}$",
         "$f'(0)=0$"
       ],
       [2],
       "Comment se dérive un produit de fonctions ?"
     ],
     [
-      "Pour tous réels $a$ et $b$, le nombre $\\dfrac{\\text{e^{a}}{\\text{e^{-b}}$ est égal à:",
+      "Pour tous réels $a$ et $b$, le nombre $\\dfrac{\\text{e}^{a}}{\\text{e}^{-b}}$ est égal à:",
       [
-        "$\\text{e^{a-b}$",
-        "$\\text{e^{\\frac{a}{-b}}$",
-        "$\\dfrac{\\text{e^{b}}{\\text{e^{-a}}$",
-        "$\\text{e^{a}-\\text{e^{-b}$"
+        "$\\text{e}^{a-b}$",
+        "$\\text{e}^{\\frac{a}{-b}}$",
+        "$\\dfrac{\\text{e}^{b}}{\\text{e}^{-a}}$",
+        "$\\text{e}^{a}-\\text{e}^{-b}$"
       ],
       [3]
     ],
