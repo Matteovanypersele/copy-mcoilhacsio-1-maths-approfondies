@@ -11,12 +11,12 @@
       [3]
     ],
     [
-      "La dérivée $f'$ de la fonction $f$ définie sur $\\R$ par $f(x) = (2x - 1)\\e^{-x}$ est :",
+      "La dérivée $f'$ de la fonction $f$ définie sur $R$ par $f(x) = (2x - 1)\text{e}^{-x}$ est :",
       [
-        "$2x\\e^{-x}$",
-        "$- 2\\e^{-x}$",
-        "$(- 2x + 3)\\e^{- x}$",
-        "$2\\e^{-x} + (2x - 1)\\e^{-x}$"
+        "$2x \text{e}^{-x}$",
+        "$- 2\text{e}^{-x}$",
+        "$(- 2x + 3)\text{e}^{- x}$",
+        "$2\text{e}^{-x} + (2x - 1)\text{e}^{-x}$"
       ],
       [3],
       "Comment se dérive un produit de fonctions ?"
@@ -62,23 +62,23 @@
       [3]
     ],
     [
-      "On considère la fonction $f$ définie sur $\\R$ par : $f(x)= (x+1)\\e^{x}$.\n\nLa fonction dérivée $f'$ de $f$ est donnée sur $\\R$ par:",
+      "On considère la fonction $f$ définie sur $\\R$ par : $f(x)= (x+1)\text{e}^{x}$.\n\nLa fonction dérivée $f'$ de $f$ est donnée sur $\\R$ par:",
       [
-        "$f'(x)=\\e^{x}$",
-        "$f'(x)=(x+2)\\e^{x}$",
-        "$f'(x)=-x\\e^{x}$",
+        "$f'(x)=\text{e}^{x}$",
+        "$f'(x)=(x+2)\text{e}^{x}$",
+        "$f'(x)=-x\text{e}^{x}$",
         "$f'(0)=0$"
       ],
       [2],
       "Comment se dérive un produit de fonctions ?"
     ],
     [
-      "Pour tous réels $a$ et $b$, le nombre $\\dfrac{\\e^{a}}{\\e^{-b}}$ est égal à:",
+      "Pour tous réels $a$ et $b$, le nombre $\\dfrac{\text{e}^{a}}{\text{e}^{-b}}$ est égal à:",
       [
-        "$\\e^{a-b}$",
-        "$\\e^{\\frac{a}{-b}}$",
-        "$\\dfrac{\\e^{b}}{\\e^{-a}}$",
-        "$\\e^{a}-\\e^{-b}$"
+        "$\text{e}^{a-b}$",
+        "$\text{e}^{\\frac{a}{-b}}$",
+        "$\\dfrac{\text{e}^{b}}{\text{e}^{-a}}$",
+        "$\text{e}^{a}-\text{e}^{-b}$"
       ],
       [3]
     ],
