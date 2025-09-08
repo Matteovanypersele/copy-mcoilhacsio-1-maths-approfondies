@@ -101,16 +101,6 @@
         "1,999969482"
       ],
       [2]
-    ],
-    [
-      "On se place dans un repère orthonormé du plan.\n\nSur la figure ci-dessous, on a tracé la courbe représentative notée $C$ d'une fonction $f$ définie sur $\\mathbb{R}$.\n\nLa droite $D$ est tangente à la courbe $C$ au point A(5~;~0).\n\n![qn](images/qn.png){ width=60% }\n\nOn note $f'$ la dérivée de la fonction $f$, Alors $f'(5)$ est égal à :",
-      [
-        "$- 3$",
-        "$\\dfrac{1}{3}$",
-        "$3$",
-        "$- \\dfrac{1}{3}$"
-      ],
-      [4]
     ]
   ],
   "description": "Prérequis. Les images proviennt du site [mathALÉA](https://coopmaths.fr/alea/){:target=\"_blank\" }",
