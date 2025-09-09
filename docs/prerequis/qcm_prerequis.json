@@ -101,7 +101,7 @@
         "1,999969482"
       ],
       [2],
-      "* On cherche une valeur exacte, donc 1,999969482 n'est pas la réponse attendue\n* Transformer l'écriture de $\\dfrac{1-(\\dfrac{1}{2})^{16}}{1- \\dfrac{1}{2}}"
+      "* On cherche une valeur exacte, donc 1,999969482 n'est pas la réponse attendue\n* Transformer l'écriture de $\\dfrac{1-(\\dfrac{1}{2})^{16}}{1- \\dfrac{1}{2}}$"
     ]
   ],
   "description": "Prérequis. Les images proviennt du site [mathALÉA](https://coopmaths.fr/alea/){:target=\"_blank\" }",
