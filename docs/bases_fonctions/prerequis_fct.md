@@ -59,7 +59,7 @@ tags:
 
 ??? question "$f(x) = x^n$"
 
-    $n \in $\mathbb{N}. $$f$ est définie et dérivable sur $\mathbb{R}$
+    $n \in $\mathbb{N}$. $f$ est définie et dérivable sur $\mathbb{R}$
 
     $f(x) = x^n$  
     $f'(x) = ?$
@@ -70,7 +70,7 @@ tags:
 
 ??? question "$f(x) = \dfrac{1}{x}$"
 
-    $f$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
+    On se place sur $]-\infty, 0[$ ou sur $]0, +\infty[$
 
     $f(x) = \dfrac{1}{x}$  
     $f'(x) = ?$
@@ -81,25 +81,25 @@ tags:
 
 ??? question "$f(x) = \dfrac{1}{x^2}$"
 
-    $f$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
+    On se place sur $]-\infty, 0[$ ou sur $]0, +\infty[$
 
     $f(x) = \dfrac{1}{x^2}$  
     $f'(x) = ?$
 
     ??? success "Solution"
 
-        $f'(x) = -2 \dfrac{1}{x^3}$
+        $f'(x) = - \dfrac{2}{x^3}$
 
 ??? question "$f(x) = \dfrac{1}{x^n}$"
 
-    $n \in $\mathbb{N}$. $f$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
+    $n \in $\mathbb{N}$. On se place sur $]-\infty, 0[$ ou sur $]0, +\infty[$
 
     $f(x) = \dfrac{1}{x^n}$  
     $f'(x) = ?$
 
     ??? success "Solution"
 
-        $f'(x) = -n \dfrac{1}{x^{n+1}}$
+        $f'(x) = - \dfrac{n}{x^{n+1}}$
 
 ??? question "$f(x) = \sqrt{x}$"
 
@@ -164,11 +164,11 @@ tags:
 
     ??? success "Solution"
 
-        $\left( u^n \right)'=n u' u^{n-1} $
+        $\left( u^n \right)'=n u' u^{n-1}$
 
 ??? question "$f(x) = \dfrac{1}{u}$"
 
-    $u$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
+    On se place sur un ensemble sur lequel $u$ est définie et dérivable et ne s'annule jamais.
 
     $f(x) = \dfrac{1}{u}$  
     $f'(x) = ?$
