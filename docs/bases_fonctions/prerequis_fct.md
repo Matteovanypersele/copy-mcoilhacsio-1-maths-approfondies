@@ -72,13 +72,14 @@ tags:
 
     $f$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
 
-    $f(x) = k$ $f'(x) = ?$
+    $f(x) = \dfrac{1}{x}$  
+    $f'(x) = ?$
 
     ??? success "Solution"
 
-        $f'(x) = \left( \frac{1}{x} \right) &= -\frac{1}{x^2}$
+        $f'(x) = -\frac{1}{x^2}$
 
-??? question "$f(x) = \dfrac{1}{x^2}$
+??? question "$f(x) = \dfrac{1}{x^2}$"
 
     $f$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
 
@@ -89,9 +90,9 @@ tags:
 
         $f'(x) = -2 \dfrac{1}{x^3}$
 
-??? question "$f(x) = \dfrac{1}{x^n}$
+??? question "$f(x) = \dfrac{1}{x^n}$"
 
-    $n \in $\mathbb{N}. $f$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
+    $n \in $\mathbb{N}$. $f$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
 
     $f(x) = \dfrac{1}{x^n}$  
     $f'(x) = ?$
@@ -104,14 +105,14 @@ tags:
 
     $f$ est définie sur $[0, +\infty[$ et dérivable sur $]0, +\infty[$
 
-    $f(x) = k\sqrt{x}$  
+    $f(x) = \sqrt{x}$  
     $f'(x) = ?$
 
     ??? success "Solution"
 
         $f'(x) = \dfrac{1}{2\sqrt{x}}$
 
-??? question "$u + v$"
+??? question "$u+v$"
 
     On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ et $v$ sont dérivables.
 
@@ -131,7 +132,7 @@ tags:
 
         $(ku)' = ku'$
 
-??? question "$u + v$"
+??? question "$u v$"
 
     On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ et $v$ sont dérivables.
 
@@ -163,7 +164,7 @@ tags:
 
     ??? success "Solution"
 
-        $\left( u^n \right)'=n u^{n-1} u'$
+        $\left( u^n \right)'=n u' u^{n-1} $
 
 ??? question "$f(x) = \dfrac{1}{u}$"
 
@@ -180,7 +181,7 @@ tags:
 
     On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ est dérivable et strictement positif.
 
-    Soit $k$ un réel donné. $f(x) = \left( \sqrt{u}\right)$   
+    $f(x) = \left( \sqrt{u}\right)$   
     $f'(x) = ?$
 
     ??? success "Solution"
