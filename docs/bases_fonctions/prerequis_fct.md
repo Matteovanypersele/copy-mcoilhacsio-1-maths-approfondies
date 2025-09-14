@@ -21,6 +21,189 @@ tags:
 
 [Dérivation - Prérequis](a_telecharger/Derivation.pdf){ .md-button target="_blank" rel="noopener" }
 
+## Mémorisation des formules de dérivation
+
+??? question "$f(x) = k$"
+
+    $f$ est définie et dérivable sur $\mathbb{R}$
+
+    Soit $k$ un réel donné. $f(x) = k$  
+    $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) = 0$
+
+
+??? question "$f(x) = x^2$"
+
+    $f$ est définie et dérivable sur $\mathbb{R}$
+
+    $f(x) = x^2$  
+    $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) = 2x$
+
+??? question "$f(x) = x^3$"
+
+    $f$ est définie et dérivable sur $\mathbb{R}$
+
+    $f(x) = x^3$  
+    $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) = 3x^2$
+
+??? question "$f(x) = x^n$"
+
+    $n \in $\mathbb{N}. $$f$ est définie et dérivable sur $\mathbb{R}$
+
+    $f(x) = x^n$  
+    $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) = nx^{n-1}$
+
+??? question "$f(x) = \dfrac{1}{x}$"
+
+    $f$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
+
+    $f(x) = k$ $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) = \left( \frac{1}{x} \right) &= -\frac{1}{x^2}$
+
+??? question "$f(x) = \dfrac{1}{x^2}$
+
+    $f$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
+
+    $f(x) = \dfrac{1}{x^2}$  
+    $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) = -2 \dfrac{1}{x^3}$
+
+??? question "$f(x) = \dfrac{1}{x^n}$
+
+    $n \in $\mathbb{N}. $f$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
+
+    $f(x) = \dfrac{1}{x^n}$  
+    $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) = -n \dfrac{1}{x^{n+1}}$
+
+??? question "$f(x) = \sqrt{x}$"
+
+    $f$ est définie sur $[0, +\infty[$ et dérivable sur $]0, +\infty[$
+
+    $f(x) = k\sqrt{x}$  
+    $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) = \dfrac{1}{2\sqrt{x}}$
+
+??? question "$u + v$"
+
+    On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ et $v$ sont dérivables.
+
+    $(u+v)'=?$
+
+    ??? success "Solution"
+
+        $(u+v)'=u' + v'$
+
+??? question "$f(x) = ku$"
+
+    Soit $k$ un réel donné. On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ est dérivable.
+
+    $(ku)' = ?$
+
+    ??? success "Solution"
+
+        $(ku)' = ku'$
+
+??? question "$u + v$"
+
+    On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ et $v$ sont dérivables.
+
+    $(uv)'=?$
+
+    ??? success "Solution"
+
+        $(uv)'=uv' + u'v$
+
+
+
+??? question "$\left( \dfrac{u}{v} \right)'$"
+
+    On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ et $v$ sont dérivables et ne s'annulent pas.
+
+    $\left( \dfrac{u}{v} \right)'=?$
+
+    ??? success "Solution"
+
+        $\left( \dfrac{u}{v} \right)'= \dfrac{u'v - uv'}{v^2}$
+
+
+
+??? question "$\left( u^n \right)'=?$"
+
+    Soit $n$ un entier naturel. On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ est dérivable.
+
+    $\left( u^n \right)'=?$
+
+    ??? success "Solution"
+
+        $\left( u^n \right)'=n u^{n-1} u'$
+
+??? question "$f(x) = \dfrac{1}{u}$"
+
+    $u$ est définie et dérivable sur $]-\infty, 0[ \cup ]0, +\infty[$
+
+    $f(x) = \dfrac{1}{u}$  
+    $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) -\dfrac{u'}{u^2}$
+
+??? question "$f(x) = \left( \sqrt{u}\right)'$"
+
+    On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ est dérivable et strictement positif.
+
+    Soit $k$ un réel donné. $f(x) = \left( \sqrt{u}\right)$   
+    $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) = \dfrac{u'}{2\sqrt{u}}$
+
+
+
+??? question "$\left( \dfrac{1}{u^n} \right)'$"
+
+    Soit $n$ un entier naturel. On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ est dérivable et non nul.
+
+    $f(x) = \dfrac{1}{u^n}$  
+    $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) = -\dfrac{n u'}{u^{n+1}}$
+
+
+
+## Exercices de dérivation
+
 [Exercices : formules de dérivation](https://coopmaths.fr/alea/?uuid=ec088&id=1AN14-3&n=5&d=10&s=6&s2=true&s3=false&alea=wu0A&cd=1&uuid=a83c0&id=1AN14-4&n=6&d=10&s=5&alea=UCY4&cd=1&uuid=1a60f&id=1AN14-5&n=5&d=10&s=6&alea=BUiw&cd=1&uuid=b32f2&id=1AN14-6&alea=naqO&uuid=3391d&id=1AN14-7&alea=wckV&v=eleve&es=0111001&title=){ .md-button target="_blank" rel="noopener" }
 
 [Exercices : Dérivation : exercices de base](a_telecharger/Derivation_exos_revision_rectif.pdf){ .md-button target="_blank" rel="noopener" }
