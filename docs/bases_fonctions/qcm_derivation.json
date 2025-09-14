@@ -1,0 +1,85 @@
+{
+  "questions": [
+    [
+      "Soit \\( u(x) \\) et \\( v(x) \\) deux fonctions dérivables. Quelle est la dérivée de \\( u(x) \\cdot v(x) \\) ?",
+      [
+        "$u'v'$",
+        "$u'v + uv'$",
+        "$u'v - uv'$",
+        "$\\dfrac{1}{2},(u'v + uv')$"
+      ],
+      [2]
+    ],
+    [
+      "Soit \\( u(x) \\) et \\( v(x) \\) deux fonctions dérivables, avec \\( v(x) \\neq 0 \\). Quelle est la dérivée de \\( \\dfrac{u(x)}{v(x)} \\) ?",
+      [
+        "$\\dfrac{u'}{v'}$",
+        "$\\dfrac{u'v - uv'}{v^2}$",
+        "$\\dfrac{u'v + uv'}{v^2}$",
+        "$\\dfrac{u'}{v}$",
+        "$\\dfrac{u}{v'}$"
+      ],
+      [2]
+    ],
+    [
+      "Soit \\( u(x) \\) une fonction dérivable, avec \\( u(x) \\neq 0 \\). Quelle est la dérivée de \\( \\dfrac{1}{u(x)} \\) ?",
+      [
+        "$\\dfrac{u'}{u^2}$",
+        "$-\\dfrac{u'}{u^2}$",
+        "$\\dfrac{1}{u'}$",
+        "$\\dfrac{u}{u'}$"
+      ],
+      [2]
+    ],
+    [
+      "Soit \\( u(x) \\) une fonction dérivable qui ne s'annule jamais. Si \\( n \\in \\mathbb{N} \\). Quelle est la dérivée de \\( u^n(x) \\) ?",
+      [
+        "$n u^{n-1}$",
+        "$n u^{n-1} u'$",
+        "$u' u^n$",
+        "$n u^n$"
+      ],
+      [2]
+    ],
+    [
+      "Soit \\( u(x) \\) une fonction dérivable, avec \\( u(x) > 0 \\). Quelle est la dérivée de \\( \\sqrt{u(x)} \\) ?",
+      [
+        "$\\dfrac{u'}{2\\sqrt{u}}$",
+        "$\\dfrac{1}{2\\sqrt{u}}$",
+        "$\\dfrac{u}{2\\sqrt{u'}}$",
+        "$\\dfrac{u'}{\\sqrt{u}}$"
+      ],
+      [1]
+    ],
+    [
+      "Soit \\( u(x) \\) une fonction dérivable, avec \\( u(x) \\neq 0 \\). Quelle est la dérivée de \\( \\dfrac{1}{u^n(x)} \\) ?",
+      [
+        "$\\dfrac{n u'}{u^{n+1}}$",
+        "$-\\dfrac{n u'}{u^{n+1}}$",
+        "$\\dfrac{u'}{u^n}$",
+        "$\\dfrac{u^n}{u'}$"
+      ],
+      [2]
+    ],
+    [
+      "On donne la représentation graphique de la fonction $f$ ainsi que deux de ses tangentes.\n\n![deriv.png](./images/deriv.png){ width=45% }\n\n_Source de l'image Sésamaths_\n\nCocher toutes les réponses justes.",
+      [
+        "$f'(-2)=1$",
+        "$f'(-2)=-1$",
+        "$f(-2)=3$",
+        "$f(3)=-2$\n$f'(-2)=1$",
+        "$f(0)=1$",
+        "$f'(5)=6$",
+        "$f'(5)=0$",
+        "$f(5)=6",
+        "$f'(7)>0$",
+        "$f'(4)>0$\n"
+      ],
+      [2,3,8,10],
+      "* $f'(a)$ est le coefficient directeur de la tangente au point d'abscisse $a$\n* $f(a)$ est l'ordonnée du point de la courbe dont l'abscisse est $a$\n* $f'(a)$ est positif lorsque la tangente \"monte\" (fonction croissante)\n* $f'(a)$ est négatif lorsque la tangente \"descend\" (fonction décroissante)",
+      {"multi":true}
+    ]
+  ],
+  "shuffle_items": true,
+  "qcm_title": "Formules de dérivation"
+}

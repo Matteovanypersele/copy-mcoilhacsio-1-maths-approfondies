@@ -201,7 +201,9 @@ tags:
 
         $f'(x) = -\dfrac{n u'}{u^{n+1}}$
 
+## QCM
 
+{{ multi_qcm('qcm_derivation.json') }}
 
 ## Exercices de dérivation
 
