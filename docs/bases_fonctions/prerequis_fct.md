@@ -144,7 +144,7 @@ tags:
 
 
 
-??? question "$\left( \dfrac{u}{v} \right)'$"
+??? question "$dfrac{u}{v}$"
 
     On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ et $v$ sont dérivables et ne s'annulent pas.
 
