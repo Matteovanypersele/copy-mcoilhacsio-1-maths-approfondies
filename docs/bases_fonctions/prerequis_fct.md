@@ -122,7 +122,7 @@ tags:
 
         $(u+v)'=u' + v'$
 
-??? question "$f(x) = ku$"
+??? question "$ku$"
 
     Soit $k$ un réel donné. On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ est dérivable.
 
@@ -156,7 +156,7 @@ tags:
 
 
 
-??? question "$\left( u^n \right)'=?$"
+??? question "$u^n$"
 
     Soit $n$ un entier naturel. On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ est dérivable.
 
@@ -166,7 +166,7 @@ tags:
 
         $\left( u^n \right)'=n u' u^{n-1}$
 
-??? question "$f(x) = \dfrac{1}{u}$"
+??? question "$\dfrac{1}{u}$"
 
     On se place sur un ensemble sur lequel $u$ est définie et dérivable et ne s'annule jamais.
 
@@ -177,7 +177,7 @@ tags:
 
         $f'(x) -\dfrac{u'}{u^2}$
 
-??? question "$f(x) = \left( \sqrt{u}\right)'$"
+??? question "$\sqrt{u}$"
 
     On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ est dérivable et strictement positif.
 
@@ -190,7 +190,7 @@ tags:
 
 
 
-??? question "$\left( \dfrac{1}{u^n} \right)'$"
+??? question "$\dfrac{1}{u^n}$"
 
     Soit $n$ un entier naturel. On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ est dérivable et non nul.
 
@@ -235,6 +235,11 @@ tags:
 
 [Calculatrices](https://mcoilhac.forge.apps.education.fr/prerequis-maths-premiere/calculatrice/calculatrices/){ .md-button target="_blank" rel="noopener" }
 
+## Vérifier avec du calcul formel
+
+Vous pouvez vous entraîner et vérifier vos réponses ici en utilisant la syntaxe `diff(f(x), x)` comme par exemple :  `diff(x**3, x)`
+
+[Calcul formel](https://mcoilhac.forge.apps.education.fr/tester-code-calcul-formel-graphique-animation-avec-python/sympy_formel/sympy_formel/){ .md-button target="_blank" rel="noopener" }
 
 ## Crédits
 
