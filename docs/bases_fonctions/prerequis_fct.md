@@ -19,7 +19,11 @@ tags:
 
 [Skieur géogébra](https://www.geogebra.org/m/wemqzb3y){ .md-button target="_blank" rel="noopener" }
 
-[Dérivation - Prérequis](a_telecharger/Derivation.pdf){ .md-button target="_blank" rel="noopener" }
+[Exercice 1 : lectures graphiques d'image et de nombre dérivé](https://commun.sesamath.net/public/voir/640b476e857ac1056d3d7c37#MepMG){ .md-button target="_blank" rel="noopener" }
+
+[Exercice 2 : lectures graphiques de nombre dérivé](https://commun.sesamath.net/public/voir/6751e4dbf15b8aa13e31e3be)
+
+[Dérivation - Prérequis](a_telecharger/Derivation.pdf){ .md-button target="_blank" rel="noopener" }{ .md-button target="_blank" rel="noopener" }
 
 ## Mémorisation des formules de dérivation
 
@@ -112,6 +116,17 @@ tags:
 
         $f'(x) = \dfrac{1}{2\sqrt{x}}$
 
+??? question "$f(x) = \text{e}^x$"
+
+    $f$ est définie sur $\mathbb{R}$ et dérivable sur $\mathbb{R}$
+
+    $f(x) = \text{e}^x$ 
+    $f'(x) = ?$
+
+    ??? success "Solution"
+
+        $f'(x) = \text{e}^x$
+
 ??? question "$u+v$"
 
     On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ et $v$ sont dérivables.
@@ -170,23 +185,21 @@ tags:
 
     On se place sur un ensemble sur lequel $u$ est définie et dérivable et ne s'annule jamais.
 
-    $f(x) = \dfrac{1}{u}$  
-    $f'(x) = ?$
+    $\left( \dfrac{1}{u} \right)'=?$  
 
     ??? success "Solution"
 
-        $f'(x) -\dfrac{u'}{u^2}$
+        $\left( \dfrac{1}{u} \right)'= -\dfrac{u'}{u^2}$
 
 ??? question "$\sqrt{u}$"
 
     On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ est dérivable et strictement positif.
 
-    $f(x) = \left( \sqrt{u}\right)$   
-    $f'(x) = ?$
+    $\left( \sqrt{u} \right)' = ?$   
 
     ??? success "Solution"
 
-        $f'(x) = \dfrac{u'}{2\sqrt{u}}$
+        $\left( \sqrt{u}\right)'= \dfrac{u'}{2\sqrt{u}}$
 
 
 
@@ -194,12 +207,23 @@ tags:
 
     Soit $n$ un entier naturel. On se place sur $\mathcal{D}$ l'ensemble sur lequel $u$ est dérivable et non nul.
 
-    $f(x) = \dfrac{1}{u^n}$  
-    $f'(x) = ?$
+    $\left( \dfrac{1}{u^n} \right)' = ?$  
+
 
     ??? success "Solution"
 
-        $f'(x) = -\dfrac{n u'}{u^{n+1}}$
+        \left( \dfrac{1}{u^n} \right)'= -\dfrac{n u'}{u^{n+1}}$
+
+??? question "$\text{e}^{u}$"
+
+    Soit $u$ une fonction dérivable sur $\mathbb{R}$  
+    "$\text{e}^{u}$" est alors définie sur $\mathbb{R}$ et dérivable sur $\mathbb{R}$
+
+    $\left( \text{e}^{u}\right)' = ?$
+
+    ??? success "Solution"
+
+        $\left( \text{e}^{u}\right)' = u' \text{e}^{u}$
 
 ## QCM
 
