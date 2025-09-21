@@ -62,6 +62,16 @@
       [2]
     ],
     [
+      "Soit \\( u \\) une fonction dérivable. Quelle est la dérivée de \\( \\text{e}^{u} \\) ?",
+      [
+        "$\\text{e}^{u}$",
+        "$u' \\text{e}^{u}$",
+        "$\\text{e}^{u'}$",
+        "$u' \\text{e}^{u'}$$"
+      ],
+      [2]
+    ],
+    [
       "On donne la représentation graphique de la fonction $f$ ainsi que deux de ses tangentes.\n\n![deriv.png](./images/deriv.png){ width=40% }\n\n_Source de l'image Sésamaths_\n\nCocher toutes les réponses justes.",
       [
         "$f'(-2)=1$",

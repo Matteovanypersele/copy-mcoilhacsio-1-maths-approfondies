@@ -21,9 +21,9 @@ tags:
 
 [Exercice 1 : lectures graphiques d'image et de nombre dérivé](https://commun.sesamath.net/public/voir/640b476e857ac1056d3d7c37#MepMG){ .md-button target="_blank" rel="noopener" }
 
-[Exercice 2 : lectures graphiques de nombre dérivé](https://commun.sesamath.net/public/voir/6751e4dbf15b8aa13e31e3be)
+[Exercice 2 : lectures graphiques de nombre dérivé](https://commun.sesamath.net/public/voir/6751e4dbf15b8aa13e31e3be){ .md-button target="_blank" rel="noopener" }
 
-[Dérivation - Prérequis](a_telecharger/Derivation.pdf){ .md-button target="_blank" rel="noopener" }{ .md-button target="_blank" rel="noopener" }
+[Dérivation - Prérequis](a_telecharger/Derivation.pdf){ .md-button target="_blank" rel="noopener" }
 
 ## Mémorisation des formules de dérivation
 
@@ -212,7 +212,7 @@ tags:
 
     ??? success "Solution"
 
-        \left( \dfrac{1}{u^n} \right)'= -\dfrac{n u'}{u^{n+1}}$
+        $\left( \dfrac{1}{u^n} \right)'= -\dfrac{n u'}{u^{n+1}}$
 
 ??? question "$\text{e}^{u}$"
 
