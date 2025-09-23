@@ -233,6 +233,8 @@ tags:
 
 [Exercices : formules de dérivation](https://coopmaths.fr/alea/?uuid=ec088&id=1AN14-3&n=5&d=10&s=6&s2=true&s3=false&alea=wu0A&cd=1&uuid=a83c0&id=1AN14-4&n=6&d=10&s=5&alea=UCY4&cd=1&uuid=1a60f&id=1AN14-5&n=5&d=10&s=6&alea=BUiw&cd=1&uuid=b32f2&id=1AN14-6&alea=naqO&uuid=3391d&id=1AN14-7&alea=wckV&v=eleve&es=0111001&title=){ .md-button target="_blank" rel="noopener" }
 
+Pour saisir $\text{e}^x$ sur mathALÉA, il faut utiliser la touche <kbd>^</kbd> en utilisant successivement <kbd>E</kbd> puis <kbd>^</kbd> puis <kbd>X</kbd>. Le symbole <kbd>^</kbd> n'apparaît pas quand on appuie sur la touche, c'est normal. Il s'affiche en une seule fois $\text{e}^x$ après avoir utilisé la touche <kbd>X</kbd>.
+
 [Exercices : formules de dérivation avec l'exponentielle](https://coopmaths.fr/alea/?uuid=d2a2d&id=1AN14-9&n=1&d=10&s=1&cd=1&uuid=d2a2d&id=1AN14-9&n=1&d=10&s=2&cd=1&uuid=d2a2d&id=1AN14-9&n=1&d=10&s=3&cd=1&uuid=d2a2d&id=1AN14-9&n=1&d=10&s=4&cd=1&uuid=d2a2d&id=1AN14-9&n=1&d=10&s=5&cd=1&uuid=d2a2d&id=1AN14-9&n=1&d=10&s=6&cd=1&v=eleve&es=3111001){ .md-button target="_blank" rel="noopener" }
 
 [Exercices : Dérivation : exercices de base](a_telecharger/Derivation_exos_revision_rectif.pdf){ .md-button target="_blank" rel="noopener" }
