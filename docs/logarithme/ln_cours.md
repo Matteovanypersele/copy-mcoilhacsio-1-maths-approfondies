@@ -295,7 +295,7 @@ tags:
     _D'après BAC Mars 2023 Centres étrangers G2 J1 exercice 1_
 
     On considère la fonction $g$ définie sur l'intervalle $]0~;~+\infty[$ par :  
-    \[g(x) = \ln \left(x^2\right) + x - 2\]
+    $g(x) = \ln \left(x^2\right) + x - 2$
 
     **Question 1**  
     On admet que la fonction $g$ est dérivable sur l'intervalle $]0~;~+\infty[$.  
@@ -322,7 +322,7 @@ tags:
     ??? success "Solution"
 
         $g(1) = - 1$ et $g(2) \approx1,4$  
-        $g$ est continue et strictement croissante sur $[1~;~2]$, et $g(1)<0<g(2). Il existe donc un réel unique $\alpha \in [1~;~2]$ tel que $g(\alpha) = 0$.
+        $g$ est continue et strictement croissante sur $[1~;~2]$, et $g(1)<0<g(2)$. Il existe donc un réel unique $\alpha \in [1~;~2]$ tel que $g(\alpha) = 0$.
 
 
     **Question 3**  
