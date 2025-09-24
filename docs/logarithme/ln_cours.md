@@ -290,5 +290,58 @@ tags:
     [Exercices - fonction ln](https://coopmaths.fr/alea/?uuid=sti2d_2021_03_sujet0v2_mq5&alea=gkZT&uuid=sti2d_2021_06_metropole_j1_mq3&alea=gmhJ&uuid=sti2d_2021_06_metropole_j2_mq2&alea=zbNE&uuid=sti2d_2022_05_metropole_mq5&alea=fWND&uuid=bac_2021_09_metropole_10&alea=Am3s&v=eleve&es=1211001&title=){ .md-button target="_blank" rel="noopener" }
 
 
+???+ question "Exercice 8"
+
+    _D'après BAC Mars 2023 Centres étrangers G2 J1 exercice 1_
+
+    On considère la fonction $g$ définie sur l'intervalle $]0~;~+\infty[$ par :  
+    \[g(x) = \ln \left(x^2\right) + x - 2\]
+
+    **Question 1**  
+    On admet que la fonction $g$ est dérivable sur l'intervalle $]0~;~+\infty[$.  
+    Étudier les variations de la fonction $g$ sur l'intervalle $]0~;~+\infty[$.
+
+    ??? success "Solution"
+
+        Sur $]0~;~+\infty[$, on a $g(x) = 2\ln x + x - 2$, d'où :
+
+        $g'(x) = 2\times \dfrac1x + 1$.
+        On a par composition de la dérivation :
+
+        $g'(x) = 2 \times \dfrac1x + 1 = \dfrac{2 + x}{x}$.
+
+        Comme $x > 0$, le signe de $g'(x)$ est celui de $2 + x$.
+
+        Or $x > 0 \implies 2 + x > 2 > 0$, donc $g'(x) > 0$ sur l'intervalle $]0~;~+\infty[$.
+
+        La fonction $g$ est donc croissante sur $]0~;~+\infty[$
+
+    **Question 2**  
+    Démontrer qu'il existe un unique réel dans l'intervalle $[1; 2]$ noté $\alpha$  tel que $g(\alpha) = 0$
+
+    ??? success "Solution"
+
+        $g(1) = - 1$ et $g(2) \approx1,4$  
+        $g$ est continue et strictement croissante sur $[1~;~2]$, et $g(1)<0<g(2). Il existe donc un réel unique $\alpha \in [1~;~2]$ tel que $g(\alpha) = 0$.
+
+
+    **Question 3**  
+    Déterminer un encadrement de $\alpha$ d'amplitude $10^{-2}$.
+
+    ??? success "Solution"
+
+        Utilisons la méthode de balayage à l'aide de la calculatrice : 
+
+        $g(1) = - 1$ et $g(2) \approx1,4$, donc $1 < \alpha < 2$ ;
+
+        $g(1,3) \approx - 0,175$ et $g(1,4) \approx 0,07$, donc $1,3 < \alpha < 1,4$ ;
+
+        $g(1,37) \approx - 0,0004$ et $g(1,38) \approx 0,02$, donc $1,37 < \alpha < 1,38$
+
+
+
+
+
+
 
 

@@ -295,7 +295,7 @@ tags:
 
     **3.** Observons la représentation graphique de la fonction $f$.
 
-    ![oscille_inf.png](images/oscille_inf.png){ width=30% }
+    ![oblique.png](images/oblique.png){ width=30% }
 
     Donner la ou les limites que l'on peut observer, et s'il y en a les équations des asymptotes à la courbe.
 
