@@ -269,6 +269,10 @@ Vous pouvez vous entraîner et vérifier vos réponses ici en utilisant la synta
 
 [Calcul formel](https://mcoilhac.forge.apps.education.fr/tester-code-calcul-formel-graphique-animation-avec-python/sympy_formel/sympy_formel/){ .md-button target="_blank" rel="noopener" }
 
+## Exercice de synthèse
+
+[Exercice complet](https://coopmaths.fr/alea/?uuid=e3c_2020_00_sujet3_3&alea=I5v7&v=eleve&es=2211001){ .md-button target="_blank" rel="noopener" }
+
 ## Crédits
 
 D'après des documents de Cédric Pierquet.
